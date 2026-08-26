@@ -89,7 +89,7 @@ for (const s of SPORT) {
     rimaste = r.headers.get('x-requests-remaining') ?? rimaste;
     if (!r.ok) { problemi.push(`${s}: HTTP ${r.status}`); continue; }
     const j = await r.json();
-    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] || TITOLO[s] || s, sport: GRUPPO[s] || "calcio", link: linkDi(s) });
+    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] || TITOLO[s] || s, sport: GRUPPO[s] || "calcio", link: linkDi(s), sportKey: s });
   } catch (e) { problemi.push(`${s}: ${e.message}`); }
   await new Promise(x => setTimeout(x, 500));
 }
@@ -195,7 +195,7 @@ if (!giornoUsato) {
     out.puntata = R.puntata;
     out.vincita = Math.round(quota * R.puntata * 100) / 100;
     out.minimo888 = Math.round(quota * 0.93 * 100) / 100;
-    out.gambe = g.map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.gambe = g.map(x => ({ idEvento: x.idEvento, sportKey: x.sportKey, link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
     out.altre = perGiorno[giornoUsato].slice(nGambe, nGambe + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
   }
 }

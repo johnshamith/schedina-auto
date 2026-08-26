@@ -1,0 +1,29 @@
+name: Voto sulle scelte (CLV)
+
+on:
+  schedule:
+    - cron: '30 16 * * *'    # 18:30 italiane, poco prima delle partite della sera
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  voto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Confronta le nostre quote con quelle di chiusura
+        env:
+          ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
+        run: node clv.mjs
+      - name: Salva
+        run: |
+          git config user.name  "schedina-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add storico-clv.json
+          git diff --staged --quiet || git commit -m "voto $(date -u +%F)"
+          git push
