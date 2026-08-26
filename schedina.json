@@ -1,6 +1,6 @@
 {
- "quando": "2026-08-26T21:29:05.061Z",
- "chiamateRimaste": "427",
+ "quando": "2026-08-26T21:35:00.194Z",
+ "chiamateRimaste": "405",
  "problemi": [],
  "giorniVisti": [
   {
@@ -54,6 +54,7 @@
  "minimo888": 2.03,
  "gambe": [
   {
+   "link": "https://sport.888casino.it/#/filter/football/france/ligue_1",
    "casa": "Lille",
    "trasf": "Paris Saint Germain",
    "campionato": "Ligue 1",
@@ -65,6 +66,7 @@
    "nSiti": 23
   },
   {
+   "link": "https://sport.888casino.it/#/filter/football/england/premier_league",
    "casa": "Crystal Palace",
    "trasf": "Manchester City",
    "campionato": "Premier League",
@@ -76,6 +78,7 @@
    "nSiti": 25
   },
   {
+   "link": "https://sport.888casino.it/#/filter/football/germany/bundesliga",
    "casa": "Bayern Munich",
    "trasf": "VfB Stuttgart",
    "campionato": "Bundesliga",
