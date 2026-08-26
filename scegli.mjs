@@ -59,6 +59,23 @@ const NOMI = {
   soccer_netherlands_eredivisie: 'Olanda',
 };
 
+
+// Il link diretto al campionato su 888: cosi John non deve cercare la partita.
+// Il modello e  #/filter/{sport}/{paese}/{campionato}  (provato a mano uno per uno).
+// Le partite del giorno con le quote si vedono subito in quella pagina.
+const LINK888 = {
+  soccer_italy_serie_a: 'football/italy/serie_a',
+  soccer_epl: 'football/england/premier_league',
+  soccer_spain_la_liga: 'football/spain/la_liga',
+  soccer_france_ligue_one: 'football/france/ligue_1',
+  soccer_germany_bundesliga: 'football/germany/bundesliga',
+  soccer_portugal_primeira_liga: 'football/portugal/primeira_liga',
+  soccer_netherlands_eredivisie: 'football/netherlands/eredivisie',
+  basketball_nba: 'basketball/usa/nba',
+  basketball_euroleague: 'basketball/europe/euroleague',
+  basketball_wnba: 'basketball/usa/wnba',
+};
+const linkDi = k => LINK888[k] ? 'https://sport.888casino.it/#/filter/' + LINK888[k] : 'https://sport.888casino.it/#/home';
 const eventi = [];
 const problemi = [];
 let rimaste = null;
@@ -68,7 +85,7 @@ for (const s of SPORT) {
     rimaste = r.headers.get('x-requests-remaining') ?? rimaste;
     if (!r.ok) { problemi.push(`${s}: HTTP ${r.status}`); continue; }
     const j = await r.json();
-    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] || TITOLO[s] || s, sport: GRUPPO[s] || "calcio" });
+    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] || TITOLO[s] || s, sport: GRUPPO[s] || "calcio", link: linkDi(s) });
   } catch (e) { problemi.push(`${s}: ${e.message}`); }
   await new Promise(x => setTimeout(x, 500));
 }
@@ -96,6 +113,7 @@ for (const e of eventi) {
   const it = new Date(inizio.getTime() + 2 * 3600000);
   const base = {
     sport: e.sport,
+    link: e.link,
     casa: e.home_team || nomi[0], trasf: e.away_team || nomi[1],
     campionato: e.campionato, nSiti,
     giorno: it.toISOString().slice(0, 10),
@@ -167,7 +185,7 @@ if (!scelto) {
     out.puntata = R.puntata;
     out.vincita = Math.round(quota * R.puntata * 100) / 100;
     out.minimo888 = Math.round(quota * 0.93 * 100) / 100;
-    out.gambe = g.map(x => ({ casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.gambe = g.map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
     out.altre = perGiorno[scelto].slice(3, 8).map(x => ({ casa: x.casa, trasf: x.trasf, esito: x.esito, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000 }));
   }
 }
