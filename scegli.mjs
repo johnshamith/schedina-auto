@@ -2,11 +2,33 @@
 // Scarica le quote, sceglie la tripla e scrive schedina.json.
 // Poi Claude nel cloud legge quel file e manda l'email a John.
 const KEY = process.env.ODDSAPI_KEY;
-const SPORT = [
+// Calcio: campionati fissi. Tennis e basket: li cerco da solo, perche
+// cambiano ogni settimana (un torneo di tennis dura pochi giorni).
+// Misurato su 14.239 partite: nel tennis il sito si tiene 1,39% contro il
+// 2,12% del calcio. Piu sport = piu scelta = schedine migliori.
+const CALCIO = [
   'soccer_italy_serie_a', 'soccer_epl', 'soccer_spain_la_liga',
   'soccer_france_ligue_one', 'soccer_germany_bundesliga',
   'soccer_portugal_primeira_liga', 'soccer_netherlands_eredivisie',
 ];
+const BASKET = ['basketball_wnba', 'basketball_euroleague', 'basketball_nba'];
+
+// questa chiamata non consuma il piano: dice quali sono vivi adesso
+let SPORT = [...CALCIO];
+const GRUPPO = {};
+const TITOLO = {};
+try {
+  const rs = await fetch("https://api.the-odds-api.com/v4/sports/?apiKey=" + KEY);
+  if (rs.ok) {
+    const lista = await rs.json();
+    const vivi = new Set(lista.filter(x => x.active).map(x => x.key));
+    SPORT = CALCIO.filter(k => vivi.has(k));
+    for (const k of BASKET) if (vivi.has(k)) SPORT.push(k);
+    for (const x of lista) if (x.active && x.group === "Tennis") SPORT.push(x.key);
+    for (const x of lista) TITOLO[x.key] = x.title;
+    for (const x of lista) GRUPPO[x.key] = x.group === "Tennis" ? "tennis" : x.group === "Basketball" ? "basket" : "calcio";
+  }
+} catch { /* se non risponde, resto sul calcio */ }
 const R = {
   probGambaMin: 0.62, quotaGambaMin: 1.25, quotaGambaMax: 1.60,
   gambeMinimeGiornata: 6, quotaTotaleMin: 1.70, quotaTotaleMax: 3.60,
@@ -46,7 +68,7 @@ for (const s of SPORT) {
     rimaste = r.headers.get('x-requests-remaining') ?? rimaste;
     if (!r.ok) { problemi.push(`${s}: HTTP ${r.status}`); continue; }
     const j = await r.json();
-    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] });
+    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] || TITOLO[s] || s, sport: GRUPPO[s] || "calcio" });
   } catch (e) { problemi.push(`${s}: ${e.message}`); }
   await new Promise(x => setTimeout(x, 500));
 }
@@ -73,12 +95,18 @@ for (const e of eventi) {
 
   const it = new Date(inizio.getTime() + 2 * 3600000);
   const base = {
+    sport: e.sport,
     casa: e.home_team || nomi[0], trasf: e.away_team || nomi[1],
     campionato: e.campionato, nSiti,
     giorno: it.toISOString().slice(0, 10),
     ora: it.toISOString().slice(11, 16),
   };
-  const opz = nomi.map((n, i) => ({ esito: n === e.home_team ? '1' : n === e.away_team ? '2' : 'X', dice: n, prob: dev.prob[i], quota: migl[i] }));
+  const duePossibili = e.sport !== 'calcio';
+  const opz = nomi.map((n, i) => ({
+    esito: duePossibili ? (n === e.home_team ? '1' : '2') : (n === e.home_team ? '1' : n === e.away_team ? '2' : 'X'),
+    dice: duePossibili ? ('vince ' + n) : n,
+    prob: dev.prob[i], quota: migl[i],
+  }));
   const iX = nomi.findIndex(n => /^draw$/i.test(n));
   if (iX >= 0) {
     for (let i = 0; i < nomi.length; i++) {
