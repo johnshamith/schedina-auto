@@ -32,6 +32,10 @@ try {
 const R = {
   probGambaMin: 0.62, quotaGambaMin: 1.25, quotaGambaMax: 1.60,
   gambeMinimeGiornata: 6, quotaTotaleMin: 1.70, quotaTotaleMax: 3.60,
+  // Se nessun giorno ha 6 partite sicure, invece di saltare si prova una DOPPIA
+  // con le due piu sicure, purche ci siano almeno 3 partite fra cui scegliere.
+  // Il controllo del costo (max 6%) decide comunque se si gioca o no.
+  gambeMinimeDoppia: 3, quotaDoppiaMin: 1.45,
   costoMassimo: 0.06, puntata: 5, sitiMinimi: 15,
 };
 
@@ -153,7 +157,11 @@ for (const c of cand) { const k = c.casa + c.trasf; if (viste.has(k)) continue; 
 const perGiorno = {};
 for (const g of tutte) (perGiorno[g.giorno] = perGiorno[g.giorno] || []).push(g);
 const giorni = Object.keys(perGiorno).sort();
-const scelto = giorni.find(k => perGiorno[k].length >= R.gambeMinimeGiornata);
+// Si gioca il PRIMO giorno buono, non il primo giorno pieno.
+// Con 6+ partite sicure si fa la tripla, con 3-5 la doppia (meno scelta = meno gambe).
+// Cosi si gioca quasi ogni giorno invece di aspettare il weekend.
+const giornoUsato = giorni.find(k => perGiorno[k].length >= R.gambeMinimeDoppia);
+const nGambe = giornoUsato && perGiorno[giornoUsato].length >= R.gambeMinimeGiornata ? 3 : 2;
 
 const out = {
   quando: new Date().toISOString(),
@@ -162,23 +170,25 @@ const out = {
   giorniVisti: giorni.map(k => ({ giorno: k, gambe: perGiorno[k].length })),
 };
 
-if (!scelto) {
+if (!giornoUsato) {
   out.gioca = false;
   out.motivo = `Nessun giorno con almeno ${R.gambeMinimeGiornata} partite sicure.`;
 } else {
-  const g = perGiorno[scelto].slice(0, 3);
+  const g = perGiorno[giornoUsato].slice(0, nGambe);
   const quota = Math.round(g.reduce((a, x) => a * x.quota, 1) * 100) / 100;
   const prob = g.reduce((a, x) => a * x.prob, 1);
   const costo = 1 - prob * quota;
-  if (quota < R.quotaTotaleMin || quota > R.quotaTotaleMax) {
+  const minimo = nGambe === 3 ? R.quotaTotaleMin : R.quotaDoppiaMin;
+  if (quota < minimo || quota > R.quotaTotaleMax) {
     out.gioca = false;
-    out.motivo = `Quota totale ${quota.toFixed(2)}, fuori dalla fascia ${R.quotaTotaleMin}-${R.quotaTotaleMax}.`;
+    out.motivo = `Quota totale ${quota.toFixed(2)}, fuori dalla fascia ${minimo}-${R.quotaTotaleMax}.`;
   } else if (costo > R.costoMassimo) {
     out.gioca = false;
     out.motivo = `Costa troppo: ${(costo * 100).toFixed(1)}%, il limite e ${(R.costoMassimo * 100).toFixed(0)}%.`;
   } else {
     out.gioca = true;
-    out.giorno = scelto;
+    out.giorno = giornoUsato;
+    out.tipo = nGambe === 3 ? "TRIPLA" : "DOPPIA";
     out.quota = quota;
     out.probabilita = Math.round(prob * 1000) / 1000;
     out.costo = Math.round(costo * 1000) / 1000;
@@ -186,10 +196,10 @@ if (!scelto) {
     out.vincita = Math.round(quota * R.puntata * 100) / 100;
     out.minimo888 = Math.round(quota * 0.93 * 100) / 100;
     out.gambe = g.map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
-    out.altre = perGiorno[scelto].slice(3, 8).map(x => ({ casa: x.casa, trasf: x.trasf, esito: x.esito, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000 }));
+    out.altre = perGiorno[giornoUsato].slice(nGambe, nGambe + 5).map(x => ({ casa: x.casa, trasf: x.trasf, esito: x.esito, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000 }));
   }
 }
 
 const fs = await import('node:fs');
 fs.writeFileSync('schedina.json', JSON.stringify(out, null, 1));
-console.log(out.gioca ? `TRIPLA del ${out.giorno}, quota ${out.quota}` : `SI SALTA: ${out.motivo}`);
+console.log(out.gioca ? `${out.tipo} del ${out.giorno}, quota ${out.quota}` : `SI SALTA: ${out.motivo}`);
