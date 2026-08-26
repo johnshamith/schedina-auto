@@ -196,7 +196,7 @@ if (!giornoUsato) {
     out.vincita = Math.round(quota * R.puntata * 100) / 100;
     out.minimo888 = Math.round(quota * 0.93 * 100) / 100;
     out.gambe = g.map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
-    out.altre = perGiorno[giornoUsato].slice(nGambe, nGambe + 5).map(x => ({ casa: x.casa, trasf: x.trasf, esito: x.esito, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000 }));
+    out.altre = perGiorno[giornoUsato].slice(nGambe, nGambe + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
   }
 }
 
