@@ -1,0 +1,112 @@
+[
+ {
+  "giorno": "2026-08-28",
+  "quandoScelta": "2026-08-26T21:35:00.194Z",
+  "quandoControllo": "2026-08-26T21:51:07.808Z",
+  "quota": 2.18,
+  "gambe": [
+   {
+    "link": "https://sport.888casino.it/#/filter/football/france/ligue_1",
+    "casa": "Lille",
+    "trasf": "Paris Saint Germain",
+    "campionato": "Ligue 1",
+    "ora": "20:45",
+    "esito": "X2",
+    "dice": "Paris Saint Germain o pareggio",
+    "quota": 1.26,
+    "prob": 0.792,
+    "nSiti": 23,
+    "errore": "manca il codice partita"
+   },
+   {
+    "link": "https://sport.888casino.it/#/filter/football/england/premier_league",
+    "casa": "Crystal Palace",
+    "trasf": "Manchester City",
+    "campionato": "Premier League",
+    "ora": "21:00",
+    "esito": "12",
+    "dice": "no pareggio",
+    "quota": 1.31,
+    "prob": 0.778,
+    "nSiti": 25,
+    "errore": "manca il codice partita"
+   },
+   {
+    "link": "https://sport.888casino.it/#/filter/football/germany/bundesliga",
+    "casa": "Bayern Munich",
+    "trasf": "VfB Stuttgart",
+    "campionato": "Bundesliga",
+    "ora": "20:30",
+    "esito": "1",
+    "dice": "Bayern Munich",
+    "quota": 1.32,
+    "prob": 0.772,
+    "nSiti": 24,
+    "errore": "manca il codice partita"
+   }
+  ],
+  "clvMedio": null
+ },
+ {
+  "giorno": "2026-08-27",
+  "quandoScelta": "2026-08-26T21:51:29.147Z",
+  "quandoControllo": "2026-08-26T21:51:29.224Z",
+  "tipo": "DOPPIA",
+  "quota": 1.63,
+  "gambe": [
+   {
+    "link": "https://sport.888casino.it/#/home",
+    "casa": "Panna Udvardy",
+    "trasf": "Elise Mertens",
+    "campionato": "WTA Monterrey Open",
+    "ora": "01:00",
+    "esito": "2",
+    "dice": "vince Elise Mertens",
+    "quota": 1.25,
+    "prob": 0.793,
+    "nSiti": 21,
+    "errore": "manca il codice partita"
+   },
+   {
+    "link": "https://sport.888casino.it/#/filter/football/spain/la_liga",
+    "casa": "Barcelona",
+    "trasf": "Athletic Bilbao",
+    "campionato": "Liga",
+    "ora": "21:00",
+    "esito": "1",
+    "dice": "Barcelona",
+    "quota": 1.3,
+    "prob": 0.774,
+    "nSiti": 21,
+    "errore": "manca il codice partita"
+   }
+  ],
+  "clvMedio": null
+ },
+ {
+  "giorno": "2026-08-27",
+  "quandoScelta": "2026-08-26T21:52:05.256Z",
+  "quandoControllo": "2026-08-26T21:52:06.931Z",
+  "tipo": "DOPPIA",
+  "quota": 1.63,
+  "gambe": [
+   {
+    "casa": "Panna Udvardy",
+    "trasf": "Elise Mertens",
+    "esito": "2",
+    "nostra": 1.25,
+    "chiusura": 1.23,
+    "clv": 1.6
+   },
+   {
+    "casa": "Barcelona",
+    "trasf": "Athletic Bilbao",
+    "esito": "1",
+    "nostra": 1.3,
+    "chiusura": 1.26,
+    "clv": 3.2
+   }
+  ],
+  "clvMedio": 2.4
+ }
+]

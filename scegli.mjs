@@ -118,6 +118,8 @@ for (const e of eventi) {
   const base = {
     sport: e.sport,
     link: e.link,
+    idEvento: e.id,
+    sportKey: e.sportKey,
     casa: e.home_team || nomi[0], trasf: e.away_team || nomi[1],
     campionato: e.campionato, nSiti,
     giorno: it.toISOString().slice(0, 10),
