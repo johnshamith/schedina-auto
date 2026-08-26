@@ -1,0 +1,123 @@
+{
+ "quando": "2026-08-26T21:03:10.214Z",
+ "chiamateRimaste": "449",
+ "problemi": [],
+ "giorniVisti": [
+  {
+   "giorno": "2026-08-27",
+   "gambe": 2
+  },
+  {
+   "giorno": "2026-08-28",
+   "gambe": 8
+  },
+  {
+   "giorno": "2026-08-29",
+   "gambe": 27
+  },
+  {
+   "giorno": "2026-08-30",
+   "gambe": 21
+  },
+  {
+   "giorno": "2026-08-31",
+   "gambe": 6
+  },
+  {
+   "giorno": "2026-09-04",
+   "gambe": 2
+  },
+  {
+   "giorno": "2026-09-05",
+   "gambe": 10
+  },
+  {
+   "giorno": "2026-09-06",
+   "gambe": 6
+  },
+  {
+   "giorno": "2026-09-07",
+   "gambe": 2
+  }
+ ],
+ "gioca": true,
+ "giorno": "2026-08-28",
+ "quota": 2.18,
+ "probabilita": 0.475,
+ "costo": -0.036,
+ "puntata": 5,
+ "vincita": 10.9,
+ "minimo888": 2.03,
+ "gambe": [
+  {
+   "casa": "Lille",
+   "trasf": "Paris Saint Germain",
+   "campionato": "Ligue 1",
+   "ora": "20:45",
+   "esito": "X2",
+   "dice": "Paris Saint Germain o pareggio",
+   "quota": 1.26,
+   "prob": 0.792,
+   "nSiti": 23
+  },
+  {
+   "casa": "Crystal Palace",
+   "trasf": "Manchester City",
+   "campionato": "Premier League",
+   "ora": "21:00",
+   "esito": "12",
+   "dice": "no pareggio",
+   "quota": 1.31,
+   "prob": 0.778,
+   "nSiti": 25
+  },
+  {
+   "casa": "Bayern Munich",
+   "trasf": "VfB Stuttgart",
+   "campionato": "Bundesliga",
+   "ora": "20:30",
+   "esito": "1",
+   "dice": "Bayern Munich",
+   "quota": 1.32,
+   "prob": 0.772,
+   "nSiti": 24
+  }
+ ],
+ "altre": [
+  {
+   "casa": "Rio Ave FC",
+   "trasf": "Sporting Lisbon",
+   "esito": "2",
+   "quota": 1.35,
+   "prob": 0.737
+  },
+  {
+   "casa": "Alavés",
+   "trasf": "Villarreal",
+   "esito": "12",
+   "quota": 1.38,
+   "prob": 0.734
+  },
+  {
+   "casa": "Real Racing Club de Santander",
+   "trasf": "Elche CF",
+   "esito": "12",
+   "quota": 1.39,
+   "prob": 0.731
+  },
+  {
+   "casa": "AC Milan",
+   "trasf": "Venezia",
+   "esito": "1",
+   "quota": 1.41,
+   "prob": 0.706
+  },
+  {
+   "casa": "Groningen",
+   "trasf": "Fortuna Sittard",
+   "esito": "1",
+   "quota": 1.54,
+   "prob": 0.642
+  }
+ ]
+}
