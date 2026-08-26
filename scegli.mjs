@@ -1,0 +1,149 @@
+// scegli.mjs — gira ogni mattina su GitHub (che ha internet libero).
+// Scarica le quote, sceglie la tripla e scrive schedina.json.
+// Poi Claude nel cloud legge quel file e manda l'email a John.
+const KEY = process.env.ODDSAPI_KEY;
+const SPORT = [
+  'soccer_italy_serie_a', 'soccer_epl', 'soccer_spain_la_liga',
+  'soccer_france_ligue_one', 'soccer_germany_bundesliga',
+  'soccer_portugal_primeira_liga', 'soccer_netherlands_eredivisie',
+];
+const R = {
+  probGambaMin: 0.62, quotaGambaMin: 1.25, quotaGambaMax: 1.60,
+  gambeMinimeGiornata: 6, quotaTotaleMin: 1.70, quotaTotaleMax: 3.60,
+  costoMassimo: 0.06, puntata: 5, sitiMinimi: 15,
+};
+
+const mediana = v => { const s = [...v].sort((a, b) => a - b); return s.length % 2 ? s[(s.length - 1) / 2] : (s[s.length / 2 - 1] + s[s.length / 2]) / 2; };
+
+// toglie il guadagno del sito: metodo Shin
+function togliMargine(quote) {
+  const inv = quote.map(q => 1 / q);
+  const somma = inv.reduce((a, b) => a + b, 0);
+  let z = 0;
+  for (let i = 0; i < 60; i++) {
+    const p = inv.map(x => (Math.sqrt(z * z + 4 * (1 - z) * (x * x) / somma) - z) / (2 * (1 - z)));
+    z += (p.reduce((a, b) => a + b, 0) - 1) * 0.5;
+    z = Math.max(0, Math.min(0.2, z));
+  }
+  const p = inv.map(x => (Math.sqrt(z * z + 4 * (1 - z) * (x * x) / somma) - z) / (2 * (1 - z)));
+  const s = p.reduce((a, b) => a + b, 0);
+  return { prob: p.map(x => x / s), margine: somma - 1 };
+}
+
+const NOMI = {
+  soccer_italy_serie_a: 'Serie A', soccer_epl: 'Premier League',
+  soccer_spain_la_liga: 'Liga', soccer_france_ligue_one: 'Ligue 1',
+  soccer_germany_bundesliga: 'Bundesliga', soccer_portugal_primeira_liga: 'Portogallo',
+  soccer_netherlands_eredivisie: 'Olanda',
+};
+
+const eventi = [];
+const problemi = [];
+let rimaste = null;
+for (const s of SPORT) {
+  try {
+    const r = await fetch(`https://api.the-odds-api.com/v4/sports/${s}/odds/?apiKey=${KEY}&regions=eu&markets=h2h&oddsFormat=decimal`);
+    rimaste = r.headers.get('x-requests-remaining') ?? rimaste;
+    if (!r.ok) { problemi.push(`${s}: HTTP ${r.status}`); continue; }
+    const j = await r.json();
+    if (Array.isArray(j)) for (const e of j) eventi.push({ ...e, campionato: NOMI[s] });
+  } catch (e) { problemi.push(`${s}: ${e.message}`); }
+  await new Promise(x => setTimeout(x, 500));
+}
+
+const ora = Date.now();
+const cand = [];
+for (const e of eventi) {
+  const inizio = new Date(e.commence_time);
+  if (inizio - ora < 45 * 60000) continue;
+  const per = {};
+  for (const b of (e.bookmakers || [])) {
+    const mk = (b.markets || []).find(m => m.key === 'h2h');
+    if (mk) for (const o of mk.outcomes) (per[o.name] = per[o.name] || []).push(o.price);
+  }
+  const nomi = Object.keys(per);
+  if (nomi.length < 2) continue;
+  const nSiti = Math.min(...nomi.map(n => per[n].length));
+  if (nSiti < R.sitiMinimi) continue;
+
+  const med = nomi.map(n => mediana(per[n]));
+  const migl = nomi.map(n => Math.max(...per[n]));
+  const dev = togliMargine(med);
+  if (dev.margine < 0 || dev.margine > 0.14) continue;
+
+  const it = new Date(inizio.getTime() + 2 * 3600000);
+  const base = {
+    casa: e.home_team || nomi[0], trasf: e.away_team || nomi[1],
+    campionato: e.campionato, nSiti,
+    giorno: it.toISOString().slice(0, 10),
+    ora: it.toISOString().slice(11, 16),
+  };
+  const opz = nomi.map((n, i) => ({ esito: n === e.home_team ? '1' : n === e.away_team ? '2' : 'X', dice: n, prob: dev.prob[i], quota: migl[i] }));
+  const iX = nomi.findIndex(n => /^draw$/i.test(n));
+  if (iX >= 0) {
+    for (let i = 0; i < nomi.length; i++) {
+      if (i === iX) continue;
+      opz.push({
+        esito: nomi[i] === e.home_team ? '1X' : 'X2', dice: `${nomi[i]} o pareggio`,
+        prob: dev.prob[i] + dev.prob[iX],
+        quota: 1 / (1 / migl[i] + 1 / migl[iX]),
+      });
+    }
+    const altri = nomi.map((n, i) => i).filter(i => i !== iX);
+    opz.push({ esito: '12', dice: 'no pareggio', prob: altri.reduce((a, i) => a + dev.prob[i], 0), quota: 1 / altri.reduce((a, i) => a + 1 / migl[i], 0) });
+  }
+  for (const o of opz) {
+    if (o.prob < R.probGambaMin) continue;
+    const q = Math.round(o.quota * 100) / 100;
+    if (q < R.quotaGambaMin || q > R.quotaGambaMax) continue;
+    cand.push({ ...base, ...o, quota: q });
+  }
+}
+
+cand.sort((a, b) => b.prob - a.prob);
+const viste = new Set(), tutte = [];
+for (const c of cand) { const k = c.casa + c.trasf; if (viste.has(k)) continue; viste.add(k); tutte.push(c); }
+
+const perGiorno = {};
+for (const g of tutte) (perGiorno[g.giorno] = perGiorno[g.giorno] || []).push(g);
+const giorni = Object.keys(perGiorno).sort();
+const scelto = giorni.find(k => perGiorno[k].length >= R.gambeMinimeGiornata);
+
+const out = {
+  quando: new Date().toISOString(),
+  chiamateRimaste: rimaste,
+  problemi,
+  giorniVisti: giorni.map(k => ({ giorno: k, gambe: perGiorno[k].length })),
+};
+
+if (!scelto) {
+  out.gioca = false;
+  out.motivo = `Nessun giorno con almeno ${R.gambeMinimeGiornata} partite sicure.`;
+} else {
+  const g = perGiorno[scelto].slice(0, 3);
+  const quota = Math.round(g.reduce((a, x) => a * x.quota, 1) * 100) / 100;
+  const prob = g.reduce((a, x) => a * x.prob, 1);
+  const costo = 1 - prob * quota;
+  if (quota < R.quotaTotaleMin || quota > R.quotaTotaleMax) {
+    out.gioca = false;
+    out.motivo = `Quota totale ${quota.toFixed(2)}, fuori dalla fascia ${R.quotaTotaleMin}-${R.quotaTotaleMax}.`;
+  } else if (costo > R.costoMassimo) {
+    out.gioca = false;
+    out.motivo = `Costa troppo: ${(costo * 100).toFixed(1)}%, il limite e ${(R.costoMassimo * 100).toFixed(0)}%.`;
+  } else {
+    out.gioca = true;
+    out.giorno = scelto;
+    out.quota = quota;
+    out.probabilita = Math.round(prob * 1000) / 1000;
+    out.costo = Math.round(costo * 1000) / 1000;
+    out.puntata = R.puntata;
+    out.vincita = Math.round(quota * R.puntata * 100) / 100;
+    out.minimo888 = Math.round(quota * 0.93 * 100) / 100;
+    out.gambe = g.map(x => ({ casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.altre = perGiorno[scelto].slice(3, 8).map(x => ({ casa: x.casa, trasf: x.trasf, esito: x.esito, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000 }));
+  }
+}
+
+const fs = await import('node:fs');
+fs.writeFileSync('schedina.json', JSON.stringify(out, null, 1));
+console.log(out.gioca ? `TRIPLA del ${out.giorno}, quota ${out.quota}` : `SI SALTA: ${out.motivo}`);
