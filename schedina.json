@@ -1,6 +1,6 @@
 {
- "quando": "2026-08-27T09:13:56.516Z",
- "chiamateRimaste": "315",
+ "quando": "2026-08-27T10:19:44.996Z",
+ "chiamateRimaste": "304",
  "problemi": [],
  "giorniVisti": [
   {
@@ -47,12 +47,12 @@
  "gioca": true,
  "giorno": "2026-08-27",
  "tipo": "DOPPIA",
- "quota": 1.63,
- "probabilita": 0.618,
- "costo": -0.007,
+ "quota": 1.64,
+ "probabilita": 0.609,
+ "costo": 0.002,
  "puntata": 5,
- "vincita": 8.15,
- "minimo888": 1.52,
+ "vincita": 8.2,
+ "minimo888": 1.53,
  "puntaEntro": "20:00",
  "primaPartita": "20:30",
  "gambe": [
@@ -66,8 +66,8 @@
    "ora": "21:00",
    "esito": "1",
    "dice": "Barcelona",
-   "quota": 1.26,
-   "prob": 0.801,
+   "quota": 1.27,
+   "prob": 0.786,
    "nSiti": 21
   },
   {
@@ -81,7 +81,7 @@
    "esito": "1X",
    "dice": "Celta Vigo o pareggio",
    "quota": 1.29,
-   "prob": 0.771,
+   "prob": 0.774,
    "nSiti": 21
   }
  ],
@@ -94,8 +94,8 @@
    "ora": "23:00",
    "esito": "2",
    "dice": "vince Ann Li",
-   "quota": 1.44,
-   "prob": 0.687,
+   "quota": 1.41,
+   "prob": 0.697,
    "nSiti": 18
   }
  ]

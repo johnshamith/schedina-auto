@@ -190,11 +190,20 @@ if (!giornoUsato) {
   out.gioca = false;
   out.motivo = `Nessun giorno con almeno ${R.gambeMinimeGiornata} partite sicure.`;
 } else {
-  const g = perGiorno[giornoUsato].slice(0, nGambe);
-  const quota = Math.round(g.reduce((a, x) => a * x.quota, 1) * 100) / 100;
-  const prob = g.reduce((a, x) => a * x.prob, 1);
-  const costo = 1 - prob * quota;
-  const minimo = nGambe === 3 ? R.quotaTotaleMin : R.quotaDoppiaMin;
+  // Provo prima con tante gambe, poi con meno. Se la tripla costa troppo,
+  // la doppia costa meno, e la singola ancora meno: ogni gamba in piu
+  // aggiunge il margine del sito. Meglio una singola sana che saltare.
+  // (Errore trovato da John il 27/08: saltavo giorni in cui la singola andava bene.)
+  let g = null, quota = 0, prob = 0, costo = 1, nUsate = 0;
+  for (let n = Math.min(nGambe, perGiorno[giornoUsato].length); n >= 1; n--) {
+    const prova = perGiorno[giornoUsato].slice(0, n);
+    const q = Math.round(prova.reduce((a, x) => a * x.quota, 1) * 100) / 100;
+    const p = prova.reduce((a, x) => a * x.prob, 1);
+    const c = 1 - p * q;
+    if (c <= R.costoMassimo) { g = prova; quota = q; prob = p; costo = c; nUsate = n; break; }
+    if (!g) { g = prova; quota = q; prob = p; costo = c; nUsate = n; }   // il meno peggio, se nessuna passa
+  }
+  const minimo = nUsate >= 3 ? R.quotaTotaleMin : nUsate === 2 ? R.quotaDoppiaMin : 1.10;
   if (quota < minimo || quota > R.quotaTotaleMax) {
     out.gioca = false;
     out.motivo = `Quota totale ${quota.toFixed(2)}, fuori dalla fascia ${minimo}-${R.quotaTotaleMax}.`;
@@ -204,7 +213,7 @@ if (!giornoUsato) {
   } else {
     out.gioca = true;
     out.giorno = giornoUsato;
-    out.tipo = nGambe === 3 ? "TRIPLA" : "DOPPIA";
+    out.tipo = nUsate >= 3 ? "TRIPLA" : nUsate === 2 ? "DOPPIA" : "SINGOLA";
     out.quota = quota;
     out.probabilita = Math.round(prob * 1000) / 1000;
     out.costo = Math.round(costo * 1000) / 1000;
@@ -220,7 +229,7 @@ if (!giornoUsato) {
     out.puntaEntro = String(Math.floor(((t % 1440) + 1440) % 1440 / 60)).padStart(2, "0") + ":" + String(t % 60 < 0 ? t % 60 + 60 : t % 60).padStart(2, "0");
     out.primaPartita = ore[0];
     out.gambe = g.map(x => ({ idEvento: x.idEvento, sportKey: x.sportKey, link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
-    out.altre = perGiorno[giornoUsato].slice(nGambe, nGambe + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.altre = perGiorno[giornoUsato].slice(nUsate, nUsate + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
   }
 }
 
