@@ -1,15 +1,15 @@
 {
- "quando": "2026-08-26T21:35:00.194Z",
- "chiamateRimaste": "405",
+ "quando": "2026-08-27T09:13:56.516Z",
+ "chiamateRimaste": "315",
  "problemi": [],
  "giorniVisti": [
   {
    "giorno": "2026-08-27",
-   "gambe": 4
+   "gambe": 3
   },
   {
    "giorno": "2026-08-28",
-   "gambe": 8
+   "gambe": 10
   },
   {
    "giorno": "2026-08-29",
@@ -21,19 +21,19 @@
   },
   {
    "giorno": "2026-08-31",
-   "gambe": 6
+   "gambe": 5
   },
   {
    "giorno": "2026-09-04",
-   "gambe": 2
+   "gambe": 3
   },
   {
    "giorno": "2026-09-05",
-   "gambe": 10
+   "gambe": 16
   },
   {
    "giorno": "2026-09-06",
-   "gambe": 6
+   "gambe": 8
   },
   {
    "giorno": "2026-09-07",
@@ -45,86 +45,58 @@
   }
  ],
  "gioca": true,
- "giorno": "2026-08-28",
- "quota": 2.18,
- "probabilita": 0.475,
- "costo": -0.036,
+ "giorno": "2026-08-27",
+ "tipo": "DOPPIA",
+ "quota": 1.63,
+ "probabilita": 0.618,
+ "costo": -0.007,
  "puntata": 5,
- "vincita": 10.9,
- "minimo888": 2.03,
+ "vincita": 8.15,
+ "minimo888": 1.52,
+ "puntaEntro": "20:00",
+ "primaPartita": "20:30",
  "gambe": [
   {
-   "link": "https://sport.888casino.it/#/filter/football/france/ligue_1",
-   "casa": "Lille",
-   "trasf": "Paris Saint Germain",
-   "campionato": "Ligue 1",
-   "ora": "20:45",
-   "esito": "X2",
-   "dice": "Paris Saint Germain o pareggio",
-   "quota": 1.26,
-   "prob": 0.792,
-   "nSiti": 23
-  },
-  {
-   "link": "https://sport.888casino.it/#/filter/football/england/premier_league",
-   "casa": "Crystal Palace",
-   "trasf": "Manchester City",
-   "campionato": "Premier League",
+   "idEvento": "4e67f40bc51c915154f04559a7ab692c",
+   "sportKey": "soccer_spain_la_liga",
+   "link": "https://sport.888casino.it/#/filter/football/spain/la_liga",
+   "casa": "Barcelona",
+   "trasf": "Athletic Bilbao",
+   "campionato": "Liga",
    "ora": "21:00",
-   "esito": "12",
-   "dice": "no pareggio",
-   "quota": 1.31,
-   "prob": 0.778,
-   "nSiti": 25
+   "esito": "1",
+   "dice": "Barcelona",
+   "quota": 1.26,
+   "prob": 0.801,
+   "nSiti": 21
   },
   {
-   "link": "https://sport.888casino.it/#/filter/football/germany/bundesliga",
-   "casa": "Bayern Munich",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
+   "idEvento": "0b765da573acccbad3b07923f279c567",
+   "sportKey": "soccer_spain_la_liga",
+   "link": "https://sport.888casino.it/#/filter/football/spain/la_liga",
+   "casa": "Celta Vigo",
+   "trasf": "CA Osasuna",
+   "campionato": "Liga",
    "ora": "20:30",
-   "esito": "1",
-   "dice": "Bayern Munich",
-   "quota": 1.32,
-   "prob": 0.772,
-   "nSiti": 24
+   "esito": "1X",
+   "dice": "Celta Vigo o pareggio",
+   "quota": 1.29,
+   "prob": 0.771,
+   "nSiti": 21
   }
  ],
  "altre": [
   {
-   "casa": "Rio Ave FC",
-   "trasf": "Sporting Lisbon",
+   "link": "https://sport.888casino.it/#/home",
+   "casa": "Alycia Parks",
+   "trasf": "Ann Li",
+   "campionato": "WTA Monterrey Open",
+   "ora": "23:00",
    "esito": "2",
-   "quota": 1.35,
-   "prob": 0.737
-  },
-  {
-   "casa": "Alavés",
-   "trasf": "Villarreal",
-   "esito": "12",
-   "quota": 1.38,
-   "prob": 0.734
-  },
-  {
-   "casa": "Real Racing Club de Santander",
-   "trasf": "Elche CF",
-   "esito": "12",
-   "quota": 1.39,
-   "prob": 0.731
-  },
-  {
-   "casa": "AC Milan",
-   "trasf": "Venezia",
-   "esito": "1",
-   "quota": 1.41,
-   "prob": 0.706
-  },
-  {
-   "casa": "Groningen",
-   "trasf": "Fortuna Sittard",
-   "esito": "1",
-   "quota": 1.54,
-   "prob": 0.642
+   "dice": "vince Ann Li",
+   "quota": 1.44,
+   "prob": 0.687,
+   "nSiti": 18
   }
  ]
 }
