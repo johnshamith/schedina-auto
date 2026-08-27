@@ -114,9 +114,13 @@ for (const e of eventi) {
   const inizio = new Date(e.commence_time);
   if (inizio - ora < 45 * 60000) continue;
   const per = {};
+  const perBF = {};
   for (const b of (e.bookmakers || [])) {
     const mk = (b.markets || []).find(m => m.key === 'h2h');
-    if (mk) for (const o of mk.outcomes) (per[o.name] = per[o.name] || []).push(o.price);
+    if (mk) for (const o of mk.outcomes) {
+      (per[o.name] = per[o.name] || []).push(o.price);
+      if (b.key === 'betfair_ex_eu') perBF[o.name] = o.price;
+    }
   }
   const nomi = Object.keys(per);
   if (nomi.length < 2) continue;
@@ -125,6 +129,8 @@ for (const e of eventi) {
 
   const med = nomi.map(n => mediana(per[n]));
   const migl = nomi.map(n => Math.max(...per[n]));
+  const netBF = q => (q && q > 1 ? Math.round((1 + (q - 1) * 0.95) * 100) / 100 : null);
+  const bf = nomi.map(n => netBF(perBF[n]));
   const dev = togliMargine(med);
   if (dev.margine < 0 || dev.margine > 0.14) continue;
 
@@ -143,7 +149,7 @@ for (const e of eventi) {
   const opz = nomi.map((n, i) => ({
     esito: duePossibili ? (n === e.home_team ? '1' : '2') : (n === e.home_team ? '1' : n === e.away_team ? '2' : 'X'),
     dice: duePossibili ? ('vince ' + n) : n,
-    prob: dev.prob[i], quota: migl[i],
+    prob: dev.prob[i], quota: migl[i], quotaBF: bf[i],
   }));
   const iX = nomi.findIndex(n => /^draw$/i.test(n));
   if (iX >= 0) {
@@ -228,8 +234,8 @@ if (!giornoUsato) {
     const t = hh * 60 + mm - 30;
     out.puntaEntro = String(Math.floor(((t % 1440) + 1440) % 1440 / 60)).padStart(2, "0") + ":" + String(t % 60 < 0 ? t % 60 + 60 : t % 60).padStart(2, "0");
     out.primaPartita = ore[0];
-    out.gambe = g.map(x => ({ idEvento: x.idEvento, sportKey: x.sportKey, link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
-    out.altre = perGiorno[giornoUsato].slice(nUsate, nUsate + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.gambe = g.map(x => ({ idEvento: x.idEvento, sportKey: x.sportKey, link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, quotaBF: x.quotaBF || null, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
+    out.altre = perGiorno[giornoUsato].slice(nUsate, nUsate + 5).map(x => ({ link: x.link, casa: x.casa, trasf: x.trasf, campionato: x.campionato, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, quotaBF: x.quotaBF || null, prob: Math.round(x.prob * 1000) / 1000, nSiti: x.nSiti }));
   }
 }
 
