@@ -1,0 +1,28 @@
+{
+  "cassa": 10,
+  "iniziale": 15,
+  "aperte": [
+    {
+      "data": "2026-08-27",
+      "idEvento": "595b67bb0e8f4e8d508a5338ef2f3b37",
+      "sportKey": "tennis_wta_monterrey_open",
+      "casa": "Clara Tauson",
+      "trasf": "Diane Parry",
+      "campionato": "WTA Monterrey Open",
+      "ora": "03:30",
+      "giorno": "2026-08-28",
+      "esito": "1",
+      "dice": "vince Clara Tauson",
+      "quota": 1.57,
+      "quotaMercato": 1.6,
+      "prob": 0.635,
+      "valore": -0.003,
+      "puntata": 5
+    }
+  ],
+  "storico": [],
+  "totale": 15,
+  "vinte": 0,
+  "perse": 0,
+  "aggiornato": "2026-08-27T20:35:43.500Z"
+}

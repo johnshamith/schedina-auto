@@ -24,9 +24,12 @@ jobs:
       - env:
           ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
         run: node scegli.mjs
+      - env:
+          ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
+        run: node palestra.mjs
       - run: |
           git config user.name  "schedina-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add schedina.json
+          git add schedina.json palestra.json
           git diff --staged --quiet || git commit -m "schedina $(date -u +%FT%H:%M)"
           git pull --rebase -q && git push

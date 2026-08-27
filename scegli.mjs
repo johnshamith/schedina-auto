@@ -110,6 +110,7 @@ for (const s of SPORT) {
 
 const ora = Date.now();
 const cand = [];
+const candBF = [];   // esiti secchi 1/X/2 col prezzo Betfair Exchange, per la palestra
 for (const e of eventi) {
   const inizio = new Date(e.commence_time);
   if (inizio - ora < 45 * 60000) continue;
@@ -165,6 +166,9 @@ for (const e of eventi) {
     opz.push({ esito: '12', dice: 'no pareggio', prob: altri.reduce((a, i) => a + dev.prob[i], 0), quota: 1 / altri.reduce((a, i) => a + 1 / migl[i], 0) });
   }
   for (const o of opz) {
+    if (o.quotaBF && o.prob >= 0.45 && o.quotaBF >= 1.45 && o.quotaBF <= 2.40) {
+      candBF.push({ ...base, ...o, quota: o.quotaBF, quotaMercato: Math.round(o.quota * 100) / 100, valore: Math.round((o.prob * o.quotaBF - 1) * 1000) / 1000 });
+    }
     if (o.prob < R.probGambaMin) continue;
     const q = Math.round(o.quota * 100) / 100;
     if (q < R.quotaGambaMin || q > R.quotaGambaMax) continue;
@@ -175,6 +179,10 @@ for (const e of eventi) {
 cand.sort((a, b) => b.prob - a.prob);
 const viste = new Set(), tutte = [];
 for (const c of cand) { const k = c.casa + c.trasf; if (viste.has(k)) continue; viste.add(k); tutte.push(c); }
+
+candBF.sort((a, b) => b.valore - a.valore);
+const vistiBF = new Set(), betfair = [];
+for (const c of candBF) { const k = c.casa + c.trasf; if (vistiBF.has(k)) continue; vistiBF.add(k); betfair.push(c); }
 
 const perGiorno = {};
 for (const g of tutte) (perGiorno[g.giorno] = perGiorno[g.giorno] || []).push(g);
@@ -190,6 +198,7 @@ const out = {
   chiamateRimaste: rimaste,
   problemi,
   giorniVisti: giorni.map(k => ({ giorno: k, gambe: perGiorno[k].length })),
+  betfair: betfair.slice(0, 12).map(x => ({ idEvento: x.idEvento, sportKey: x.sportKey, casa: x.casa, trasf: x.trasf, campionato: x.campionato, giorno: x.giorno, ora: x.ora, esito: x.esito, dice: x.dice, quota: x.quota, quotaMercato: x.quotaMercato, prob: Math.round(x.prob * 1000) / 1000, valore: x.valore })),
 };
 
 if (!giornoUsato) {
