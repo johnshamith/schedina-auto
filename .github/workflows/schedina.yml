@@ -1,9 +1,14 @@
 name: Schedina del giorno
 
+# Tre orari invece di uno: gli orari di GitHub a volte saltano.
+# Il programma controlla se il file e gia fresco: se si, esce subito
+# senza spendere chiamate. Cosi la ridondanza non costa niente.
 on:
   schedule:
-    - cron: '0 6 * * *'      # ogni giorno alle 8:00 italiane
-  workflow_dispatch:          # e si puo lanciare a mano dal sito
+    - cron: '0 5 * * *'
+    - cron: '0 6 * * *'
+    - cron: '30 6 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,20 +18,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-
-      - name: Scegli la schedina
-        env:
+      - env:
           ODDSAPI_KEY: ${{ secrets.ODDSAPI_KEY }}
         run: node scegli.mjs
-
-      - name: Salva il risultato
-        run: |
+      - run: |
           git config user.name  "schedina-bot"
           git config user.email "bot@users.noreply.github.com"
           git add schedina.json
-          git diff --staged --quiet || git commit -m "schedina $(date -u +%F)"
-          git push
+          git diff --staged --quiet || git commit -m "schedina $(date -u +%FT%H:%M)"
+          git pull --rebase -q && git push

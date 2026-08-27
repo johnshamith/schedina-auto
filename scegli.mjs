@@ -1,3 +1,4 @@
+import fs from 'node:fs';
 // scegli.mjs — gira ogni mattina su GitHub (che ha internet libero).
 // Scarica le quote, sceglie la tripla e scrive schedina.json.
 // Poi Claude nel cloud legge quel file e manda l'email a John.
@@ -80,6 +81,19 @@ const LINK888 = {
   basketball_wnba: 'basketball/usa/wnba',
 };
 const linkDi = k => LINK888[k] ? 'https://sport.888casino.it/#/filter/' + LINK888[k] : 'https://sport.888casino.it/#/home';
+// Se il file e gia fresco (meno di 3 ore) e per oggi o domani, non rifaccio
+// niente: cosi posso far partire il programma piu volte al giorno senza
+// spendere chiamate. Serve perche gli orari di GitHub a volte saltano.
+try {
+  const vecchio = JSON.parse(fs.readFileSync("schedina.json", "utf8"));
+  const ore = (Date.now() - new Date(vecchio.quando)) / 3600000;
+  const oggi = new Date(Date.now() + 2 * 3600000).toISOString().slice(0, 10);
+  if (ore < 3 && (!vecchio.giorno || vecchio.giorno >= oggi)) {
+    console.log(`Il file e gia fresco (${ore.toFixed(1)} ore fa). Non rifaccio niente.`);
+    process.exit(0);
+  }
+} catch { /* non c e, o e rotto: si rifa */ }
+
 const eventi = [];
 const problemi = [];
 let rimaste = null;
@@ -210,6 +224,6 @@ if (!giornoUsato) {
   }
 }
 
-const fs = await import('node:fs');
+
 fs.writeFileSync('schedina.json', JSON.stringify(out, null, 1));
 console.log(out.gioca ? `${out.tipo} del ${out.giorno}, quota ${out.quota}` : `SI SALTA: ${out.motivo}`);
