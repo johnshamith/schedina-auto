@@ -1,23 +1,23 @@
 {
-  "cassa": 6.67,
+  "cassa": 4.45,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-08-28",
-      "idEvento": "7ae720e3b79aacef7ce13b93aedbfaa1",
-      "sportKey": "soccer_france_ligue_one",
-      "casa": "Lille",
-      "trasf": "Paris Saint Germain",
-      "campionato": "Ligue 1",
-      "ora": "20:45",
-      "giorno": "2026-08-28",
-      "esito": "2",
-      "dice": "Paris Saint Germain",
-      "quota": 1.67,
-      "quotaMercato": 1.71,
-      "prob": 0.598,
-      "valore": -0.002,
-      "puntata": 3.33
+      "data": "2026-08-29",
+      "idEvento": "fa5bd7399799a6c451cc4e6ca6145f11",
+      "sportKey": "soccer_germany_bundesliga",
+      "casa": "FSV Mainz 05",
+      "trasf": "SC Paderborn",
+      "campionato": "Bundesliga",
+      "ora": "15:30",
+      "giorno": "2026-08-29",
+      "esito": "1",
+      "dice": "FSV Mainz 05",
+      "quota": 1.56,
+      "quotaMercato": 1.59,
+      "prob": 0.637,
+      "valore": -0.006,
+      "puntata": 2.22
     }
   ],
   "storico": [
@@ -41,10 +41,31 @@
       "vinta": false,
       "incasso": 0,
       "cassaDopo": 10
+    },
+    {
+      "data": "2026-08-28",
+      "idEvento": "7ae720e3b79aacef7ce13b93aedbfaa1",
+      "sportKey": "soccer_france_ligue_one",
+      "casa": "Lille",
+      "trasf": "Paris Saint Germain",
+      "campionato": "Ligue 1",
+      "ora": "20:45",
+      "giorno": "2026-08-28",
+      "esito": "2",
+      "dice": "Paris Saint Germain",
+      "quota": 1.67,
+      "quotaMercato": 1.71,
+      "prob": 0.598,
+      "valore": -0.002,
+      "puntata": 3.33,
+      "risultato": "2-2",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 6.67
     }
   ],
-  "totale": 10,
+  "totale": 6.67,
   "vinte": 0,
-  "perse": 1,
-  "aggiornato": "2026-08-28T18:52:42.760Z"
+  "perse": 2,
+  "aggiornato": "2026-08-29T11:23:43.415Z"
 }
