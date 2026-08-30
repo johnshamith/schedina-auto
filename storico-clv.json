@@ -10,5 +10,17 @@
   "clv": 5.8,
   "minutiPrima": 68,
   "quando": "2026-08-29T17:36:32.772Z"
+ },
+ {
+  "chiave": "2026-08-30|Cagliari|Inter Milan|12",
+  "giorno": "2026-08-30",
+  "casa": "Cagliari",
+  "trasf": "Inter Milan",
+  "esito": "12",
+  "nostra": 1.27,
+  "chiusura": 1.19,
+  "clv": 6.7,
+  "minutiPrima": 45,
+  "quando": "2026-08-30T17:59:33.238Z"
  }
 ]
