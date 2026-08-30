@@ -1,23 +1,23 @@
 {
-  "cassa": 4.45,
+  "cassa": 2.97,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-08-29",
-      "idEvento": "fa5bd7399799a6c451cc4e6ca6145f11",
-      "sportKey": "soccer_germany_bundesliga",
-      "casa": "FSV Mainz 05",
-      "trasf": "SC Paderborn",
-      "campionato": "Bundesliga",
-      "ora": "15:30",
-      "giorno": "2026-08-29",
-      "esito": "1",
-      "dice": "FSV Mainz 05",
-      "quota": 1.56,
-      "quotaMercato": 1.59,
-      "prob": 0.637,
-      "valore": -0.006,
-      "puntata": 2.22
+      "data": "2026-08-30",
+      "idEvento": "ae3f9872839594c923acc29e4f14060f",
+      "sportKey": "tennis_atp_us_open",
+      "casa": "Martin Landaluce",
+      "trasf": "Jacob Fearnley",
+      "campionato": "ATP US Open",
+      "ora": "21:00",
+      "giorno": "2026-08-30",
+      "esito": "2",
+      "dice": "vince Jacob Fearnley",
+      "quota": 2.01,
+      "quotaMercato": 2.06,
+      "prob": 0.503,
+      "valore": 0.011,
+      "puntata": 1.48
     }
   ],
   "storico": [
@@ -62,10 +62,31 @@
       "vinta": false,
       "incasso": 0,
       "cassaDopo": 6.67
+    },
+    {
+      "data": "2026-08-29",
+      "idEvento": "fa5bd7399799a6c451cc4e6ca6145f11",
+      "sportKey": "soccer_germany_bundesliga",
+      "casa": "FSV Mainz 05",
+      "trasf": "SC Paderborn",
+      "campionato": "Bundesliga",
+      "ora": "15:30",
+      "giorno": "2026-08-29",
+      "esito": "1",
+      "dice": "FSV Mainz 05",
+      "quota": 1.56,
+      "quotaMercato": 1.59,
+      "prob": 0.637,
+      "valore": -0.006,
+      "puntata": 2.22,
+      "risultato": "0-0",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 4.45
     }
   ],
-  "totale": 6.67,
+  "totale": 4.45,
   "vinte": 0,
-  "perse": 2,
-  "aggiornato": "2026-08-29T12:46:23.697Z"
+  "perse": 3,
+  "aggiornato": "2026-08-30T10:09:59.339Z"
 }
