@@ -1,5 +1,5 @@
 {
-  "cassa": 2.97,
+  "cassa": 1.97,
   "iniziale": 15,
   "aperte": [
     {
@@ -18,6 +18,23 @@
       "prob": 0.503,
       "valore": 0.011,
       "puntata": 1.48
+    },
+    {
+      "data": "2026-08-31",
+      "idEvento": "d6239b51f0349d2f5c3a88208640908e",
+      "sportKey": "tennis_wta_us_open",
+      "casa": "Tamara Zidansek",
+      "trasf": "Maria Timofeeva",
+      "campionato": "WTA US Open",
+      "ora": "19:00",
+      "giorno": "2026-08-31",
+      "esito": "2",
+      "dice": "vince Maria Timofeeva",
+      "quota": 1.49,
+      "quotaMercato": 1.52,
+      "prob": 0.669,
+      "valore": -0.004,
+      "puntata": 1
     }
   ],
   "storico": [
@@ -88,5 +105,5 @@
   "totale": 4.45,
   "vinte": 0,
   "perse": 3,
-  "aggiornato": "2026-08-30T12:04:29.734Z"
+  "aggiornato": "2026-08-30T23:03:07.811Z"
 }
