@@ -22,5 +22,17 @@
   "clv": 6.7,
   "minutiPrima": 45,
   "quando": "2026-08-30T17:59:33.238Z"
+ },
+ {
+  "chiave": "2026-08-31|Matteo Berrettini|Stan Wawrinka|1",
+  "giorno": "2026-08-31",
+  "casa": "Matteo Berrettini",
+  "trasf": "Stan Wawrinka",
+  "esito": "1",
+  "nostra": 1.27,
+  "chiusura": 1.24,
+  "clv": 2.4,
+  "minutiPrima": 119,
+  "quando": "2026-08-31T16:00:53.112Z"
  }
 ]
