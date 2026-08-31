@@ -1,19 +1,19 @@
 {
- "quando": "2026-08-30T23:03:07.276Z",
- "chiamateRimaste": "172",
+ "quando": "2026-08-31T11:11:49.545Z",
+ "chiamateRimaste": "156",
  "problemi": [],
  "giorniVisti": [
   {
    "giorno": "2026-08-31",
-   "gambe": 29
+   "gambe": 26
   },
   {
    "giorno": "2026-09-01",
-   "gambe": 13
+   "gambe": 14
   },
   {
    "giorno": "2026-09-02",
-   "gambe": 2
+   "gambe": 4
   },
   {
    "giorno": "2026-09-03",
@@ -25,7 +25,7 @@
   },
   {
    "giorno": "2026-09-05",
-   "gambe": 24
+   "gambe": 25
   },
   {
    "giorno": "2026-09-06",
@@ -37,15 +37,19 @@
   },
   {
    "giorno": "2026-09-11",
-   "gambe": 2
+   "gambe": 3
   },
   {
    "giorno": "2026-09-12",
-   "gambe": 11
+   "gambe": 20
   },
   {
    "giorno": "2026-09-13",
-   "gambe": 3
+   "gambe": 7
+  },
+  {
+   "giorno": "2026-09-14",
+   "gambe": 1
   },
   {
    "giorno": "2026-10-21",
@@ -54,34 +58,19 @@
  ],
  "betfair": [
   {
-   "idEvento": "45471561852379a60916d37b7cc70471",
+   "idEvento": "62715ea6a13dd1d2808e093443e6e44e",
    "sportKey": "tennis_wta_us_open",
-   "casa": "Gabriela Knutson",
-   "trasf": "Eva Lys",
+   "casa": "Qinwen Zheng",
+   "trasf": "Kristina Liutova",
    "campionato": "WTA US Open",
-   "giorno": "2026-09-01",
+   "giorno": "2026-08-31",
    "ora": "17:00",
-   "esito": "2",
-   "dice": "vince Eva Lys",
-   "quota": 1.58,
-   "quotaMercato": 1.61,
-   "prob": 0.637,
-   "valore": 0.006
-  },
-  {
-   "idEvento": "14acc7d947aa713ea342a0851e816f71",
-   "sportKey": "tennis_wta_us_open",
-   "casa": "Lucie Havlickova",
-   "trasf": "Anna Bondár",
-   "campionato": "WTA US Open",
-   "giorno": "2026-09-01",
-   "ora": "18:10",
-   "esito": "2",
-   "dice": "vince Anna Bondár",
-   "quota": 1.59,
-   "quotaMercato": 1.62,
-   "prob": 0.627,
-   "valore": -0.003
+   "esito": "1",
+   "dice": "vince Qinwen Zheng",
+   "quota": 1.66,
+   "quotaMercato": 1.69,
+   "prob": 0.608,
+   "valore": 0.009
   },
   {
    "idEvento": "d6239b51f0349d2f5c3a88208640908e",
@@ -93,10 +82,40 @@
    "ora": "19:00",
    "esito": "2",
    "dice": "vince Maria Timofeeva",
-   "quota": 1.49,
-   "quotaMercato": 1.52,
-   "prob": 0.669,
-   "valore": -0.004
+   "quota": 1.5,
+   "quotaMercato": 1.53,
+   "prob": 0.67,
+   "valore": 0.005
+  },
+  {
+   "idEvento": "83113155c262a8ceaca78b7793eae8cd",
+   "sportKey": "tennis_wta_us_open",
+   "casa": "Oleksandra Oliynykova",
+   "trasf": "Reese Brantmeier",
+   "campionato": "WTA US Open",
+   "giorno": "2026-09-01",
+   "ora": "21:30",
+   "esito": "2",
+   "dice": "vince Reese Brantmeier",
+   "quota": 2.01,
+   "quotaMercato": 2.06,
+   "prob": 0.499,
+   "valore": 0.004
+  },
+  {
+   "idEvento": "45471561852379a60916d37b7cc70471",
+   "sportKey": "tennis_wta_us_open",
+   "casa": "Gabriela Knutson",
+   "trasf": "Eva Lys",
+   "campionato": "WTA US Open",
+   "giorno": "2026-09-01",
+   "ora": "17:00",
+   "esito": "2",
+   "dice": "vince Eva Lys",
+   "quota": 1.57,
+   "quotaMercato": 1.6,
+   "prob": 0.637,
+   "valore": 0
   },
   {
    "idEvento": "4711d7991f136c33418ce5fdc84c0337",
@@ -108,70 +127,70 @@
    "ora": "19:50",
    "esito": "2",
    "dice": "vince Leolia Jeanjean",
-   "quota": 1.52,
-   "quotaMercato": 1.55,
+   "quota": 1.53,
+   "quotaMercato": 1.56,
    "prob": 0.653,
-   "valore": -0.008
+   "valore": -0.001
   },
   {
-   "idEvento": "5618055f6a5e8432d9f93cad55e02ea9",
+   "idEvento": "64b6d0d2fc0289c705b8006982e8c5d6",
    "sportKey": "tennis_atp_us_open",
-   "casa": "Dalibor Svrcina",
-   "trasf": "Valentin Royer",
+   "casa": "Jaume Munar",
+   "trasf": "Arthur Rinderknech",
    "campionato": "ATP US Open",
+   "giorno": "2026-09-02",
+   "ora": "17:00",
+   "esito": "2",
+   "dice": "vince Arthur Rinderknech",
+   "quota": 1.5,
+   "quotaMercato": 1.53,
+   "prob": 0.664,
+   "valore": -0.004
+  },
+  {
+   "idEvento": "bef16f9c9e1c2fbd391d3a1df28ae3e4",
+   "sportKey": "tennis_wta_us_open",
+   "casa": "Elisabetta Cocciaretto",
+   "trasf": "Katerina Siniakova",
+   "campionato": "WTA US Open",
    "giorno": "2026-08-31",
+   "ora": "22:05",
+   "esito": "2",
+   "dice": "vince Katerina Siniakova",
+   "quota": 1.57,
+   "quotaMercato": 1.6,
+   "prob": 0.634,
+   "valore": -0.004
+  },
+  {
+   "idEvento": "b52170b614fe11f24729a0a04a208240",
+   "sportKey": "soccer_portugal_primeira_liga",
+   "casa": "Braga",
+   "trasf": "Vitória SC",
+   "campionato": "Portogallo",
+   "giorno": "2026-08-31",
+   "ora": "21:15",
+   "esito": "1",
+   "dice": "Braga",
+   "quota": 1.82,
+   "quotaMercato": 1.86,
+   "prob": 0.545,
+   "valore": -0.007
+  },
+  {
+   "idEvento": "629f9cccd1c43d54787834c737265f7d",
+   "sportKey": "tennis_atp_us_open",
+   "casa": "Juan Manuel Cerundolo",
+   "trasf": "Arthur Gea",
+   "campionato": "ATP US Open",
+   "giorno": "2026-09-01",
    "ora": "19:20",
    "esito": "1",
-   "dice": "vince Dalibor Svrcina",
-   "quota": 2.05,
-   "quotaMercato": 2.1,
-   "prob": 0.482,
-   "valore": -0.011
-  },
-  {
-   "idEvento": "5d837e7613feb7b0d4068eb7f4f38b57",
-   "sportKey": "tennis_wta_us_open",
-   "casa": "Maja Chwalinska",
-   "trasf": "Taylor Townsend",
-   "campionato": "WTA US Open",
-   "giorno": "2026-08-31",
-   "ora": "18:10",
-   "esito": "2",
-   "dice": "vince Taylor Townsend",
-   "quota": 1.46,
-   "quotaMercato": 1.48,
-   "prob": 0.677,
-   "valore": -0.011
-  },
-  {
-   "idEvento": "8fa0437a44d41f7261e9fd8899ed690c",
-   "sportKey": "tennis_wta_us_open",
-   "casa": "Magda Linette",
-   "trasf": "Francesca Jones",
-   "campionato": "WTA US Open",
-   "giorno": "2026-09-01",
-   "ora": "21:00",
-   "esito": "1",
-   "dice": "vince Magda Linette",
-   "quota": 1.89,
-   "quotaMercato": 1.94,
-   "prob": 0.523,
-   "valore": -0.011
-  },
-  {
-   "idEvento": "78d4dfda8c2dc27bdc3ec26c2654f8fc",
-   "sportKey": "soccer_epl",
-   "casa": "Arsenal",
-   "trasf": "Chelsea",
-   "campionato": "Premier League",
-   "giorno": "2026-09-06",
-   "ora": "17:30",
-   "esito": "1",
-   "dice": "Arsenal",
-   "quota": 1.73,
-   "quotaMercato": 1.77,
-   "prob": 0.571,
-   "valore": -0.012
+   "dice": "vince Juan Manuel Cerundolo",
+   "quota": 2.03,
+   "quotaMercato": 2.24,
+   "prob": 0.489,
+   "valore": -0.007
   },
   {
    "idEvento": "a216f3e5b5e804512b4c4280b04a1ced",
@@ -184,83 +203,53 @@
    "esito": "2",
    "dice": "vince Benjamin Bonzi",
    "quota": 1.48,
-   "quotaMercato": 1.51,
-   "prob": 0.668,
-   "valore": -0.012
+   "quotaMercato": 1.5,
+   "prob": 0.669,
+   "valore": -0.009
   },
   {
-   "idEvento": "54474590ac67d3e5c69c65ffcd6fccc1",
+   "idEvento": "4c3922703c8ebd874b7451609799917b",
    "sportKey": "tennis_atp_us_open",
-   "casa": "Jurij Rodionov",
-   "trasf": "Giovanni Mpetshi Perricard",
+   "casa": "Yannick Hanfmann",
+   "trasf": "Alejandro Tabilo",
    "campionato": "ATP US Open",
    "giorno": "2026-08-31",
-   "ora": "18:10",
+   "ora": "20:25",
    "esito": "2",
-   "dice": "vince Giovanni Mpetshi Perricard",
-   "quota": 1.86,
-   "quotaMercato": 1.9,
-   "prob": 0.53,
-   "valore": -0.014
+   "dice": "vince Alejandro Tabilo",
+   "quota": 1.78,
+   "quotaMercato": 1.82,
+   "prob": 0.556,
+   "valore": -0.01
   },
   {
-   "idEvento": "4c050fb719e296c6657aa66040dfabac",
-   "sportKey": "tennis_wta_us_open",
-   "casa": "Tatjana Maria",
-   "trasf": "Jelena Ostapenko",
-   "campionato": "WTA US Open",
-   "giorno": "2026-09-01",
-   "ora": "18:40",
-   "esito": "2",
-   "dice": "vince Jelena Ostapenko",
-   "quota": 1.62,
-   "quotaMercato": 1.65,
-   "prob": 0.608,
-   "valore": -0.015
-  },
-  {
-   "idEvento": "29ac78994462bce061f8d01e93c7b3f0",
-   "sportKey": "soccer_italy_serie_a",
-   "casa": "Lecce",
-   "trasf": "AS Roma",
-   "campionato": "Serie A",
+   "idEvento": "5618055f6a5e8432d9f93cad55e02ea9",
+   "sportKey": "tennis_atp_us_open",
+   "casa": "Dalibor Svrcina",
+   "trasf": "Valentin Royer",
+   "campionato": "ATP US Open",
    "giorno": "2026-08-31",
-   "ora": "18:30",
+   "ora": "19:20",
    "esito": "2",
-   "dice": "AS Roma",
-   "quota": 1.48,
-   "quotaMercato": 1.65,
-   "prob": 0.664,
-   "valore": -0.018
+   "dice": "vince Valentin Royer",
+   "quota": 1.97,
+   "quotaMercato": 2.02,
+   "prob": 0.501,
+   "valore": -0.012
   }
  ],
  "gioca": true,
  "giorno": "2026-08-31",
  "tipo": "TRIPLA",
- "quota": 2.17,
- "probabilita": 0.499,
- "costo": -0.083,
+ "quota": 2.05,
+ "probabilita": 0.487,
+ "costo": 0.001,
  "puntata": 5,
- "vincita": 10.85,
- "minimo888": 2.02,
+ "vincita": 10.25,
+ "minimo888": 1.91,
  "puntaEntro": "16:30",
  "primaPartita": "17:00",
  "gambe": [
-  {
-   "idEvento": "d6976d31eec05ff08ac656eb16d143a8",
-   "sportKey": "tennis_atp_us_open",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Matteo Berrettini",
-   "trasf": "Stan Wawrinka",
-   "campionato": "ATP US Open",
-   "ora": "19:20",
-   "esito": "1",
-   "dice": "vince Matteo Berrettini",
-   "quota": 1.26,
-   "quotaBF": 1.25,
-   "prob": 0.801,
-   "nSiti": 22
-  },
   {
    "idEvento": "2e6a504d2440e0a26c8d81fe415762f3",
    "sportKey": "tennis_wta_us_open",
@@ -271,42 +260,29 @@
    "ora": "17:00",
    "esito": "1",
    "dice": "vince Lilli Tagger",
-   "quota": 1.25,
-   "quotaBF": 1.24,
-   "prob": 0.796,
-   "nSiti": 23
-  },
-  {
-   "idEvento": "29ac78994462bce061f8d01e93c7b3f0",
-   "sportKey": "soccer_italy_serie_a",
-   "link": "https://sport.888casino.it/#/filter/football/italy/serie_a",
-   "casa": "Lecce",
-   "trasf": "AS Roma",
-   "campionato": "Serie A",
-   "ora": "18:30",
-   "esito": "12",
-   "dice": "no pareggio",
-   "quota": 1.38,
-   "quotaBF": null,
-   "prob": 0.783,
-   "nSiti": 24
-  }
- ],
- "altre": [
-  {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Stefanos Tsitsipas",
-   "trasf": "Arthur Fils",
-   "campionato": "ATP US Open",
-   "ora": "17:00",
-   "esito": "2",
-   "dice": "vince Arthur Fils",
    "quota": 1.26,
-   "quotaBF": 1.23,
-   "prob": 0.783,
+   "quotaBF": 1.25,
+   "prob": 0.79,
    "nSiti": 23
   },
   {
+   "idEvento": "d6976d31eec05ff08ac656eb16d143a8",
+   "sportKey": "tennis_atp_us_open",
+   "link": "https://sport.888casino.it/#/home",
+   "casa": "Matteo Berrettini",
+   "trasf": "Stan Wawrinka",
+   "campionato": "ATP US Open",
+   "ora": "20:00",
+   "esito": "1",
+   "dice": "vince Matteo Berrettini",
+   "quota": 1.27,
+   "quotaBF": 1.25,
+   "prob": 0.786,
+   "nSiti": 23
+  },
+  {
+   "idEvento": "2c49e9d1ef855f62962b915e773f906d",
+   "sportKey": "soccer_epl",
    "link": "https://sport.888casino.it/#/filter/football/england/premier_league",
    "casa": "Aston Villa",
    "trasf": "Arsenal",
@@ -314,36 +290,38 @@
    "ora": "21:00",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.29,
+   "quota": 1.28,
    "quotaBF": null,
-   "prob": 0.782,
+   "prob": 0.785,
    "nSiti": 25
+  }
+ ],
+ "altre": [
+  {
+   "link": "https://sport.888casino.it/#/filter/football/italy/serie_a",
+   "casa": "Lecce",
+   "trasf": "AS Roma",
+   "campionato": "Serie A",
+   "ora": "18:30",
+   "esito": "12",
+   "dice": "no pareggio",
+   "quota": 1.31,
+   "quotaBF": null,
+   "prob": 0.784,
+   "nSiti": 24
   },
   {
    "link": "https://sport.888casino.it/#/home",
    "casa": "Roman Andres Burruchaga",
    "trasf": "Karen Khachanov",
    "campionato": "ATP US Open",
-   "ora": "21:40",
+   "ora": "21:50",
    "esito": "2",
    "dice": "vince Karen Khachanov",
    "quota": 1.27,
    "quotaBF": 1.26,
-   "prob": 0.778,
-   "nSiti": 20
-  },
-  {
-   "link": "https://sport.888casino.it/#/filter/football/italy/serie_a",
-   "casa": "Atalanta BC",
-   "trasf": "Bologna",
-   "campionato": "Serie A",
-   "ora": "20:45",
-   "esito": "1X",
-   "dice": "Atalanta BC o pareggio",
-   "quota": 1.29,
-   "quotaBF": null,
-   "prob": 0.771,
-   "nSiti": 24
+   "prob": 0.777,
+   "nSiti": 22
   },
   {
    "link": "https://sport.888casino.it/#/home",
@@ -357,6 +335,32 @@
    "quotaBF": 1.27,
    "prob": 0.77,
    "nSiti": 23
+  },
+  {
+   "link": "https://sport.888casino.it/#/filter/football/italy/serie_a",
+   "casa": "Atalanta BC",
+   "trasf": "Bologna",
+   "campionato": "Serie A",
+   "ora": "20:45",
+   "esito": "1X",
+   "dice": "Atalanta BC o pareggio",
+   "quota": 1.3,
+   "quotaBF": null,
+   "prob": 0.769,
+   "nSiti": 24
+  },
+  {
+   "link": "https://sport.888casino.it/#/filter/football/spain/la_liga",
+   "casa": "CA Osasuna",
+   "trasf": "Getafe",
+   "campionato": "Liga",
+   "ora": "19:30",
+   "esito": "1X",
+   "dice": "CA Osasuna o pareggio",
+   "quota": 1.3,
+   "quotaBF": null,
+   "prob": 0.768,
+   "nSiti": 21
   }
  ]
 }
