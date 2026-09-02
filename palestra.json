@@ -1,23 +1,23 @@
 {
-  "cassa": 4.29,
+  "cassa": 2.86,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-09-01",
-      "idEvento": "629f9cccd1c43d54787834c737265f7d",
-      "sportKey": "tennis_atp_us_open",
-      "casa": "Juan Manuel Cerundolo",
-      "trasf": "Arthur Gea",
-      "campionato": "ATP US Open",
-      "ora": "19:20",
-      "giorno": "2026-09-01",
-      "esito": "1",
-      "dice": "vince Juan Manuel Cerundolo",
-      "quota": 2.14,
-      "quotaMercato": 2.2,
-      "prob": 0.473,
-      "valore": 0.011,
-      "puntata": 2.14
+      "data": "2026-09-02",
+      "idEvento": "9e30948c157623afa7bd240fddbd895b",
+      "sportKey": "tennis_wta_us_open",
+      "casa": "Emma Navarro",
+      "trasf": "Caty McNally",
+      "campionato": "WTA US Open",
+      "ora": "18:40",
+      "giorno": "2026-09-02",
+      "esito": "2",
+      "dice": "vince Caty McNally",
+      "quota": 2.18,
+      "quotaMercato": 2.24,
+      "prob": 0.46,
+      "valore": 0.003,
+      "puntata": 1.43
     }
   ],
   "storico": [
@@ -125,10 +125,31 @@
       "vinta": true,
       "incasso": 1.49,
       "cassaDopo": 6.43
+    },
+    {
+      "data": "2026-09-01",
+      "idEvento": "629f9cccd1c43d54787834c737265f7d",
+      "sportKey": "tennis_atp_us_open",
+      "casa": "Juan Manuel Cerundolo",
+      "trasf": "Arthur Gea",
+      "campionato": "ATP US Open",
+      "ora": "19:20",
+      "giorno": "2026-09-01",
+      "esito": "1",
+      "dice": "vince Juan Manuel Cerundolo",
+      "quota": 2.14,
+      "quotaMercato": 2.2,
+      "prob": 0.473,
+      "valore": 0.011,
+      "puntata": 2.14,
+      "risultato": "2-3",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 4.29
     }
   ],
-  "totale": 6.43,
+  "totale": 4.29,
   "vinte": 2,
-  "perse": 3,
-  "aggiornato": "2026-09-01T11:51:49.745Z"
+  "perse": 4,
+  "aggiornato": "2026-09-02T09:09:27.618Z"
 }
