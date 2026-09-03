@@ -1,23 +1,23 @@
 {
-  "cassa": 2.86,
+  "cassa": 1.86,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-09-02",
-      "idEvento": "9e30948c157623afa7bd240fddbd895b",
+      "data": "2026-09-03",
+      "idEvento": "7db1a8aa8a9f13abda0764ab4e89c6b1",
       "sportKey": "tennis_wta_us_open",
-      "casa": "Emma Navarro",
-      "trasf": "Caty McNally",
+      "casa": "Jasmine Paolini",
+      "trasf": "Sorana Cirstea",
       "campionato": "WTA US Open",
-      "ora": "18:40",
-      "giorno": "2026-09-02",
+      "ora": "17:00",
+      "giorno": "2026-09-04",
       "esito": "2",
-      "dice": "vince Caty McNally",
-      "quota": 2.18,
-      "quotaMercato": 2.24,
-      "prob": 0.46,
-      "valore": 0.003,
-      "puntata": 1.43
+      "dice": "vince Sorana Cirstea",
+      "quota": 1.55,
+      "quotaMercato": 1.58,
+      "prob": 0.649,
+      "valore": 0.006,
+      "puntata": 1
     }
   ],
   "storico": [
@@ -146,10 +146,31 @@
       "vinta": false,
       "incasso": 0,
       "cassaDopo": 4.29
+    },
+    {
+      "data": "2026-09-02",
+      "idEvento": "9e30948c157623afa7bd240fddbd895b",
+      "sportKey": "tennis_wta_us_open",
+      "casa": "Emma Navarro",
+      "trasf": "Caty McNally",
+      "campionato": "WTA US Open",
+      "ora": "18:40",
+      "giorno": "2026-09-02",
+      "esito": "2",
+      "dice": "vince Caty McNally",
+      "quota": 2.18,
+      "quotaMercato": 2.24,
+      "prob": 0.46,
+      "valore": 0.003,
+      "puntata": 1.43,
+      "risultato": "2-1",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 2.86
     }
   ],
-  "totale": 4.29,
+  "totale": 2.86,
   "vinte": 2,
-  "perse": 4,
-  "aggiornato": "2026-09-02T11:32:57.563Z"
+  "perse": 5,
+  "aggiornato": "2026-09-03T09:16:08.584Z"
 }
