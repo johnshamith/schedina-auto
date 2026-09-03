@@ -58,5 +58,17 @@
   "clv": 1.6,
   "minutiPrima": 73,
   "quando": "2026-09-02T17:46:48.282Z"
+ },
+ {
+  "chiave": "2026-09-03|Real Sociedad|Celta Vigo|1X",
+  "giorno": "2026-09-03",
+  "casa": "Real Sociedad",
+  "trasf": "Celta Vigo",
+  "esito": "1X",
+  "nostra": 1.29,
+  "chiusura": 1.21,
+  "clv": 6.6,
+  "minutiPrima": 78,
+  "quando": "2026-09-03T17:42:12.783Z"
  }
 ]
