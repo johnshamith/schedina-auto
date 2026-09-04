@@ -70,5 +70,29 @@
   "clv": 6.6,
   "minutiPrima": 78,
   "quando": "2026-09-03T17:42:12.783Z"
+ },
+ {
+  "chiave": "2026-09-04|Real Betis|Real Madrid|12",
+  "giorno": "2026-09-04",
+  "casa": "Real Betis",
+  "trasf": "Real Madrid",
+  "esito": "12",
+  "nostra": 1.26,
+  "chiusura": 1.18,
+  "clv": 6.8,
+  "minutiPrima": 91,
+  "quando": "2026-09-04T17:29:29.257Z"
+ },
+ {
+  "chiave": "2026-09-04|Emma Navarro|Karolina Muchova|2",
+  "giorno": "2026-09-04",
+  "casa": "Emma Navarro",
+  "trasf": "Karolina Muchova",
+  "esito": "2",
+  "nostra": 1.27,
+  "chiusura": 1.23,
+  "clv": 3.3,
+  "minutiPrima": 21,
+  "quando": "2026-09-04T17:29:29.722Z"
  }
 ]
