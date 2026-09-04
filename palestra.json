@@ -1,5 +1,5 @@
 {
-  "cassa": 1.86,
+  "cassa": 0.86,
   "iniziale": 15,
   "aperte": [
     {
@@ -17,6 +17,23 @@
       "quotaMercato": 1.58,
       "prob": 0.649,
       "valore": 0.006,
+      "puntata": 1
+    },
+    {
+      "data": "2026-09-04",
+      "idEvento": "c54ec41ffa7197a418bc22c602705e45",
+      "sportKey": "tennis_atp_us_open",
+      "casa": "Tomas Martin Etcheverry",
+      "trasf": "Mariano Navone",
+      "campionato": "ATP US Open",
+      "ora": "22:00",
+      "giorno": "2026-09-04",
+      "esito": "2",
+      "dice": "vince Mariano Navone",
+      "quota": 1.92,
+      "quotaMercato": 1.97,
+      "prob": 0.516,
+      "valore": -0.008,
       "puntata": 1
     }
   ],
@@ -172,5 +189,5 @@
   "totale": 2.86,
   "vinte": 2,
   "perse": 5,
-  "aggiornato": "2026-09-03T11:29:03.743Z"
+  "aggiornato": "2026-09-04T09:09:48.320Z"
 }
