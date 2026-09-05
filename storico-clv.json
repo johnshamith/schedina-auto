@@ -118,5 +118,17 @@
   "clv": 4.9,
   "minutiPrima": 21,
   "quando": "2026-09-05T14:53:59.587Z"
+ },
+ {
+  "chiave": "2026-09-05|Villarreal|Deportivo La Coruña|12",
+  "giorno": "2026-09-05",
+  "casa": "Villarreal",
+  "trasf": "Deportivo La Coruña",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.19,
+  "clv": 7.6,
+  "minutiPrima": 59,
+  "quando": "2026-09-05T18:01:15.499Z"
  }
 ]
