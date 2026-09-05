@@ -94,5 +94,29 @@
   "clv": 3.3,
   "minutiPrima": 21,
   "quando": "2026-09-04T17:29:29.722Z"
+ },
+ {
+  "chiave": "2026-09-05|Mirra Andreeva|Nikola Bartunkova|1",
+  "giorno": "2026-09-05",
+  "casa": "Mirra Andreeva",
+  "trasf": "Nikola Bartunkova",
+  "esito": "1",
+  "nostra": 1.27,
+  "chiusura": 1.22,
+  "clv": 4.1,
+  "minutiPrima": 76,
+  "quando": "2026-09-05T14:53:59.117Z"
+ },
+ {
+  "chiave": "2026-09-05|RC Lens|Lorient|12",
+  "giorno": "2026-09-05",
+  "casa": "RC Lens",
+  "trasf": "Lorient",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.22,
+  "clv": 4.9,
+  "minutiPrima": 21,
+  "quando": "2026-09-05T14:53:59.587Z"
  }
 ]
