@@ -142,5 +142,17 @@
   "clv": 6.7,
   "minutiPrima": 27,
   "quando": "2026-09-06T12:02:39.763Z"
+ },
+ {
+  "chiave": "2026-09-06|Vitória SC|Casa Pia|12",
+  "giorno": "2026-09-06",
+  "casa": "Vitória SC",
+  "trasf": "Casa Pia",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.2,
+  "clv": 6.7,
+  "minutiPrima": 12,
+  "quando": "2026-09-06T16:47:34.448Z"
  }
 ]
