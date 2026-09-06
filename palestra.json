@@ -1,22 +1,22 @@
 {
-  "cassa": 1.41,
+  "cassa": 0.41,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-09-05",
-      "idEvento": "46c9fb0b0a11d55479f393e8e1c4710b",
+      "data": "2026-09-06",
+      "idEvento": "772774e181b7af9eada58d283cd8f586",
       "sportKey": "tennis_atp_us_open",
-      "casa": "Alexander Blockx",
-      "trasf": "Flavio Cobolli",
+      "casa": "Francisco Cerundolo",
+      "trasf": "Alexander Blockx",
       "campionato": "ATP US Open",
-      "ora": "18:10",
-      "giorno": "2026-09-05",
+      "ora": "17:00",
+      "giorno": "2026-09-07",
       "esito": "2",
-      "dice": "vince Flavio Cobolli",
-      "quota": 1.97,
-      "quotaMercato": 2.02,
-      "prob": 0.507,
-      "valore": -0.001,
+      "dice": "vince Alexander Blockx",
+      "quota": 1.66,
+      "quotaMercato": 1.69,
+      "prob": 0.594,
+      "valore": -0.014,
       "puntata": 1
     }
   ],
@@ -209,10 +209,31 @@
       "vinta": false,
       "incasso": 0,
       "cassaDopo": 2.41
+    },
+    {
+      "data": "2026-09-05",
+      "idEvento": "46c9fb0b0a11d55479f393e8e1c4710b",
+      "sportKey": "tennis_atp_us_open",
+      "casa": "Alexander Blockx",
+      "trasf": "Flavio Cobolli",
+      "campionato": "ATP US Open",
+      "ora": "18:10",
+      "giorno": "2026-09-05",
+      "esito": "2",
+      "dice": "vince Flavio Cobolli",
+      "quota": 1.97,
+      "quotaMercato": 2.02,
+      "prob": 0.507,
+      "valore": -0.001,
+      "puntata": 1,
+      "risultato": "3-1",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 1.41
     }
   ],
-  "totale": 2.41,
+  "totale": 1.41,
   "vinte": 3,
-  "perse": 6,
-  "aggiornato": "2026-09-05T10:47:24.013Z"
+  "perse": 7,
+  "aggiornato": "2026-09-06T09:00:14.125Z"
 }
