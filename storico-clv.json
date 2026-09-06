@@ -130,5 +130,17 @@
   "clv": 7.6,
   "minutiPrima": 59,
   "quando": "2026-09-05T18:01:15.499Z"
+ },
+ {
+  "chiave": "2026-09-06|SC Telstar|SC Cambuur|12",
+  "giorno": "2026-09-06",
+  "casa": "SC Telstar",
+  "trasf": "SC Cambuur",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.2,
+  "clv": 6.7,
+  "minutiPrima": 27,
+  "quando": "2026-09-06T12:02:39.763Z"
  }
 ]
