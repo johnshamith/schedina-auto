@@ -154,5 +154,17 @@
   "clv": 6.7,
   "minutiPrima": 12,
   "quando": "2026-09-06T16:47:34.448Z"
+ },
+ {
+  "chiave": "2026-09-07|Iga Swiatek|Qinwen Zheng|1",
+  "giorno": "2026-09-07",
+  "casa": "Iga Swiatek",
+  "trasf": "Qinwen Zheng",
+  "esito": "1",
+  "nostra": 1.25,
+  "chiusura": 1.2,
+  "clv": 4.2,
+  "minutiPrima": 83,
+  "quando": "2026-09-07T14:07:02.591Z"
  }
 ]
