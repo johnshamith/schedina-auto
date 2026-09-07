@@ -1,11 +1,11 @@
 {
- "quando": "2026-09-07T09:48:13.065Z",
- "chiamateRimaste": "362",
+ "quando": "2026-09-07T12:50:51.206Z",
+ "chiamateRimaste": "346",
  "problemi": [],
  "giorniVisti": [
   {
    "giorno": "2026-09-07",
-   "gambe": 7
+   "gambe": 6
   },
   {
    "giorno": "2026-09-08",
@@ -25,7 +25,7 @@
   },
   {
    "giorno": "2026-09-12",
-   "gambe": 30
+   "gambe": 31
   },
   {
    "giorno": "2026-09-13",
@@ -36,16 +36,20 @@
    "gambe": 5
   },
   {
+   "giorno": "2026-09-15",
+   "gambe": 3
+  },
+  {
    "giorno": "2026-09-18",
-   "gambe": 2
+   "gambe": 3
   },
   {
    "giorno": "2026-09-19",
-   "gambe": 9
+   "gambe": 18
   },
   {
    "giorno": "2026-09-20",
-   "gambe": 8
+   "gambe": 14
   },
   {
    "giorno": "2026-10-21",
@@ -53,6 +57,21 @@
   }
  ],
  "betfair": [
+  {
+   "idEvento": "b437f1c16c351016133cef7395600f84",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "FC Schalke 04",
+   "trasf": "Elversberg",
+   "campionato": "Bundesliga",
+   "giorno": "2026-09-20",
+   "ora": "17:30",
+   "esito": "1",
+   "dice": "FC Schalke 04",
+   "quota": 1.95,
+   "quotaMercato": 2,
+   "prob": 0.528,
+   "valore": 0.03
+  },
   {
    "idEvento": "3dba40cdf22e962c0f6f6c940ef01850",
    "sportKey": "soccer_italy_serie_a",
@@ -64,24 +83,54 @@
    "esito": "1",
    "dice": "Genoa",
    "quota": 2.14,
-   "quotaMercato": 2.2,
-   "prob": 0.47,
-   "valore": 0.006
+   "quotaMercato": 2.22,
+   "prob": 0.468,
+   "valore": 0.002
   },
   {
-   "idEvento": "c97a93b915115f2b4659fb88262b71f8",
-   "sportKey": "soccer_epl",
-   "casa": "Coventry City",
-   "trasf": "Brighton and Hove Albion",
-   "campionato": "Premier League",
-   "giorno": "2026-09-13",
-   "ora": "15:00",
+   "idEvento": "988bf24f295c26c84ff1890b0df16cdf",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "CA Osasuna",
+   "trasf": "Espanyol",
+   "campionato": "Liga",
+   "giorno": "2026-09-12",
+   "ora": "16:15",
+   "esito": "1",
+   "dice": "CA Osasuna",
+   "quota": 2.05,
+   "quotaMercato": 2.1,
+   "prob": 0.483,
+   "valore": -0.009
+  },
+  {
+   "idEvento": "98133182ffe74da0bd09dd9483a05dbb",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "Augsburg",
+   "trasf": "Bayer Leverkusen",
+   "campionato": "Bundesliga",
+   "giorno": "2026-09-12",
+   "ora": "15:30",
    "esito": "2",
-   "dice": "Brighton and Hove Albion",
-   "quota": 1.9,
-   "quotaMercato": 1.95,
-   "prob": 0.525,
-   "valore": -0.003
+   "dice": "Bayer Leverkusen",
+   "quota": 1.8,
+   "quotaMercato": 1.84,
+   "prob": 0.551,
+   "valore": -0.009
+  },
+  {
+   "idEvento": "d09677edcf1fb82ad75a8df58bb26eab",
+   "sportKey": "soccer_epl",
+   "casa": "Aston Villa",
+   "trasf": "Nottingham Forest",
+   "campionato": "Premier League",
+   "giorno": "2026-09-12",
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Aston Villa",
+   "quota": 2.18,
+   "quotaMercato": 2.24,
+   "prob": 0.454,
+   "valore": -0.011
   },
   {
    "idEvento": "27eaaab4498bb2984321e5f81f0ff9fd",
@@ -99,34 +148,64 @@
    "valore": -0.012
   },
   {
-   "idEvento": "988bf24f295c26c84ff1890b0df16cdf",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "CA Osasuna",
-   "trasf": "Espanyol",
-   "campionato": "Liga",
-   "giorno": "2026-09-12",
-   "ora": "16:15",
-   "esito": "1",
-   "dice": "CA Osasuna",
-   "quota": 2.05,
-   "quotaMercato": 2.1,
-   "prob": 0.481,
+   "idEvento": "27072c6b8013974edf991fa5e6994566",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Le Mans FC",
+   "trasf": "RC Lens",
+   "campionato": "Ligue 1",
+   "giorno": "2026-09-13",
+   "ora": "17:15",
+   "esito": "2",
+   "dice": "RC Lens",
+   "quota": 1.68,
+   "quotaMercato": 1.72,
+   "prob": 0.587,
    "valore": -0.014
   },
   {
-   "idEvento": "98133182ffe74da0bd09dd9483a05dbb",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "Augsburg",
-   "trasf": "Bayer Leverkusen",
-   "campionato": "Bundesliga",
-   "giorno": "2026-09-12",
-   "ora": "15:30",
-   "esito": "2",
-   "dice": "Bayer Leverkusen",
-   "quota": 1.79,
-   "quotaMercato": 1.83,
-   "prob": 0.551,
+   "idEvento": "82260e15a1cc2309da945f6cdd46459c",
+   "sportKey": "tennis_atp_us_open",
+   "casa": "Frances Tiafoe",
+   "trasf": "Alex Michelsen",
+   "campionato": "ATP US Open",
+   "giorno": "2026-09-08",
+   "ora": "17:30",
+   "esito": "1",
+   "dice": "vince Frances Tiafoe",
+   "quota": 1.7,
+   "quotaMercato": 1.74,
+   "prob": 0.58,
    "valore": -0.014
+  },
+  {
+   "idEvento": "f8521fd71632ad8f0f72ff4e6e05abb4",
+   "sportKey": "soccer_netherlands_eredivisie",
+   "casa": "NEC Nijmegen",
+   "trasf": "Excelsior",
+   "campionato": "Olanda",
+   "giorno": "2026-09-08",
+   "ora": "18:45",
+   "esito": "1",
+   "dice": "NEC Nijmegen",
+   "quota": 1.6,
+   "quotaMercato": 1.63,
+   "prob": 0.616,
+   "valore": -0.015
+  },
+  {
+   "idEvento": "772774e181b7af9eada58d283cd8f586",
+   "sportKey": "tennis_atp_us_open",
+   "casa": "Francisco Cerundolo",
+   "trasf": "Alexander Blockx",
+   "campionato": "ATP US Open",
+   "giorno": "2026-09-07",
+   "ora": "19:00",
+   "esito": "2",
+   "dice": "vince Alexander Blockx",
+   "quota": 1.64,
+   "quotaMercato": 1.67,
+   "prob": 0.6,
+   "valore": -0.016
   },
   {
    "idEvento": "63da4075a4ae406575fd3086b839fe49",
@@ -144,21 +223,6 @@
    "valore": -0.017
   },
   {
-   "idEvento": "82260e15a1cc2309da945f6cdd46459c",
-   "sportKey": "tennis_atp_us_open",
-   "casa": "Frances Tiafoe",
-   "trasf": "Alex Michelsen",
-   "campionato": "ATP US Open",
-   "giorno": "2026-09-08",
-   "ora": "17:30",
-   "esito": "1",
-   "dice": "vince Frances Tiafoe",
-   "quota": 1.65,
-   "quotaMercato": 1.7,
-   "prob": 0.596,
-   "valore": -0.017
-  },
-  {
    "idEvento": "fd30ca2b96bfa088e51bffddeb3b6e56",
    "sportKey": "soccer_italy_serie_a",
    "casa": "Atalanta BC",
@@ -172,74 +236,14 @@
    "quotaMercato": 1.61,
    "prob": 0.625,
    "valore": -0.018
-  },
-  {
-   "idEvento": "772774e181b7af9eada58d283cd8f586",
-   "sportKey": "tennis_atp_us_open",
-   "casa": "Francisco Cerundolo",
-   "trasf": "Alexander Blockx",
-   "campionato": "ATP US Open",
-   "giorno": "2026-09-07",
-   "ora": "19:00",
-   "esito": "2",
-   "dice": "vince Alexander Blockx",
-   "quota": 1.64,
-   "quotaMercato": 1.67,
-   "prob": 0.598,
-   "valore": -0.02
-  },
-  {
-   "idEvento": "0a91f850039ce571eb6e90b2eed15548",
-   "sportKey": "soccer_italy_serie_a",
-   "casa": "Sassuolo",
-   "trasf": "Juventus",
-   "campionato": "Serie A",
-   "giorno": "2026-09-13",
-   "ora": "20:45",
-   "esito": "2",
-   "dice": "Juventus",
-   "quota": 1.61,
-   "quotaMercato": 1.65,
-   "prob": 0.608,
-   "valore": -0.021
-  },
-  {
-   "idEvento": "b63aef4291a066e32644e591c19a235a",
-   "sportKey": "soccer_epl",
-   "casa": "Leeds United",
-   "trasf": "Crystal Palace",
-   "campionato": "Premier League",
-   "giorno": "2026-09-20",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Leeds United",
-   "quota": 2.05,
-   "quotaMercato": 2.1,
-   "prob": 0.477,
-   "valore": -0.022
-  },
-  {
-   "idEvento": "2bf762a4e4d1966d36e7ab7492078c62",
-   "sportKey": "tennis_atp_us_open",
-   "casa": "Karen Khachanov",
-   "trasf": "Learner Tien",
-   "campionato": "ATP US Open",
-   "giorno": "2026-09-07",
-   "ora": "22:00",
-   "esito": "2",
-   "dice": "vince Learner Tien",
-   "quota": 1.55,
-   "quotaMercato": 1.58,
-   "prob": 0.631,
-   "valore": -0.022
   }
  ],
  "gioca": true,
  "giorno": "2026-09-07",
  "tipo": "TRIPLA",
  "quota": 2.24,
- "probabilita": 0.445,
- "costo": 0.003,
+ "probabilita": 0.447,
+ "costo": -0.002,
  "puntata": 5,
  "vincita": 11.2,
  "minimo888": 2.08,
@@ -257,8 +261,8 @@
    "esito": "1",
    "dice": "vince Iga Swiatek",
    "quota": 1.25,
-   "quotaBF": 1.23,
-   "prob": 0.795,
+   "quotaBF": 1.22,
+   "prob": 0.803,
    "nSiti": 23
   },
   {
@@ -271,9 +275,9 @@
    "ora": "18:30",
    "esito": "1X",
    "dice": "Cagliari o pareggio",
-   "quota": 1.3,
+   "quota": 1.31,
    "quotaBF": null,
-   "prob": 0.765,
+   "prob": 0.764,
    "nSiti": 24
   },
   {
@@ -286,9 +290,9 @@
    "ora": "21:30",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.38,
+   "quota": 1.37,
    "quotaBF": null,
-   "prob": 0.732,
+   "prob": 0.729,
    "nSiti": 21
   }
  ],
@@ -303,7 +307,7 @@
    "dice": "no pareggio",
    "quota": 1.38,
    "quotaBF": null,
-   "prob": 0.723,
+   "prob": 0.722,
    "nSiti": 20
   },
   {
@@ -314,9 +318,9 @@
    "ora": "19:00",
    "esito": "1X",
    "dice": "Getafe o pareggio",
-   "quota": 1.4,
+   "quota": 1.41,
    "quotaBF": null,
-   "prob": 0.713,
+   "prob": 0.714,
    "nSiti": 21
   },
   {
@@ -327,23 +331,10 @@
    "ora": "20:45",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.45,
+   "quota": 1.44,
    "quotaBF": null,
    "prob": 0.69,
    "nSiti": 24
-  },
-  {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Karen Khachanov",
-   "trasf": "Learner Tien",
-   "campionato": "ATP US Open",
-   "ora": "22:00",
-   "esito": "2",
-   "dice": "vince Learner Tien",
-   "quota": 1.58,
-   "quotaBF": 1.55,
-   "prob": 0.631,
-   "nSiti": 23
   }
  ]
 }
