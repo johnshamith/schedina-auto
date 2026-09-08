@@ -1,22 +1,22 @@
 {
-  "cassa": 0.41,
+  "cassa": 1.07,
   "iniziale": 15,
   "aperte": [
     {
-      "data": "2026-09-06",
-      "idEvento": "772774e181b7af9eada58d283cd8f586",
-      "sportKey": "tennis_atp_us_open",
-      "casa": "Francisco Cerundolo",
-      "trasf": "Alexander Blockx",
-      "campionato": "ATP US Open",
-      "ora": "17:00",
-      "giorno": "2026-09-07",
-      "esito": "2",
-      "dice": "vince Alexander Blockx",
-      "quota": 1.66,
-      "quotaMercato": 1.69,
-      "prob": 0.594,
-      "valore": -0.014,
+      "data": "2026-09-08",
+      "idEvento": "f8521fd71632ad8f0f72ff4e6e05abb4",
+      "sportKey": "soccer_netherlands_eredivisie",
+      "casa": "NEC Nijmegen",
+      "trasf": "Excelsior",
+      "campionato": "Olanda",
+      "ora": "18:45",
+      "giorno": "2026-09-08",
+      "esito": "1",
+      "dice": "NEC Nijmegen",
+      "quota": 1.67,
+      "quotaMercato": 1.7,
+      "prob": 0.596,
+      "valore": -0.004,
       "puntata": 1
     }
   ],
@@ -230,10 +230,31 @@
       "vinta": false,
       "incasso": 0,
       "cassaDopo": 1.41
+    },
+    {
+      "data": "2026-09-06",
+      "idEvento": "772774e181b7af9eada58d283cd8f586",
+      "sportKey": "tennis_atp_us_open",
+      "casa": "Francisco Cerundolo",
+      "trasf": "Alexander Blockx",
+      "campionato": "ATP US Open",
+      "ora": "17:00",
+      "giorno": "2026-09-07",
+      "esito": "2",
+      "dice": "vince Alexander Blockx",
+      "quota": 1.66,
+      "quotaMercato": 1.69,
+      "prob": 0.594,
+      "valore": -0.014,
+      "puntata": 1,
+      "risultato": "1-3",
+      "vinta": true,
+      "incasso": 1.66,
+      "cassaDopo": 2.07
     }
   ],
-  "totale": 1.41,
-  "vinte": 3,
+  "totale": 2.07,
+  "vinte": 4,
   "perse": 7,
-  "aggiornato": "2026-09-07T12:50:51.429Z"
+  "aggiornato": "2026-09-08T09:12:31.073Z"
 }
