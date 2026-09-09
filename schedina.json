@@ -1,15 +1,11 @@
 {
- "quando": "2026-09-08T09:12:30.785Z",
- "chiamateRimaste": "331",
+ "quando": "2026-09-09T09:16:31.865Z",
+ "chiamateRimaste": "313",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-09-08",
-   "gambe": 2
-  },
-  {
    "giorno": "2026-09-09",
-   "gambe": 5
+   "gambe": 3
   },
   {
    "giorno": "2026-09-10",
@@ -17,11 +13,11 @@
   },
   {
    "giorno": "2026-09-11",
-   "gambe": 4
+   "gambe": 5
   },
   {
    "giorno": "2026-09-12",
-   "gambe": 31
+   "gambe": 30
   },
   {
    "giorno": "2026-09-13",
@@ -29,7 +25,7 @@
   },
   {
    "giorno": "2026-09-14",
-   "gambe": 7
+   "gambe": 8
   },
   {
    "giorno": "2026-09-15",
@@ -62,21 +58,6 @@
  ],
  "betfair": [
   {
-   "idEvento": "988bf24f295c26c84ff1890b0df16cdf",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "CA Osasuna",
-   "trasf": "Espanyol",
-   "campionato": "Liga",
-   "giorno": "2026-09-12",
-   "ora": "16:15",
-   "esito": "1",
-   "dice": "CA Osasuna",
-   "quota": 2.08,
-   "quotaMercato": 2.14,
-   "prob": 0.482,
-   "valore": 0.004
-  },
-  {
    "idEvento": "3dba40cdf22e962c0f6f6c940ef01850",
    "sportKey": "soccer_italy_serie_a",
    "casa": "Genoa",
@@ -86,10 +67,10 @@
    "ora": "15:00",
    "esito": "1",
    "dice": "Genoa",
-   "quota": 2.14,
-   "quotaMercato": 2.2,
+   "quota": 2.16,
+   "quotaMercato": 2.22,
    "prob": 0.467,
-   "valore": 0
+   "valore": 0.009
   },
   {
    "idEvento": "0a91f850039ce571eb6e90b2eed15548",
@@ -101,25 +82,10 @@
    "ora": "20:45",
    "esito": "2",
    "dice": "Juventus",
-   "quota": 1.67,
-   "quotaMercato": 1.7,
-   "prob": 0.597,
-   "valore": -0.003
-  },
-  {
-   "idEvento": "f8521fd71632ad8f0f72ff4e6e05abb4",
-   "sportKey": "soccer_netherlands_eredivisie",
-   "casa": "NEC Nijmegen",
-   "trasf": "Excelsior",
-   "campionato": "Olanda",
-   "giorno": "2026-09-08",
-   "ora": "18:45",
-   "esito": "1",
-   "dice": "NEC Nijmegen",
-   "quota": 1.67,
-   "quotaMercato": 1.7,
-   "prob": 0.596,
-   "valore": -0.004
+   "quota": 1.68,
+   "quotaMercato": 1.72,
+   "prob": 0.594,
+   "valore": -0.002
   },
   {
    "idEvento": "27eaaab4498bb2984321e5f81f0ff9fd",
@@ -133,8 +99,68 @@
    "dice": "Napoli",
    "quota": 1.78,
    "quotaMercato": 1.82,
-   "prob": 0.559,
-   "valore": -0.005
+   "prob": 0.557,
+   "valore": -0.009
+  },
+  {
+   "idEvento": "63da4075a4ae406575fd3086b839fe49",
+   "sportKey": "soccer_epl",
+   "casa": "Liverpool",
+   "trasf": "Fulham",
+   "campionato": "Premier League",
+   "giorno": "2026-09-12",
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Liverpool",
+   "quota": 1.47,
+   "quotaMercato": 1.5,
+   "prob": 0.673,
+   "valore": -0.011
+  },
+  {
+   "idEvento": "d02ff636f652d5b5bb65f6b24330c4fe",
+   "sportKey": "soccer_epl",
+   "casa": "Tottenham Hotspur",
+   "trasf": "Aston Villa",
+   "campionato": "Premier League",
+   "giorno": "2026-09-19",
+   "ora": "13:30",
+   "esito": "1",
+   "dice": "Tottenham Hotspur",
+   "quota": 2.03,
+   "quotaMercato": 2.08,
+   "prob": 0.486,
+   "valore": -0.014
+  },
+  {
+   "idEvento": "988bf24f295c26c84ff1890b0df16cdf",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "CA Osasuna",
+   "trasf": "Espanyol",
+   "campionato": "Liga",
+   "giorno": "2026-09-12",
+   "ora": "16:15",
+   "esito": "1",
+   "dice": "CA Osasuna",
+   "quota": 2.16,
+   "quotaMercato": 2.22,
+   "prob": 0.456,
+   "valore": -0.014
+  },
+  {
+   "idEvento": "88519a51012811476c9b4724eafc96c5",
+   "sportKey": "soccer_epl",
+   "casa": "Everton",
+   "trasf": "Ipswich Town",
+   "campionato": "Premier League",
+   "giorno": "2026-09-19",
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Everton",
+   "quota": 1.79,
+   "quotaMercato": 1.87,
+   "prob": 0.55,
+   "valore": -0.016
   },
   {
    "idEvento": "98133182ffe74da0bd09dd9483a05dbb",
@@ -148,52 +174,22 @@
    "dice": "Bayer Leverkusen",
    "quota": 1.8,
    "quotaMercato": 1.84,
-   "prob": 0.551,
-   "valore": -0.009
-  },
-  {
-   "idEvento": "aa0e2541144928205ab6d870953d42c2",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Villarreal",
-   "trasf": "Real Betis",
-   "campionato": "Liga",
-   "giorno": "2026-09-14",
-   "ora": "21:00",
-   "esito": "1",
-   "dice": "Villarreal",
-   "quota": 1.91,
-   "quotaMercato": 1.96,
-   "prob": 0.516,
-   "valore": -0.015
-  },
-  {
-   "idEvento": "27072c6b8013974edf991fa5e6994566",
-   "sportKey": "soccer_france_ligue_one",
-   "casa": "Le Mans FC",
-   "trasf": "RC Lens",
-   "campionato": "Ligue 1",
-   "giorno": "2026-09-13",
-   "ora": "17:15",
-   "esito": "2",
-   "dice": "RC Lens",
-   "quota": 1.7,
-   "quotaMercato": 1.74,
-   "prob": 0.579,
+   "prob": 0.546,
    "valore": -0.016
   },
   {
-   "idEvento": "c97a93b915115f2b4659fb88262b71f8",
-   "sportKey": "soccer_epl",
-   "casa": "Coventry City",
-   "trasf": "Brighton and Hove Albion",
-   "campionato": "Premier League",
-   "giorno": "2026-09-13",
-   "ora": "15:00",
+   "idEvento": "f8bbf7144d65713cf1bfc5b1940d310c",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Strasbourg",
+   "trasf": "AS Monaco",
+   "campionato": "Ligue 1",
+   "giorno": "2026-09-12",
+   "ora": "17:15",
    "esito": "2",
-   "dice": "Brighton and Hove Albion",
-   "quota": 1.88,
-   "quotaMercato": 1.93,
-   "prob": 0.523,
+   "dice": "AS Monaco",
+   "quota": 2.18,
+   "quotaMercato": 2.24,
+   "prob": 0.451,
    "valore": -0.017
   },
   {
@@ -208,67 +204,52 @@
    "dice": "Atalanta BC",
    "quota": 1.57,
    "quotaMercato": 1.61,
-   "prob": 0.625,
+   "prob": 0.626,
    "valore": -0.018
   },
   {
-   "idEvento": "88519a51012811476c9b4724eafc96c5",
-   "sportKey": "soccer_epl",
-   "casa": "Everton",
-   "trasf": "Ipswich Town",
-   "campionato": "Premier League",
-   "giorno": "2026-09-19",
-   "ora": "16:00",
-   "esito": "1",
-   "dice": "Everton",
-   "quota": 1.78,
-   "quotaMercato": 1.87,
-   "prob": 0.551,
-   "valore": -0.018
-  },
-  {
-   "idEvento": "63da4075a4ae406575fd3086b839fe49",
-   "sportKey": "soccer_epl",
-   "casa": "Liverpool",
-   "trasf": "Fulham",
-   "campionato": "Premier League",
+   "idEvento": "9baf37598354258bef210be769d631b7",
+   "sportKey": "soccer_netherlands_eredivisie",
+   "casa": "SC Cambuur",
+   "trasf": "NEC Nijmegen",
+   "campionato": "Olanda",
    "giorno": "2026-09-12",
-   "ora": "16:00",
-   "esito": "1",
-   "dice": "Liverpool",
-   "quota": 1.46,
-   "quotaMercato": 1.5,
-   "prob": 0.672,
-   "valore": -0.019
+   "ora": "21:00",
+   "esito": "2",
+   "dice": "NEC Nijmegen",
+   "quota": 1.55,
+   "quotaMercato": 1.58,
+   "prob": 0.632,
+   "valore": -0.02
+  },
+  {
+   "idEvento": "c97a93b915115f2b4659fb88262b71f8",
+   "sportKey": "soccer_epl",
+   "casa": "Coventry City",
+   "trasf": "Brighton and Hove Albion",
+   "campionato": "Premier League",
+   "giorno": "2026-09-13",
+   "ora": "15:00",
+   "esito": "2",
+   "dice": "Brighton and Hove Albion",
+   "quota": 1.88,
+   "quotaMercato": 1.93,
+   "prob": 0.521,
+   "valore": -0.021
   }
  ],
  "gioca": true,
  "giorno": "2026-09-09",
  "tipo": "DOPPIA",
- "quota": 1.64,
- "probabilita": 0.611,
- "costo": -0.002,
+ "quota": 1.76,
+ "probabilita": 0.561,
+ "costo": 0.013,
  "puntata": 5,
- "vincita": 8.2,
- "minimo888": 1.53,
- "puntaEntro": "01:40",
- "primaPartita": "02:10",
+ "vincita": 8.8,
+ "minimo888": 1.64,
+ "puntaEntro": "17:00",
+ "primaPartita": "17:30",
  "gambe": [
-  {
-   "idEvento": "387a94ba15ee0d940a884ffd32ace827",
-   "sportKey": "tennis_atp_us_open",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Ben Shelton",
-   "trasf": "Carlos Alcaraz",
-   "campionato": "ATP US Open",
-   "ora": "02:10",
-   "esito": "2",
-   "dice": "vince Carlos Alcaraz",
-   "quota": 1.28,
-   "quotaBF": 1.27,
-   "prob": 0.782,
-   "nSiti": 23
-  },
   {
    "idEvento": "287d8b864bf09ee057b007374849d4ae",
    "sportKey": "soccer_netherlands_eredivisie",
@@ -279,27 +260,14 @@
    "ora": "18:45",
    "esito": "1",
    "dice": "FC Twente Enschede",
-   "quota": 1.28,
-   "quotaBF": 1.27,
-   "prob": 0.781,
-   "nSiti": 20
-  }
- ],
- "altre": [
-  {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Jessica Pegula",
-   "trasf": "Emma Navarro",
-   "campionato": "WTA US Open",
-   "ora": "01:00",
-   "esito": "1",
-   "dice": "vince Jessica Pegula",
    "quota": 1.3,
    "quotaBF": 1.29,
-   "prob": 0.78,
-   "nSiti": 20
+   "prob": 0.77,
+   "nSiti": 21
   },
   {
+   "idEvento": "2269201fc3a83e61bccb9d36f60790b7",
+   "sportKey": "tennis_wta_us_open",
    "link": "https://sport.888casino.it/#/home",
    "casa": "Qinwen Zheng",
    "trasf": "Elena Rybakina",
@@ -307,23 +275,25 @@
    "ora": "17:30",
    "esito": "2",
    "dice": "vince Elena Rybakina",
-   "quota": 1.39,
-   "quotaBF": 1.36,
-   "prob": 0.719,
-   "nSiti": 23
-  },
+   "quota": 1.35,
+   "quotaBF": 1.33,
+   "prob": 0.729,
+   "nSiti": 22
+  }
+ ],
+ "altre": [
   {
    "link": "https://sport.888casino.it/#/home",
    "casa": "Mirra Andreeva",
    "trasf": "Coco Gauff",
    "campionato": "WTA US Open",
-   "ora": "17:30",
+   "ora": "18:40",
    "esito": "2",
    "dice": "vince Coco Gauff",
-   "quota": 1.59,
-   "quotaBF": 1.56,
-   "prob": 0.623,
-   "nSiti": 23
+   "quota": 1.53,
+   "quotaBF": 1.49,
+   "prob": 0.646,
+   "nSiti": 22
   }
  ]
 }

@@ -1,25 +1,7 @@
 {
   "cassa": 1.07,
   "iniziale": 15,
-  "aperte": [
-    {
-      "data": "2026-09-08",
-      "idEvento": "f8521fd71632ad8f0f72ff4e6e05abb4",
-      "sportKey": "soccer_netherlands_eredivisie",
-      "casa": "NEC Nijmegen",
-      "trasf": "Excelsior",
-      "campionato": "Olanda",
-      "ora": "18:45",
-      "giorno": "2026-09-08",
-      "esito": "1",
-      "dice": "NEC Nijmegen",
-      "quota": 1.67,
-      "quotaMercato": 1.7,
-      "prob": 0.596,
-      "valore": -0.004,
-      "puntata": 1
-    }
-  ],
+  "aperte": [],
   "storico": [
     {
       "data": "2026-08-27",
@@ -251,10 +233,31 @@
       "vinta": true,
       "incasso": 1.66,
       "cassaDopo": 2.07
+    },
+    {
+      "data": "2026-09-08",
+      "idEvento": "f8521fd71632ad8f0f72ff4e6e05abb4",
+      "sportKey": "soccer_netherlands_eredivisie",
+      "casa": "NEC Nijmegen",
+      "trasf": "Excelsior",
+      "campionato": "Olanda",
+      "ora": "18:45",
+      "giorno": "2026-09-08",
+      "esito": "1",
+      "dice": "NEC Nijmegen",
+      "quota": 1.67,
+      "quotaMercato": 1.7,
+      "prob": 0.596,
+      "valore": -0.004,
+      "puntata": 1,
+      "risultato": "2-2",
+      "vinta": false,
+      "incasso": 0,
+      "cassaDopo": 1.07
     }
   ],
-  "totale": 2.07,
+  "totale": 1.07,
   "vinte": 4,
-  "perse": 7,
-  "aggiornato": "2026-09-08T11:32:10.571Z"
+  "perse": 8,
+  "aggiornato": "2026-09-09T09:16:32.238Z"
 }
