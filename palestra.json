@@ -1,7 +1,25 @@
 {
-  "cassa": 1.07,
+  "cassa": 0.07,
   "iniziale": 15,
-  "aperte": [],
+  "aperte": [
+    {
+      "data": "2026-09-11",
+      "idEvento": "fd30ca2b96bfa088e51bffddeb3b6e56",
+      "sportKey": "soccer_italy_serie_a",
+      "casa": "Atalanta BC",
+      "trasf": "Cagliari",
+      "campionato": "Serie A",
+      "ora": "20:45",
+      "giorno": "2026-09-12",
+      "esito": "1",
+      "dice": "Atalanta BC",
+      "quota": 1.61,
+      "quotaMercato": 1.64,
+      "prob": 0.618,
+      "valore": -0.005,
+      "puntata": 1
+    }
+  ],
   "storico": [
     {
       "data": "2026-08-27",
@@ -259,5 +277,5 @@
   "totale": 1.07,
   "vinte": 4,
   "perse": 8,
-  "aggiornato": "2026-09-10T11:35:56.545Z"
+  "aggiornato": "2026-09-11T09:13:20.222Z"
 }
