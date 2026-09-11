@@ -166,5 +166,29 @@
   "clv": 4.2,
   "minutiPrima": 83,
   "quando": "2026-09-07T14:07:02.591Z"
+ },
+ {
+  "chiave": "2026-09-11|Alexander Zverev|Karen Khachanov|1",
+  "giorno": "2026-09-11",
+  "casa": "Alexander Zverev",
+  "trasf": "Karen Khachanov",
+  "esito": "1",
+  "nostra": 1.25,
+  "chiusura": 1.22,
+  "clv": 2.5,
+  "minutiPrima": 80,
+  "quando": "2026-09-11T17:39:35.389Z"
+ },
+ {
+  "chiave": "2026-09-11|Sevilla|Valencia|1X",
+  "giorno": "2026-09-11",
+  "casa": "Sevilla",
+  "trasf": "Valencia",
+  "esito": "1X",
+  "nostra": 1.29,
+  "chiusura": 1.22,
+  "clv": 5.7,
+  "minutiPrima": 80,
+  "quando": "2026-09-11T17:39:35.839Z"
  }
 ]
