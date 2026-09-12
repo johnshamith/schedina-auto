@@ -190,5 +190,29 @@
   "clv": 5.7,
   "minutiPrima": 80,
   "quando": "2026-09-11T17:39:35.839Z"
+ },
+ {
+  "chiave": "2026-09-12|Liverpool|Fulham|12",
+  "giorno": "2026-09-12",
+  "casa": "Liverpool",
+  "trasf": "Fulham",
+  "esito": "12",
+  "nostra": 1.27,
+  "chiusura": 1.19,
+  "clv": 6.7,
+  "minutiPrima": 117,
+  "quando": "2026-09-12T12:03:16.600Z"
+ },
+ {
+  "chiave": "2026-09-12|Chelsea|Hull City|1",
+  "giorno": "2026-09-12",
+  "casa": "Chelsea",
+  "trasf": "Hull City",
+  "esito": "1",
+  "nostra": 1.27,
+  "chiusura": 1.21,
+  "clv": 5,
+  "minutiPrima": 117,
+  "quando": "2026-09-12T12:03:17.068Z"
  }
 ]
