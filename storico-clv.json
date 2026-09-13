@@ -214,5 +214,17 @@
   "clv": 5,
   "minutiPrima": 117,
   "quando": "2026-09-12T12:03:17.068Z"
+ },
+ {
+  "chiave": "2026-09-13|Brest|Paris Saint Germain|2",
+  "giorno": "2026-09-13",
+  "casa": "Brest",
+  "trasf": "Paris Saint Germain",
+  "esito": "2",
+  "nostra": 1.29,
+  "chiusura": 1.22,
+  "clv": 5.7,
+  "minutiPrima": 84,
+  "quando": "2026-09-13T17:20:55.773Z"
  }
 ]
