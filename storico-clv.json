@@ -226,5 +226,17 @@
   "clv": 5.7,
   "minutiPrima": 84,
   "quando": "2026-09-13T17:20:55.773Z"
+ },
+ {
+  "chiave": "2026-09-17|Málaga|Villarreal|12",
+  "giorno": "2026-09-17",
+  "casa": "Málaga",
+  "trasf": "Villarreal",
+  "esito": "12",
+  "nostra": 1.33,
+  "chiusura": 1.28,
+  "clv": 3.9,
+  "minutiPrima": 86,
+  "quando": "2026-09-17T18:03:39.774Z"
  }
 ]
