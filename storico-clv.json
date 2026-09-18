@@ -238,5 +238,29 @@
   "clv": 3.9,
   "minutiPrima": 86,
   "quando": "2026-09-17T18:03:39.774Z"
+ },
+ {
+  "chiave": "2026-09-18|Groningen|FC Zwolle|12",
+  "giorno": "2026-09-18",
+  "casa": "Groningen",
+  "trasf": "FC Zwolle",
+  "esito": "12",
+  "nostra": 1.25,
+  "chiusura": 1.18,
+  "clv": 5.9,
+  "minutiPrima": 24,
+  "quando": "2026-09-18T17:36:00.794Z"
+ },
+ {
+  "chiave": "2026-09-18|Espanyol|Elche CF|1X",
+  "giorno": "2026-09-18",
+  "casa": "Espanyol",
+  "trasf": "Elche CF",
+  "esito": "1X",
+  "nostra": 1.27,
+  "chiusura": 1.21,
+  "clv": 5,
+  "minutiPrima": 84,
+  "quando": "2026-09-18T17:36:01.268Z"
  }
 ]
