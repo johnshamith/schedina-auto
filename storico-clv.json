@@ -274,5 +274,17 @@
   "clv": 3.3,
   "minutiPrima": 97,
   "quando": "2026-09-19T12:22:37.176Z"
+ },
+ {
+  "chiave": "2026-09-19|Ajax|Excelsior|1",
+  "giorno": "2026-09-19",
+  "casa": "Ajax",
+  "trasf": "Excelsior",
+  "esito": "1",
+  "nostra": 1.26,
+  "chiusura": 1.2,
+  "clv": 5,
+  "minutiPrima": 54,
+  "quando": "2026-09-19T17:05:49.208Z"
  }
 ]
