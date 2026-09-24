@@ -1,15 +1,15 @@
 {
- "quando": "2026-09-23T09:36:49.539Z",
- "chiamateRimaste": "134",
+ "quando": "2026-09-24T09:36:18.912Z",
+ "chiamateRimaste": "123",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-09-23",
-   "gambe": 1
-  },
-  {
    "giorno": "2026-09-24",
    "gambe": 3
+  },
+  {
+   "giorno": "2026-09-25",
+   "gambe": 2
   },
   {
    "giorno": "2026-10-09",
@@ -17,7 +17,7 @@
   },
   {
    "giorno": "2026-10-10",
-   "gambe": 25
+   "gambe": 24
   },
   {
    "giorno": "2026-10-11",
@@ -33,33 +33,22 @@
   },
   {
    "giorno": "2026-10-17",
-   "gambe": 8
+   "gambe": 9
   },
   {
    "giorno": "2026-10-18",
-   "gambe": 9
+   "gambe": 11
   },
   {
    "giorno": "2026-10-19",
    "gambe": 1
+  },
+  {
+   "giorno": "2026-10-21",
+   "gambe": 1
   }
  ],
  "betfair": [
-  {
-   "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
-   "sportKey": "soccer_italy_serie_a",
-   "casa": "Napoli",
-   "trasf": "Frosinone",
-   "campionato": "Serie A",
-   "giorno": "2026-10-10",
-   "ora": "20:45",
-   "esito": "1",
-   "dice": "Napoli",
-   "quota": 1.49,
-   "quotaMercato": 1.52,
-   "prob": 0.664,
-   "valore": -0.011
-  },
   {
    "idEvento": "22c9b2c43cbe1334381269550dab78e6",
    "sportKey": "soccer_epl",
@@ -70,10 +59,40 @@
    "ora": "18:30",
    "esito": "1",
    "dice": "Manchester United",
-   "quota": 1.74,
-   "quotaMercato": 1.78,
+   "quota": 1.75,
+   "quotaMercato": 1.79,
    "prob": 0.566,
-   "valore": -0.016
+   "valore": -0.009
+  },
+  {
+   "idEvento": "f0731c18d689ed876e51dc1a9bf12170",
+   "sportKey": "tennis_wta_singapore_open",
+   "casa": "Elise Mertens",
+   "trasf": "Maja Chwalinska",
+   "campionato": "WTA Singapore Open",
+   "giorno": "2026-09-25",
+   "ora": "06:00",
+   "esito": "1",
+   "dice": "vince Elise Mertens",
+   "quota": 1.49,
+   "quotaMercato": 1.52,
+   "prob": 0.663,
+   "valore": -0.013
+  },
+  {
+   "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Napoli",
+   "trasf": "Frosinone",
+   "campionato": "Serie A",
+   "giorno": "2026-10-10",
+   "ora": "20:45",
+   "esito": "1",
+   "dice": "Napoli",
+   "quota": 1.48,
+   "quotaMercato": 1.51,
+   "prob": 0.665,
+   "valore": -0.015
   },
   {
    "idEvento": "7895f97f2f9577f3b13287a3d086859d",
@@ -102,8 +121,38 @@
    "dice": "Everton",
    "quota": 2.12,
    "quotaMercato": 2.18,
-   "prob": 0.461,
-   "valore": -0.022
+   "prob": 0.462,
+   "valore": -0.021
+  },
+  {
+   "idEvento": "9fc08b390a49c4434f7cf631a0bb88fb",
+   "sportKey": "soccer_epl",
+   "casa": "Brighton and Hove Albion",
+   "trasf": "Crystal Palace",
+   "campionato": "Premier League",
+   "giorno": "2026-10-18",
+   "ora": "15:00",
+   "esito": "1",
+   "dice": "Brighton and Hove Albion",
+   "quota": 1.57,
+   "quotaMercato": 1.6,
+   "prob": 0.623,
+   "valore": -0.021
+  },
+  {
+   "idEvento": "66a4f4201806b928c9007116727fdd61",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Real Racing Club de Santander",
+   "trasf": "Valencia",
+   "campionato": "Liga",
+   "giorno": "2026-10-11",
+   "ora": "21:00",
+   "esito": "1",
+   "dice": "Real Racing Club de Santander",
+   "quota": 2.06,
+   "quotaMercato": 2.12,
+   "prob": 0.474,
+   "valore": -0.024
   },
   {
    "idEvento": "acd5bd945dd953ad1e300df5bfe696f9",
@@ -117,38 +166,38 @@
    "dice": "Newcastle United",
    "quota": 2.16,
    "quotaMercato": 2.22,
-   "prob": 0.452,
-   "valore": -0.025
+   "prob": 0.451,
+   "valore": -0.026
   },
   {
-   "idEvento": "1cf64166dda1e0da8b325161deb39662",
+   "idEvento": "9aade3e736c3d113dab19e641c43e272",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "SC Paderborn",
+   "trasf": "VfB Stuttgart",
+   "campionato": "Bundesliga",
+   "giorno": "2026-10-10",
+   "ora": "15:30",
+   "esito": "2",
+   "dice": "VfB Stuttgart",
+   "quota": 1.6,
+   "quotaMercato": 1.68,
+   "prob": 0.606,
+   "valore": -0.031
+  },
+  {
+   "idEvento": "c0f72699f32ec193b64fd54092fe268d",
    "sportKey": "soccer_italy_serie_a",
-   "casa": "Sassuolo",
-   "trasf": "AC Milan",
+   "casa": "Lazio",
+   "trasf": "Monza",
    "campionato": "Serie A",
    "giorno": "2026-10-11",
-   "ora": "18:00",
-   "esito": "2",
-   "dice": "AC Milan",
-   "quota": 1.83,
-   "quotaMercato": 1.88,
-   "prob": 0.529,
-   "valore": -0.031
-  },
-  {
-   "idEvento": "66a4f4201806b928c9007116727fdd61",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Real Racing Club de Santander",
-   "trasf": "Valencia",
-   "campionato": "Liga",
-   "giorno": "2026-10-11",
-   "ora": "21:00",
+   "ora": "15:00",
    "esito": "1",
-   "dice": "Real Racing Club de Santander",
-   "quota": 2.03,
-   "quotaMercato": 2.1,
-   "prob": 0.477,
-   "valore": -0.031
+   "dice": "Lazio",
+   "quota": 1.72,
+   "quotaMercato": 1.78,
+   "prob": 0.563,
+   "valore": -0.032
   },
   {
    "idEvento": "dfd5d6648be46426e418801584d46a68",
@@ -166,122 +215,77 @@
    "valore": -0.032
   },
   {
-   "idEvento": "9fc08b390a49c4434f7cf631a0bb88fb",
-   "sportKey": "soccer_epl",
-   "casa": "Brighton and Hove Albion",
-   "trasf": "Crystal Palace",
-   "campionato": "Premier League",
-   "giorno": "2026-10-18",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Brighton and Hove Albion",
-   "quota": 1.55,
-   "quotaMercato": 1.59,
-   "prob": 0.624,
-   "valore": -0.032
-  },
-  {
-   "idEvento": "9aade3e736c3d113dab19e641c43e272",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "SC Paderborn",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "15:30",
-   "esito": "2",
-   "dice": "VfB Stuttgart",
-   "quota": 1.6,
-   "quotaMercato": 1.67,
-   "prob": 0.605,
-   "valore": -0.033
-  },
-  {
-   "idEvento": "0f2e7ff90b994f31d5cd48a9680943e1",
+   "idEvento": "407f7d03157d1dfad384876e6a6bc910",
    "sportKey": "soccer_italy_serie_a",
-   "casa": "Atalanta BC",
-   "trasf": "Venezia",
+   "casa": "Cagliari",
+   "trasf": "Juventus",
    "campionato": "Serie A",
-   "giorno": "2026-10-12",
-   "ora": "18:30",
-   "esito": "1",
-   "dice": "Atalanta BC",
-   "quota": 1.65,
-   "quotaMercato": 1.7,
-   "prob": 0.585,
-   "valore": -0.035
-  },
-  {
-   "idEvento": "01cb7a67c8ae71201ec27297455fc0e8",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "RB Leipzig",
-   "trasf": "Eintracht Frankfurt",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "18:30",
-   "esito": "1",
-   "dice": "RB Leipzig",
+   "giorno": "2026-10-11",
+   "ora": "20:45",
+   "esito": "2",
+   "dice": "Juventus",
    "quota": 1.54,
-   "quotaMercato": 1.57,
-   "prob": 0.625,
-   "valore": -0.037
+   "quotaMercato": 1.61,
+   "prob": 0.628,
+   "valore": -0.033
   }
  ],
  "gioca": true,
  "giorno": "2026-09-24",
  "tipo": "DOPPIA",
- "quota": 1.65,
- "probabilita": 0.607,
- "costo": -0.001,
+ "quota": 1.7,
+ "probabilita": 0.592,
+ "costo": -0.007,
  "puntata": 5,
- "vincita": 8.25,
- "minimo888": 1.53,
- "puntaEntro": "12:00",
- "primaPartita": "12:30",
+ "vincita": 8.5,
+ "minimo888": 1.58,
+ "puntaEntro": "17:30",
+ "primaPartita": "18:00",
  "gambe": [
   {
-   "idEvento": "b3211154731c06416842ea2d56d255e2",
-   "sportKey": "tennis_wta_singapore_open",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Tatiana Prozorova",
-   "trasf": "Alexandra Eala",
-   "campionato": "WTA Singapore Open",
-   "ora": "12:30",
-   "esito": "2",
-   "dice": "vince Alexandra Eala",
-   "quota": 1.27,
-   "quotaBF": 1.26,
-   "prob": 0.783,
+   "idEvento": "8703f7a657f3360ec99010955336c102",
+   "sportKey": "basketball_euroleague",
+   "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
+   "casa": "Panathinaikos",
+   "trasf": "Paris Basketball",
+   "campionato": "Basketball Euroleague",
+   "ora": "20:15",
+   "esito": "1",
+   "dice": "vince Panathinaikos",
+   "quota": 1.25,
+   "quotaBF": null,
+   "prob": 0.801,
    "nSiti": 17
   },
   {
-   "idEvento": "0cea0577735cca24d37e62e37517e6d7",
+   "idEvento": "7b90c9b503886387c57381c4cf6c9860",
    "sportKey": "basketball_euroleague",
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
-   "casa": "Saski Baskonia",
-   "trasf": "Olympiacos",
+   "casa": "Hapoel Tel Aviv",
+   "trasf": "FC Bayern München",
    "campionato": "Basketball Euroleague",
-   "ora": "20:30",
-   "esito": "2",
-   "dice": "vince Olympiacos",
-   "quota": 1.3,
+   "ora": "18:00",
+   "esito": "1",
+   "dice": "vince Hapoel Tel Aviv",
+   "quota": 1.36,
    "quotaBF": null,
-   "prob": 0.775,
-   "nSiti": 15
+   "prob": 0.739,
+   "nSiti": 16
   }
  ],
  "altre": [
   {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Xinyu Wang",
-   "trasf": "Joanna Garland",
-   "campionato": "WTA Singapore Open",
-   "ora": "08:30",
-   "esito": "1",
-   "dice": "vince Xinyu Wang",
-   "quota": 1.37,
-   "quotaBF": 1.35,
-   "prob": 0.735,
-   "nSiti": 19
+   "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
+   "casa": "ASVEL Lyon Villeurbanne",
+   "trasf": "Maccabi Tel Aviv",
+   "campionato": "Basketball Euroleague",
+   "ora": "20:45",
+   "esito": "2",
+   "dice": "vince Maccabi Tel Aviv",
+   "quota": 1.57,
+   "quotaBF": null,
+   "prob": 0.629,
+   "nSiti": 17
   }
  ]
 }
