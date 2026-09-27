@@ -1,6 +1,6 @@
 {
- "quando": "2026-09-26T09:36:08.645Z",
- "chiamateRimaste": "101",
+ "quando": "2026-09-27T10:15:09.139Z",
+ "chiamateRimaste": "90",
  "problemi": [],
  "giorniVisti": [
   {
@@ -8,12 +8,16 @@
    "gambe": 1
   },
   {
+   "giorno": "2026-09-28",
+   "gambe": 2
+  },
+  {
    "giorno": "2026-10-09",
    "gambe": 4
   },
   {
    "giorno": "2026-10-10",
-   "gambe": 24
+   "gambe": 25
   },
   {
    "giorno": "2026-10-11",
@@ -29,7 +33,7 @@
   },
   {
    "giorno": "2026-10-17",
-   "gambe": 13
+   "gambe": 15
   },
   {
    "giorno": "2026-10-18",
@@ -38,28 +42,9 @@
   {
    "giorno": "2026-10-19",
    "gambe": 2
-  },
-  {
-   "giorno": "2026-10-21",
-   "gambe": 1
   }
  ],
  "betfair": [
-  {
-   "idEvento": "22c9b2c43cbe1334381269550dab78e6",
-   "sportKey": "soccer_epl",
-   "casa": "Manchester United",
-   "trasf": "Tottenham Hotspur",
-   "campionato": "Premier League",
-   "giorno": "2026-10-10",
-   "ora": "18:30",
-   "esito": "1",
-   "dice": "Manchester United",
-   "quota": 1.77,
-   "quotaMercato": 1.81,
-   "prob": 0.562,
-   "valore": -0.006
-  },
   {
    "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
    "sportKey": "soccer_italy_serie_a",
@@ -70,10 +55,40 @@
    "ora": "20:45",
    "esito": "1",
    "dice": "Napoli",
-   "quota": 1.49,
-   "quotaMercato": 1.52,
-   "prob": 0.666,
+   "quota": 1.51,
+   "quotaMercato": 1.54,
+   "prob": 0.663,
+   "valore": 0.002
+  },
+  {
+   "idEvento": "9fc08b390a49c4434f7cf631a0bb88fb",
+   "sportKey": "soccer_epl",
+   "casa": "Brighton and Hove Albion",
+   "trasf": "Crystal Palace",
+   "campionato": "Premier League",
+   "giorno": "2026-10-18",
+   "ora": "15:00",
+   "esito": "1",
+   "dice": "Brighton and Hove Albion",
+   "quota": 1.6,
+   "quotaMercato": 1.63,
+   "prob": 0.62,
    "valore": -0.008
+  },
+  {
+   "idEvento": "22c9b2c43cbe1334381269550dab78e6",
+   "sportKey": "soccer_epl",
+   "casa": "Manchester United",
+   "trasf": "Tottenham Hotspur",
+   "campionato": "Premier League",
+   "giorno": "2026-10-10",
+   "ora": "18:30",
+   "esito": "1",
+   "dice": "Manchester United",
+   "quota": 1.76,
+   "quotaMercato": 1.8,
+   "prob": 0.563,
+   "valore": -0.01
   },
   {
    "idEvento": "acd5bd945dd953ad1e300df5bfe696f9",
@@ -91,21 +106,6 @@
    "valore": -0.014
   },
   {
-   "idEvento": "9fc08b390a49c4434f7cf631a0bb88fb",
-   "sportKey": "soccer_epl",
-   "casa": "Brighton and Hove Albion",
-   "trasf": "Crystal Palace",
-   "campionato": "Premier League",
-   "giorno": "2026-10-18",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Brighton and Hove Albion",
-   "quota": 1.58,
-   "quotaMercato": 1.61,
-   "prob": 0.622,
-   "valore": -0.017
-  },
-  {
    "idEvento": "0bdae4d304810578e47386606bff7106",
    "sportKey": "soccer_epl",
    "casa": "Hull City",
@@ -117,8 +117,8 @@
    "dice": "Everton",
    "quota": 2.1,
    "quotaMercato": 2.16,
-   "prob": 0.466,
-   "valore": -0.021
+   "prob": 0.464,
+   "valore": -0.025
   },
   {
    "idEvento": "7895f97f2f9577f3b13287a3d086859d",
@@ -133,22 +133,37 @@
    "quota": 1.7,
    "quotaMercato": 1.74,
    "prob": 0.574,
-   "valore": -0.024
+   "valore": -0.025
   },
   {
-   "idEvento": "01cb7a67c8ae71201ec27297455fc0e8",
+   "idEvento": "9aade3e736c3d113dab19e641c43e272",
    "sportKey": "soccer_germany_bundesliga",
-   "casa": "RB Leipzig",
-   "trasf": "Eintracht Frankfurt",
+   "casa": "SC Paderborn",
+   "trasf": "VfB Stuttgart",
    "campionato": "Bundesliga",
    "giorno": "2026-10-10",
-   "ora": "18:30",
+   "ora": "15:30",
+   "esito": "2",
+   "dice": "VfB Stuttgart",
+   "quota": 1.6,
+   "quotaMercato": 1.68,
+   "prob": 0.606,
+   "valore": -0.031
+  },
+  {
+   "idEvento": "aef660734585649651415961a9d177c6",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Villarreal",
+   "trasf": "Elche CF",
+   "campionato": "Liga",
+   "giorno": "2026-10-17",
+   "ora": "16:15",
    "esito": "1",
-   "dice": "RB Leipzig",
-   "quota": 1.54,
-   "quotaMercato": 1.57,
-   "prob": 0.631,
-   "valore": -0.029
+   "dice": "Villarreal",
+   "quota": 1.46,
+   "quotaMercato": 1.51,
+   "prob": 0.662,
+   "valore": -0.033
   },
   {
    "idEvento": "f696a248965373d9071dc0662e5c58a8",
@@ -166,19 +181,34 @@
    "valore": -0.038
   },
   {
-   "idEvento": "9aade3e736c3d113dab19e641c43e272",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "SC Paderborn",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "15:30",
+   "idEvento": "846e496fc232b2fc20214754836727d0",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Real Betis",
+   "trasf": "Barcelona",
+   "campionato": "Liga",
+   "giorno": "2026-10-17",
+   "ora": "18:30",
    "esito": "2",
-   "dice": "VfB Stuttgart",
-   "quota": 1.6,
-   "quotaMercato": 1.68,
-   "prob": 0.602,
+   "dice": "Barcelona",
+   "quota": 1.52,
+   "quotaMercato": 1.56,
+   "prob": 0.633,
    "valore": -0.038
+  },
+  {
+   "idEvento": "a8801462cb97a43570956e4b3ef4aedf",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "1. FC Köln",
+   "trasf": "Borussia Monchengladbach",
+   "campionato": "Bundesliga",
+   "giorno": "2026-10-11",
+   "ora": "15:30",
+   "esito": "1",
+   "dice": "1. FC Köln",
+   "quota": 1.95,
+   "quotaMercato": 2.02,
+   "prob": 0.492,
+   "valore": -0.04
   },
   {
    "idEvento": "d1bbbdcd3d430e70091b518369b559cf",
@@ -194,44 +224,14 @@
    "quotaMercato": 2.18,
    "prob": 0.461,
    "valore": -0.041
-  },
-  {
-   "idEvento": "c0f72699f32ec193b64fd54092fe268d",
-   "sportKey": "soccer_italy_serie_a",
-   "casa": "Lazio",
-   "trasf": "Monza",
-   "campionato": "Serie A",
-   "giorno": "2026-10-11",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Lazio",
-   "quota": 1.67,
-   "quotaMercato": 1.74,
-   "prob": 0.574,
-   "valore": -0.042
-  },
-  {
-   "idEvento": "dfd5d6648be46426e418801584d46a68",
-   "sportKey": "soccer_epl",
-   "casa": "Bournemouth",
-   "trasf": "Sunderland",
-   "campionato": "Premier League",
-   "giorno": "2026-10-18",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Bournemouth",
-   "quota": 2.01,
-   "quotaMercato": 2.06,
-   "prob": 0.477,
-   "valore": -0.042
   }
  ],
  "gioca": true,
  "giorno": "2026-10-09",
  "tipo": "DOPPIA",
  "quota": 1.66,
- "probabilita": 0.584,
- "costo": 0.03,
+ "probabilita": 0.585,
+ "costo": 0.029,
  "puntata": 5,
  "vincita": 8.3,
  "minimo888": 1.54,
@@ -266,7 +266,7 @@
    "quota": 1.33,
    "quotaBF": null,
    "prob": 0.75,
-   "nSiti": 20
+   "nSiti": 21
   }
  ],
  "altre": [
@@ -278,10 +278,10 @@
    "ora": "21:00",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.4,
+   "quota": 1.39,
    "quotaBF": null,
    "prob": 0.708,
-   "nSiti": 17
+   "nSiti": 19
   },
   {
    "link": "https://sport.888casino.it/#/filter/football/germany/bundesliga",
@@ -292,9 +292,9 @@
    "esito": "1",
    "dice": "Borussia Dortmund",
    "quota": 1.4,
-   "quotaBF": 1.34,
+   "quotaBF": 1.37,
    "prob": 0.706,
-   "nSiti": 20
+   "nSiti": 21
   }
  ]
 }
