@@ -1,15 +1,11 @@
 {
- "quando": "2026-09-27T10:15:09.139Z",
- "chiamateRimaste": "90",
+ "quando": "2026-09-28T11:18:02.261Z",
+ "chiamateRimaste": "80",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-09-27",
+   "giorno": "2026-09-29",
    "gambe": 1
-  },
-  {
-   "giorno": "2026-09-28",
-   "gambe": 2
   },
   {
    "giorno": "2026-10-09",
@@ -17,7 +13,7 @@
   },
   {
    "giorno": "2026-10-10",
-   "gambe": 25
+   "gambe": 24
   },
   {
    "giorno": "2026-10-11",
@@ -37,29 +33,18 @@
   },
   {
    "giorno": "2026-10-18",
-   "gambe": 14
+   "gambe": 16
   },
   {
    "giorno": "2026-10-19",
    "gambe": 2
+  },
+  {
+   "giorno": "2026-10-21",
+   "gambe": 1
   }
  ],
  "betfair": [
-  {
-   "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
-   "sportKey": "soccer_italy_serie_a",
-   "casa": "Napoli",
-   "trasf": "Frosinone",
-   "campionato": "Serie A",
-   "giorno": "2026-10-10",
-   "ora": "20:45",
-   "esito": "1",
-   "dice": "Napoli",
-   "quota": 1.51,
-   "quotaMercato": 1.54,
-   "prob": 0.663,
-   "valore": 0.002
-  },
   {
    "idEvento": "9fc08b390a49c4434f7cf631a0bb88fb",
    "sportKey": "soccer_epl",
@@ -70,9 +55,24 @@
    "ora": "15:00",
    "esito": "1",
    "dice": "Brighton and Hove Albion",
-   "quota": 1.6,
-   "quotaMercato": 1.63,
-   "prob": 0.62,
+   "quota": 1.63,
+   "quotaMercato": 1.66,
+   "prob": 0.619,
+   "valore": 0.008
+  },
+  {
+   "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Napoli",
+   "trasf": "Frosinone",
+   "campionato": "Serie A",
+   "giorno": "2026-10-10",
+   "ora": "20:45",
+   "esito": "1",
+   "dice": "Napoli",
+   "quota": 1.49,
+   "quotaMercato": 1.52,
+   "prob": 0.665,
    "valore": -0.008
   },
   {
@@ -87,8 +87,8 @@
    "dice": "Manchester United",
    "quota": 1.76,
    "quotaMercato": 1.8,
-   "prob": 0.563,
-   "valore": -0.01
+   "prob": 0.564,
+   "valore": -0.008
   },
   {
    "idEvento": "acd5bd945dd953ad1e300df5bfe696f9",
@@ -106,6 +106,36 @@
    "valore": -0.014
   },
   {
+   "idEvento": "c0f72699f32ec193b64fd54092fe268d",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Lazio",
+   "trasf": "Monza",
+   "campionato": "Serie A",
+   "giorno": "2026-10-11",
+   "ora": "15:00",
+   "esito": "1",
+   "dice": "Lazio",
+   "quota": 1.68,
+   "quotaMercato": 1.72,
+   "prob": 0.582,
+   "valore": -0.023
+  },
+  {
+   "idEvento": "7895f97f2f9577f3b13287a3d086859d",
+   "sportKey": "soccer_epl",
+   "casa": "Fulham",
+   "trasf": "Hull City",
+   "campionato": "Premier League",
+   "giorno": "2026-10-17",
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Fulham",
+   "quota": 1.7,
+   "quotaMercato": 1.74,
+   "prob": 0.574,
+   "valore": -0.024
+  },
+  {
    "idEvento": "0bdae4d304810578e47386606bff7106",
    "sportKey": "soccer_epl",
    "casa": "Hull City",
@@ -121,117 +151,87 @@
    "valore": -0.025
   },
   {
-   "idEvento": "7895f97f2f9577f3b13287a3d086859d",
-   "sportKey": "soccer_epl",
-   "casa": "Fulham",
-   "trasf": "Hull City",
-   "campionato": "Premier League",
-   "giorno": "2026-10-17",
-   "ora": "16:00",
+   "idEvento": "670c71e1c104910cc5edf679ee8a65fc",
+   "sportKey": "basketball_euroleague",
+   "casa": "Anadolu Efes",
+   "trasf": "Real Madrid",
+   "campionato": "Basketball Euroleague",
+   "giorno": "2026-09-29",
+   "ora": "19:00",
    "esito": "1",
-   "dice": "Fulham",
-   "quota": 1.7,
-   "quotaMercato": 1.74,
-   "prob": 0.574,
-   "valore": -0.025
+   "dice": "vince Anadolu Efes",
+   "quota": 1.86,
+   "quotaMercato": 1.9,
+   "prob": 0.524,
+   "valore": -0.026
   },
   {
-   "idEvento": "9aade3e736c3d113dab19e641c43e272",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "SC Paderborn",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "15:30",
-   "esito": "2",
-   "dice": "VfB Stuttgart",
-   "quota": 1.6,
-   "quotaMercato": 1.68,
-   "prob": 0.606,
-   "valore": -0.031
-  },
-  {
-   "idEvento": "aef660734585649651415961a9d177c6",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Villarreal",
-   "trasf": "Elche CF",
-   "campionato": "Liga",
-   "giorno": "2026-10-17",
-   "ora": "16:15",
-   "esito": "1",
-   "dice": "Villarreal",
-   "quota": 1.46,
-   "quotaMercato": 1.51,
-   "prob": 0.662,
-   "valore": -0.033
-  },
-  {
-   "idEvento": "f696a248965373d9071dc0662e5c58a8",
-   "sportKey": "soccer_epl",
-   "casa": "Nottingham Forest",
-   "trasf": "Arsenal",
-   "campionato": "Premier League",
-   "giorno": "2026-10-18",
-   "ora": "17:30",
-   "esito": "2",
-   "dice": "Arsenal",
-   "quota": 1.58,
-   "quotaMercato": 1.66,
-   "prob": 0.609,
-   "valore": -0.038
-  },
-  {
-   "idEvento": "846e496fc232b2fc20214754836727d0",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Real Betis",
-   "trasf": "Barcelona",
-   "campionato": "Liga",
-   "giorno": "2026-10-17",
-   "ora": "18:30",
-   "esito": "2",
-   "dice": "Barcelona",
-   "quota": 1.52,
-   "quotaMercato": 1.56,
-   "prob": 0.633,
-   "valore": -0.038
-  },
-  {
-   "idEvento": "a8801462cb97a43570956e4b3ef4aedf",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "1. FC Köln",
-   "trasf": "Borussia Monchengladbach",
-   "campionato": "Bundesliga",
+   "idEvento": "1cf64166dda1e0da8b325161deb39662",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Sassuolo",
+   "trasf": "AC Milan",
+   "campionato": "Serie A",
    "giorno": "2026-10-11",
-   "ora": "15:30",
-   "esito": "1",
-   "dice": "1. FC Köln",
-   "quota": 1.95,
-   "quotaMercato": 2.02,
-   "prob": 0.492,
-   "valore": -0.04
+   "ora": "18:00",
+   "esito": "2",
+   "dice": "AC Milan",
+   "quota": 1.87,
+   "quotaMercato": 1.92,
+   "prob": 0.52,
+   "valore": -0.028
   },
   {
-   "idEvento": "d1bbbdcd3d430e70091b518369b559cf",
-   "sportKey": "soccer_epl",
-   "casa": "Newcastle United",
-   "trasf": "Aston Villa",
-   "campionato": "Premier League",
-   "giorno": "2026-10-17",
-   "ora": "18:30",
+   "idEvento": "367da93aa21a1e13eeafb94fd2263c75",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Udinese",
+   "trasf": "Lecce",
+   "campionato": "Serie A",
+   "giorno": "2026-10-18",
+   "ora": "12:30",
    "esito": "1",
-   "dice": "Newcastle United",
-   "quota": 2.08,
-   "quotaMercato": 2.18,
-   "prob": 0.461,
-   "valore": -0.041
+   "dice": "Udinese",
+   "quota": 1.89,
+   "quotaMercato": 1.95,
+   "prob": 0.514,
+   "valore": -0.028
+  },
+  {
+   "idEvento": "f9403dd597edbfaa73abdc974e55344c",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "AC Milan",
+   "trasf": "Atalanta BC",
+   "campionato": "Serie A",
+   "giorno": "2026-10-18",
+   "ora": "18:00",
+   "esito": "1",
+   "dice": "AC Milan",
+   "quota": 1.88,
+   "quotaMercato": 1.95,
+   "prob": 0.517,
+   "valore": -0.028
+  },
+  {
+   "idEvento": "946716d7e5e52822f08be8cb95193d9d",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Lecce",
+   "trasf": "Bologna",
+   "campionato": "Serie A",
+   "giorno": "2026-10-11",
+   "ora": "15:00",
+   "esito": "2",
+   "dice": "Bologna",
+   "quota": 1.97,
+   "quotaMercato": 2.02,
+   "prob": 0.493,
+   "valore": -0.03
   }
  ],
  "gioca": true,
  "giorno": "2026-10-09",
  "tipo": "DOPPIA",
  "quota": 1.66,
- "probabilita": 0.585,
- "costo": 0.029,
+ "probabilita": 0.584,
+ "costo": 0.03,
  "puntata": 5,
  "vincita": 8.3,
  "minimo888": 1.54,
@@ -251,7 +251,7 @@
    "quota": 1.25,
    "quotaBF": null,
    "prob": 0.78,
-   "nSiti": 18
+   "nSiti": 17
   },
   {
    "idEvento": "17694e68f399fdf9c5030021ec9bb595",
@@ -265,7 +265,7 @@
    "dice": "no pareggio",
    "quota": 1.33,
    "quotaBF": null,
-   "prob": 0.75,
+   "prob": 0.749,
    "nSiti": 21
   }
  ],
@@ -278,9 +278,9 @@
    "ora": "21:00",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.39,
+   "quota": 1.4,
    "quotaBF": null,
-   "prob": 0.708,
+   "prob": 0.707,
    "nSiti": 19
   },
   {
