@@ -1,27 +1,23 @@
 {
- "quando": "2026-10-07T11:24:22.144Z",
- "chiamateRimaste": "398",
+ "quando": "2026-10-08T11:39:43.246Z",
+ "chiamateRimaste": "386",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-10-07",
-   "gambe": 2
-  },
-  {
    "giorno": "2026-10-08",
-   "gambe": 14
+   "gambe": 3
   },
   {
    "giorno": "2026-10-09",
-   "gambe": 7
+   "gambe": 14
   },
   {
    "giorno": "2026-10-10",
-   "gambe": 26
+   "gambe": 31
   },
   {
    "giorno": "2026-10-11",
-   "gambe": 23
+   "gambe": 24
   },
   {
    "giorno": "2026-10-12",
@@ -29,19 +25,19 @@
   },
   {
    "giorno": "2026-10-16",
-   "gambe": 2
+   "gambe": 3
   },
   {
    "giorno": "2026-10-17",
-   "gambe": 8
+   "gambe": 17
   },
   {
    "giorno": "2026-10-18",
-   "gambe": 9
+   "gambe": 13
   },
   {
    "giorno": "2026-10-19",
-   "gambe": 1
+   "gambe": 3
   },
   {
    "giorno": "2026-10-21",
@@ -49,40 +45,10 @@
   },
   {
    "giorno": "2026-10-22",
-   "gambe": 2
+   "gambe": 3
   }
  ],
  "betfair": [
-  {
-   "idEvento": "2ba2d49f6e9fb8fc7d0417ca0b590f77",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Hubert Hurkacz",
-   "trasf": "James Duckworth",
-   "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-08",
-   "ora": "07:10",
-   "esito": "1",
-   "dice": "vince Hubert Hurkacz",
-   "quota": 1.48,
-   "quotaMercato": 1.51,
-   "prob": 0.676,
-   "valore": 0.001
-  },
-  {
-   "idEvento": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
-   "sportKey": "basketball_nba",
-   "casa": "New Orleans Pelicans",
-   "trasf": "Indiana Pacers",
-   "campionato": "NBA",
-   "giorno": "2026-10-22",
-   "ora": "02:10",
-   "esito": "2",
-   "dice": "vince Indiana Pacers",
-   "quota": 1.68,
-   "quotaMercato": 1.72,
-   "prob": 0.593,
-   "valore": -0.003
-  },
   {
    "idEvento": "40c1bd70fee927f9bfa8901edab02b48",
    "sportKey": "soccer_italy_serie_a",
@@ -94,24 +60,144 @@
    "esito": "1",
    "dice": "Napoli",
    "quota": 1.48,
-   "quotaMercato": 1.51,
-   "prob": 0.673,
-   "valore": -0.005
+   "quotaMercato": 1.5,
+   "prob": 0.675,
+   "valore": -0.001
   },
   {
-   "idEvento": "469d64661302be8270a740c26c2307d4",
+   "idEvento": "bd351fd9f9a56cd0cc2878d9ec9cda89",
    "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Marcos Giron",
-   "trasf": "Sebastian Baez",
+   "casa": "Karen Khachanov",
+   "trasf": "Arthur Fery",
    "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-08",
+   "giorno": "2026-10-09",
    "ora": "08:20",
+   "esito": "1",
+   "dice": "vince Karen Khachanov",
+   "quota": 1.45,
+   "quotaMercato": 1.47,
+   "prob": 0.688,
+   "valore": -0.003
+  },
+  {
+   "idEvento": "cb7067ac191abf32ad49dad45e46f639",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Troyes",
+   "trasf": "Marseille",
+   "campionato": "Ligue 1",
+   "giorno": "2026-10-11",
+   "ora": "20:45",
    "esito": "2",
-   "dice": "vince Sebastian Baez",
-   "quota": 1.8,
-   "quotaMercato": 1.84,
-   "prob": 0.549,
+   "dice": "Marseille",
+   "quota": 1.95,
+   "quotaMercato": 2,
+   "prob": 0.511,
+   "valore": -0.004
+  },
+  {
+   "idEvento": "9195be0514275073aba14213083da83a",
+   "sportKey": "tennis_atp_shanghai_masters",
+   "casa": "Francisco Cerundolo",
+   "trasf": "Roman Safiullin",
+   "campionato": "ATP Shanghai Masters",
+   "giorno": "2026-10-09",
+   "ora": "09:30",
+   "esito": "2",
+   "dice": "vince Roman Safiullin",
+   "quota": 1.94,
+   "quotaMercato": 2,
+   "prob": 0.512,
+   "valore": -0.006
+  },
+  {
+   "idEvento": "789c3dd95a7fcef675ce5a40b07371a2",
+   "sportKey": "soccer_portugal_primeira_liga",
+   "casa": "Famalicão",
+   "trasf": "Alverca",
+   "campionato": "Portogallo",
+   "giorno": "2026-10-12",
+   "ora": "21:15",
+   "esito": "1",
+   "dice": "Famalicão",
+   "quota": 1.89,
+   "quotaMercato": 1.94,
+   "prob": 0.523,
    "valore": -0.011
+  },
+  {
+   "idEvento": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
+   "sportKey": "basketball_nba",
+   "casa": "New Orleans Pelicans",
+   "trasf": "Indiana Pacers",
+   "campionato": "NBA",
+   "giorno": "2026-10-22",
+   "ora": "02:10",
+   "esito": "2",
+   "dice": "vince Indiana Pacers",
+   "quota": 1.67,
+   "quotaMercato": 1.71,
+   "prob": 0.592,
+   "valore": -0.011
+  },
+  {
+   "idEvento": "1cf64166dda1e0da8b325161deb39662",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Sassuolo",
+   "trasf": "AC Milan",
+   "campionato": "Serie A",
+   "giorno": "2026-10-11",
+   "ora": "18:00",
+   "esito": "2",
+   "dice": "AC Milan",
+   "quota": 1.85,
+   "quotaMercato": 1.89,
+   "prob": 0.534,
+   "valore": -0.013
+  },
+  {
+   "idEvento": "007dc2ff845c33e3e18f2bd2bc126304",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Brest",
+   "trasf": "Angers",
+   "campionato": "Ligue 1",
+   "giorno": "2026-10-10",
+   "ora": "20:45",
+   "esito": "1",
+   "dice": "Brest",
+   "quota": 2.03,
+   "quotaMercato": 2.08,
+   "prob": 0.486,
+   "valore": -0.013
+  },
+  {
+   "idEvento": "01cb7a67c8ae71201ec27297455fc0e8",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "RB Leipzig",
+   "trasf": "Eintracht Frankfurt",
+   "campionato": "Bundesliga",
+   "giorno": "2026-10-10",
+   "ora": "18:30",
+   "esito": "1",
+   "dice": "RB Leipzig",
+   "quota": 1.58,
+   "quotaMercato": 1.61,
+   "prob": 0.624,
+   "valore": -0.013
+  },
+  {
+   "idEvento": "77c21a6fdd5be6d774addfacd8964d49",
+   "sportKey": "soccer_netherlands_eredivisie",
+   "casa": "FC Zwolle",
+   "trasf": "SC Cambuur",
+   "campionato": "Olanda",
+   "giorno": "2026-10-11",
+   "ora": "14:30",
+   "esito": "1",
+   "dice": "FC Zwolle",
+   "quota": 2.01,
+   "quotaMercato": 2.06,
+   "prob": 0.491,
+   "valore": -0.014
   },
   {
    "idEvento": "47cc511bb5ce50f715e3625ce5ef77ee",
@@ -125,175 +211,40 @@
    "dice": "vince Charlotte Hornets",
    "quota": 1.79,
    "quotaMercato": 1.86,
-   "prob": 0.552,
-   "valore": -0.012
-  },
-  {
-   "idEvento": "4ed151cdcdb29939aae76add155bbc56",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Martin Landaluce",
-   "trasf": "Jan-Lennard Struff",
-   "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-08",
-   "ora": "08:20",
-   "esito": "1",
-   "dice": "vince Martin Landaluce",
-   "quota": 1.91,
-   "quotaMercato": 1.96,
-   "prob": 0.516,
+   "prob": 0.551,
    "valore": -0.014
   },
   {
-   "idEvento": "164cc0396837d5ff433215ffd3279283",
-   "sportKey": "basketball_nba",
-   "casa": "Washington Wizards",
-   "trasf": "Milwaukee Bucks",
-   "campionato": "NBA",
-   "giorno": "2026-10-22",
-   "ora": "01:10",
+   "idEvento": "2c173b3bd3a1491f17fcad1012019c4f",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Lille",
+   "trasf": "Le Havre",
+   "campionato": "Ligue 1",
+   "giorno": "2026-10-10",
+   "ora": "17:15",
    "esito": "1",
-   "dice": "vince Washington Wizards",
-   "quota": 1.48,
-   "quotaMercato": 1.54,
-   "prob": 0.666,
+   "dice": "Lille",
+   "quota": 1.45,
+   "quotaMercato": 1.48,
+   "prob": 0.679,
    "valore": -0.015
-  },
-  {
-   "idEvento": "9aade3e736c3d113dab19e641c43e272",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "SC Paderborn",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "15:30",
-   "esito": "2",
-   "dice": "VfB Stuttgart",
-   "quota": 1.62,
-   "quotaMercato": 1.65,
-   "prob": 0.608,
-   "valore": -0.016
-  },
-  {
-   "idEvento": "67cfb783c5290b2ff1c47303c87e9cf1",
-   "sportKey": "basketball_wnba",
-   "casa": "Golden State Valkyries",
-   "trasf": "Las Vegas Aces",
-   "campionato": "WNBA",
-   "giorno": "2026-10-08",
-   "ora": "03:30",
-   "esito": "1",
-   "dice": "vince Golden State Valkyries",
-   "quota": 1.86,
-   "quotaMercato": 1.91,
-   "prob": 0.529,
-   "valore": -0.016
-  },
-  {
-   "idEvento": "e239b6153731e9f0b84f346eb587f9f7",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Luca Van Assche",
-   "trasf": "Bu Yunchaokete",
-   "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-08",
-   "ora": "12:00",
-   "esito": "2",
-   "dice": "vince Bu Yunchaokete",
-   "quota": 1.66,
-   "quotaMercato": 1.69,
-   "prob": 0.593,
-   "valore": -0.016
-  },
-  {
-   "idEvento": "7895f97f2f9577f3b13287a3d086859d",
-   "sportKey": "soccer_epl",
-   "casa": "Fulham",
-   "trasf": "Hull City",
-   "campionato": "Premier League",
-   "giorno": "2026-10-17",
-   "ora": "16:00",
-   "esito": "1",
-   "dice": "Fulham",
-   "quota": 1.7,
-   "quotaMercato": 1.74,
-   "prob": 0.578,
-   "valore": -0.017
-  },
-  {
-   "idEvento": "01cb7a67c8ae71201ec27297455fc0e8",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "RB Leipzig",
-   "trasf": "Eintracht Frankfurt",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-10",
-   "ora": "18:30",
-   "esito": "1",
-   "dice": "RB Leipzig",
-   "quota": 1.56,
-   "quotaMercato": 1.59,
-   "prob": 0.63,
-   "valore": -0.017
   }
  ],
  "gioca": true,
  "giorno": "2026-10-08",
- "tipo": "TRIPLA",
- "quota": 2.16,
- "probabilita": 0.454,
- "costo": 0.019,
+ "tipo": "DOPPIA",
+ "quota": 1.92,
+ "probabilita": 0.508,
+ "costo": 0.024,
  "puntata": 5,
- "vincita": 10.8,
- "minimo888": 2.01,
- "puntaEntro": "05:30",
- "primaPartita": "06:00",
+ "vincita": 9.6,
+ "minimo888": 1.79,
+ "puntaEntro": "17:30",
+ "primaPartita": "18:00",
  "gambe": [
   {
-   "idEvento": "9455bb53b8693ab0ec732e5f5ffe5c66",
+   "idEvento": "82a9602dee45bcd6c373ad39c110c027",
    "sportKey": "basketball_euroleague",
-   "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
-   "casa": "Real Madrid",
-   "trasf": "KK Partizan NIS",
-   "campionato": "Basketball Euroleague",
-   "ora": "20:45",
-   "esito": "1",
-   "dice": "vince Real Madrid",
-   "quota": 1.25,
-   "quotaBF": 1.01,
-   "prob": 0.799,
-   "nSiti": 16
-  },
-  {
-   "idEvento": "333980ed121c08c335b86c91a1de3a48",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Nuno Borges",
-   "trasf": "Facundo Diaz Acosta",
-   "campionato": "ATP Shanghai Masters",
-   "ora": "06:00",
-   "esito": "1",
-   "dice": "vince Nuno Borges",
-   "quota": 1.32,
-   "quotaBF": 1.3,
-   "prob": 0.757,
-   "nSiti": 19
-  },
-  {
-   "idEvento": "051deb589943d3da84223da452227ca8",
-   "sportKey": "tennis_wta_china_open",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Ekaterina Alexandrova",
-   "trasf": "Mirra Andreeva",
-   "campionato": "WTA China Open",
-   "ora": "13:00",
-   "esito": "2",
-   "dice": "vince Mirra Andreeva",
-   "quota": 1.31,
-   "quotaBF": 1.29,
-   "prob": 0.751,
-   "nSiti": 20
-  }
- ],
- "altre": [
-  {
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "Dubai Basketball",
    "trasf": "KK Crvena zvezda",
@@ -301,38 +252,14 @@
    "ora": "18:00",
    "esito": "1",
    "dice": "vince Dubai Basketball",
-   "quota": 1.36,
-   "quotaBF": 1.32,
-   "prob": 0.718,
-   "nSiti": 16
-  },
-  {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Vit Kopriva",
-   "trasf": "Zizou Bergs",
-   "campionato": "ATP Shanghai Masters",
-   "ora": "09:30",
-   "esito": "2",
-   "dice": "vince Zizou Bergs",
-   "quota": 1.4,
-   "quotaBF": 1.38,
-   "prob": 0.711,
+   "quota": 1.35,
+   "quotaBF": 1.33,
+   "prob": 0.727,
    "nSiti": 19
   },
   {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Karolina Muchova",
-   "trasf": "Nikola Bartunkova",
-   "campionato": "WTA China Open",
-   "ora": "09:00",
-   "esito": "1",
-   "dice": "vince Karolina Muchova",
-   "quota": 1.45,
-   "quotaBF": 1.43,
-   "prob": 0.686,
-   "nSiti": 20
-  },
-  {
+   "idEvento": "a3cbc8106c3048e64e2cd76a1e57d009",
+   "sportKey": "basketball_euroleague",
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "FC Bayern München",
    "trasf": "Virtus Segafredo Bologna",
@@ -340,22 +267,24 @@
    "ora": "20:00",
    "esito": "1",
    "dice": "vince FC Bayern München",
-   "quota": 1.43,
-   "quotaBF": 1.32,
-   "prob": 0.685,
-   "nSiti": 15
-  },
+   "quota": 1.42,
+   "quotaBF": 1.4,
+   "prob": 0.699,
+   "nSiti": 18
+  }
+ ],
+ "altre": [
   {
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Hubert Hurkacz",
-   "trasf": "James Duckworth",
-   "campionato": "ATP Shanghai Masters",
-   "ora": "07:10",
+   "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
+   "casa": "Panathinaikos",
+   "trasf": "Fenerbahce SK",
+   "campionato": "Basketball Euroleague",
+   "ora": "20:15",
    "esito": "1",
-   "dice": "vince Hubert Hurkacz",
-   "quota": 1.51,
-   "quotaBF": 1.48,
-   "prob": 0.676,
+   "dice": "vince Panathinaikos",
+   "quota": 1.55,
+   "quotaBF": 1.51,
+   "prob": 0.635,
    "nSiti": 19
   }
  ]
