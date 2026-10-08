@@ -286,5 +286,17 @@
   "clv": 5,
   "minutiPrima": 54,
   "quando": "2026-09-19T17:05:49.208Z"
+ },
+ {
+  "chiave": "2026-10-08|Dubai Basketball|KK Crvena zvezda|1",
+  "giorno": "2026-10-08",
+  "casa": "Dubai Basketball",
+  "trasf": "KK Crvena zvezda",
+  "esito": "1",
+  "nostra": 1.35,
+  "chiusura": 1.29,
+  "clv": 4.7,
+  "minutiPrima": 35,
+  "quando": "2026-10-08T15:24:59.817Z"
  }
 ]
