@@ -298,5 +298,17 @@
   "clv": 4.7,
   "minutiPrima": 35,
   "quando": "2026-10-08T15:24:59.817Z"
+ },
+ {
+  "chiave": "2026-10-10|Lille|Le Havre|12",
+  "giorno": "2026-10-10",
+  "casa": "Lille",
+  "trasf": "Le Havre",
+  "esito": "12",
+  "nostra": 1.25,
+  "chiusura": 1.19,
+  "clv": 5,
+  "minutiPrima": 53,
+  "quando": "2026-10-10T14:21:36.082Z"
  }
 ]
