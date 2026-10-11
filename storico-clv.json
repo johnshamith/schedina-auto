@@ -310,5 +310,29 @@
   "clv": 5,
   "minutiPrima": 53,
   "quando": "2026-10-10T14:21:36.082Z"
+ },
+ {
+  "chiave": "2026-10-11|Real Betis|CA Osasuna|12",
+  "giorno": "2026-10-11",
+  "casa": "Real Betis",
+  "trasf": "CA Osasuna",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.21,
+  "clv": 5.8,
+  "minutiPrima": 102,
+  "quando": "2026-10-11T14:48:06.764Z"
+ },
+ {
+  "chiave": "2026-10-11|Sassuolo|AC Milan|X2",
+  "giorno": "2026-10-11",
+  "casa": "Sassuolo",
+  "trasf": "AC Milan",
+  "esito": "X2",
+  "nostra": 1.29,
+  "chiusura": 1.23,
+  "clv": 4.9,
+  "minutiPrima": 72,
+  "quando": "2026-10-11T14:48:07.261Z"
  }
 ]
