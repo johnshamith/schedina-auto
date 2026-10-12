@@ -334,5 +334,29 @@
   "clv": 4.9,
   "minutiPrima": 72,
   "quando": "2026-10-11T14:48:07.261Z"
+ },
+ {
+  "chiave": "2026-10-12|Famalicão|Alverca|1X",
+  "giorno": "2026-10-12",
+  "casa": "Famalicão",
+  "trasf": "Alverca",
+  "esito": "1X",
+  "nostra": 1.28,
+  "chiusura": 1.19,
+  "clv": 7.6,
+  "minutiPrima": 98,
+  "quando": "2026-10-12T17:36:44.435Z"
+ },
+ {
+  "chiave": "2026-10-12|Coventry City|Newcastle United|12",
+  "giorno": "2026-10-12",
+  "casa": "Coventry City",
+  "trasf": "Newcastle United",
+  "esito": "12",
+  "nostra": 1.36,
+  "chiusura": 1.29,
+  "clv": 5.4,
+  "minutiPrima": 83,
+  "quando": "2026-10-12T17:36:44.941Z"
  }
 ]
