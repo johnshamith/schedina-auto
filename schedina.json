@@ -1,11 +1,11 @@
 {
- "quando": "2026-10-12T12:33:03.468Z",
- "chiamateRimaste": "333",
+ "quando": "2026-10-12T15:50:03.169Z",
+ "chiamateRimaste": "321",
  "problemi": [],
  "giorniVisti": [
   {
    "giorno": "2026-10-12",
-   "gambe": 5
+   "gambe": 4
   },
   {
    "giorno": "2026-10-13",
@@ -13,7 +13,7 @@
   },
   {
    "giorno": "2026-10-14",
-   "gambe": 1
+   "gambe": 5
   },
   {
    "giorno": "2026-10-16",
@@ -54,6 +54,36 @@
  ],
  "betfair": [
   {
+   "idEvento": "77cd15bc0cd98c5294c57d566ed289c9",
+   "sportKey": "tennis_atp_shanghai_masters",
+   "casa": "Botic van de Zandschulp",
+   "trasf": "Rafael Jodar",
+   "campionato": "ATP Shanghai Masters",
+   "giorno": "2026-10-14",
+   "ora": "06:00",
+   "esito": "2",
+   "dice": "vince Rafael Jodar",
+   "quota": 1.55,
+   "quotaMercato": 1.58,
+   "prob": 0.647,
+   "valore": 0.002
+  },
+  {
+   "idEvento": "ad25a350c89b64715e15c59cde5653d3",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Lille",
+   "trasf": "Brest",
+   "campionato": "Ligue 1",
+   "giorno": "2026-10-17",
+   "ora": "20:45",
+   "esito": "1",
+   "dice": "Lille",
+   "quota": 1.84,
+   "quotaMercato": 1.88,
+   "prob": 0.542,
+   "valore": -0.003
+  },
+  {
    "idEvento": "47cc511bb5ce50f715e3625ce5ef77ee",
    "sportKey": "basketball_nba",
    "casa": "Brooklyn Nets",
@@ -67,21 +97,6 @@
    "quotaMercato": 1.86,
    "prob": 0.547,
    "valore": -0.005
-  },
-  {
-   "idEvento": "9115ec9d559da806d8a0829db60d9a51",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Hubert Hurkacz",
-   "trasf": "Alejandro Davidovich Fokina",
-   "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-13",
-   "ora": "13:10",
-   "esito": "2",
-   "dice": "vince Alejandro Davidovich Fokina",
-   "quota": 2.05,
-   "quotaMercato": 2.1,
-   "prob": 0.482,
-   "valore": -0.012
   },
   {
    "idEvento": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
@@ -99,18 +114,18 @@
    "valore": -0.013
   },
   {
-   "idEvento": "dfd5d6648be46426e418801584d46a68",
-   "sportKey": "soccer_epl",
-   "casa": "Bournemouth",
-   "trasf": "Sunderland",
-   "campionato": "Premier League",
-   "giorno": "2026-10-18",
-   "ora": "15:00",
-   "esito": "1",
-   "dice": "Bournemouth",
-   "quota": 2.06,
-   "quotaMercato": 2.12,
-   "prob": 0.478,
+   "idEvento": "f40a4027ec6234e8e3a47359c9444700",
+   "sportKey": "tennis_atp_shanghai_masters",
+   "casa": "Arthur Gea",
+   "trasf": "Jakub Mensik",
+   "campionato": "ATP Shanghai Masters",
+   "giorno": "2026-10-13",
+   "ora": "07:10",
+   "esito": "2",
+   "dice": "vince Jakub Mensik",
+   "quota": 1.65,
+   "quotaMercato": 1.69,
+   "prob": 0.598,
    "valore": -0.014
   },
   {
@@ -129,6 +144,21 @@
    "valore": -0.015
   },
   {
+   "idEvento": "789c3dd95a7fcef675ce5a40b07371a2",
+   "sportKey": "soccer_portugal_primeira_liga",
+   "casa": "Famalicão",
+   "trasf": "Alverca",
+   "campionato": "Portogallo",
+   "giorno": "2026-10-12",
+   "ora": "21:15",
+   "esito": "1",
+   "dice": "Famalicão",
+   "quota": 1.95,
+   "quotaMercato": 2.02,
+   "prob": 0.504,
+   "valore": -0.016
+  },
+  {
    "idEvento": "4c4026e2782f09d6f0ff2bde2a390513",
    "sportKey": "soccer_italy_serie_a",
    "casa": "Juventus",
@@ -140,8 +170,8 @@
    "dice": "Juventus",
    "quota": 1.68,
    "quotaMercato": 1.72,
-   "prob": 0.586,
-   "valore": -0.016
+   "prob": 0.585,
+   "valore": -0.017
   },
   {
    "idEvento": "947bd5d924835af090d9cdc7bbdf10f6",
@@ -153,25 +183,40 @@
    "ora": "20:30",
    "esito": "1",
    "dice": "Eintracht Frankfurt",
-   "quota": 1.99,
-   "quotaMercato": 2.04,
-   "prob": 0.494,
-   "valore": -0.017
+   "quota": 1.97,
+   "quotaMercato": 2.02,
+   "prob": 0.498,
+   "valore": -0.018
   },
   {
-   "idEvento": "58a05f658522b6d5023cf97d25398dd0",
-   "sportKey": "tennis_wta_wuhan_open",
-   "casa": "Dayana Yastremska",
-   "trasf": "Cristina Bucsa",
-   "campionato": "WTA Wuhan Open",
-   "giorno": "2026-10-13",
-   "ora": "05:00",
+   "idEvento": "dfd5d6648be46426e418801584d46a68",
+   "sportKey": "soccer_epl",
+   "casa": "Bournemouth",
+   "trasf": "Sunderland",
+   "campionato": "Premier League",
+   "giorno": "2026-10-18",
+   "ora": "15:00",
    "esito": "1",
-   "dice": "vince Dayana Yastremska",
-   "quota": 1.8,
-   "quotaMercato": 1.84,
-   "prob": 0.545,
-   "valore": -0.018
+   "dice": "Bournemouth",
+   "quota": 2.06,
+   "quotaMercato": 2.12,
+   "prob": 0.476,
+   "valore": -0.019
+  },
+  {
+   "idEvento": "caf387c8fabf2e7526a93321c6ebfb2d",
+   "sportKey": "tennis_atp_shanghai_masters",
+   "casa": "Alex de Minaur",
+   "trasf": "Karen Khachanov",
+   "campionato": "ATP Shanghai Masters",
+   "giorno": "2026-10-13",
+   "ora": "06:00",
+   "esito": "2",
+   "dice": "vince Karen Khachanov",
+   "quota": 2.08,
+   "quotaMercato": 2.14,
+   "prob": 0.471,
+   "valore": -0.02
   },
   {
    "idEvento": "7895f97f2f9577f3b13287a3d086859d",
@@ -185,81 +230,36 @@
    "dice": "Fulham",
    "quota": 1.7,
    "quotaMercato": 1.74,
-   "prob": 0.577,
-   "valore": -0.019
-  },
-  {
-   "idEvento": "f40a4027ec6234e8e3a47359c9444700",
-   "sportKey": "tennis_atp_shanghai_masters",
-   "casa": "Arthur Gea",
-   "trasf": "Jakub Mensik",
-   "campionato": "ATP Shanghai Masters",
-   "giorno": "2026-10-13",
-   "ora": "07:10",
-   "esito": "2",
-   "dice": "vince Jakub Mensik",
-   "quota": 1.57,
-   "quotaMercato": 1.6,
-   "prob": 0.625,
-   "valore": -0.019
-  },
-  {
-   "idEvento": "ad25a350c89b64715e15c59cde5653d3",
-   "sportKey": "soccer_france_ligue_one",
-   "casa": "Lille",
-   "trasf": "Brest",
-   "campionato": "Ligue 1",
-   "giorno": "2026-10-17",
-   "ora": "20:45",
-   "esito": "1",
-   "dice": "Lille",
-   "quota": 1.81,
-   "quotaMercato": 1.86,
-   "prob": 0.542,
-   "valore": -0.02
-  },
-  {
-   "idEvento": "221916b8b36706ec52aa655a64e5f1d2",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "Hamburger SV",
-   "trasf": "VfB Stuttgart",
-   "campionato": "Bundesliga",
-   "giorno": "2026-10-17",
-   "ora": "15:30",
-   "esito": "2",
-   "dice": "VfB Stuttgart",
-   "quota": 1.86,
-   "quotaMercato": 1.9,
-   "prob": 0.527,
-   "valore": -0.02
+   "prob": 0.576,
+   "valore": -0.021
   }
  ],
  "gioca": true,
  "giorno": "2026-10-12",
  "tipo": "DOPPIA",
- "quota": 1.77,
- "probabilita": 0.58,
- "costo": -0.027,
+ "quota": 1.74,
+ "probabilita": 0.577,
+ "costo": -0.004,
  "puntata": 5,
- "vincita": 8.85,
- "minimo888": 1.65,
- "puntaEntro": "18:00",
- "primaPartita": "18:30",
+ "vincita": 8.7,
+ "minimo888": 1.62,
+ "puntaEntro": "20:30",
+ "primaPartita": "21:00",
  "gambe": [
   {
-   "idEvento": "0f2e7ff90b994f31d5cd48a9680943e1",
-   "sportKey": "soccer_italy_serie_a",
-   "link": "https://sport.888casino.it/#/filter/football/italy/serie_a",
-   "casa": "Atalanta BC",
-   "trasf": "Venezia",
-   "campionato": "Serie A",
-   "ora": "18:30",
-   "esito": "12",
-   "dice": "no pareggio",
-   "quota": 1.3,
+   "idEvento": "789c3dd95a7fcef675ce5a40b07371a2",
+   "sportKey": "soccer_portugal_primeira_liga",
+   "link": "https://sport.888casino.it/#/filter/football/portugal/primeira_liga",
+   "casa": "Famalicão",
+   "trasf": "Alverca",
+   "campionato": "Portogallo",
+   "ora": "21:15",
+   "esito": "1X",
+   "dice": "Famalicão o pareggio",
+   "quota": 1.28,
    "quotaBF": null,
-   "prob": 0.788,
-   "nSiti": 24
+   "prob": 0.78,
+   "nSiti": 20
   },
   {
    "idEvento": "acd5bd945dd953ad1e300df5bfe696f9",
@@ -273,24 +273,11 @@
    "dice": "no pareggio",
    "quota": 1.36,
    "quotaBF": null,
-   "prob": 0.737,
+   "prob": 0.74,
    "nSiti": 25
   }
  ],
  "altre": [
-  {
-   "link": "https://sport.888casino.it/#/filter/football/portugal/primeira_liga",
-   "casa": "Famalicão",
-   "trasf": "Alverca",
-   "campionato": "Portogallo",
-   "ora": "21:15",
-   "esito": "12",
-   "dice": "no pareggio",
-   "quota": 1.38,
-   "quotaBF": null,
-   "prob": 0.725,
-   "nSiti": 20
-  },
   {
    "link": "https://sport.888casino.it/#/filter/football/spain/la_liga",
    "casa": "Levante",
@@ -299,7 +286,7 @@
    "ora": "21:00",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.43,
+   "quota": 1.42,
    "quotaBF": null,
    "prob": 0.703,
    "nSiti": 21
@@ -312,9 +299,9 @@
    "ora": "20:45",
    "esito": "1X",
    "dice": "Torino o pareggio",
-   "quota": 1.43,
+   "quota": 1.44,
    "quotaBF": null,
-   "prob": 0.701,
+   "prob": 0.698,
    "nSiti": 24
   }
  ]
