@@ -358,5 +358,17 @@
   "clv": 5.4,
   "minutiPrima": 83,
   "quando": "2026-10-12T17:36:44.941Z"
+ },
+ {
+  "chiave": "2026-10-13|Fenerbahce SK|Žalgiris|1",
+  "giorno": "2026-10-13",
+  "casa": "Fenerbahce SK",
+  "trasf": "Žalgiris",
+  "esito": "1",
+  "nostra": 1.39,
+  "chiusura": 1.33,
+  "clv": 4.5,
+  "minutiPrima": 119,
+  "quando": "2026-10-13T15:45:38.035Z"
  }
 ]
