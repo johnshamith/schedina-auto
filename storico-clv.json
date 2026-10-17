@@ -382,5 +382,29 @@
   "clv": 4.1,
   "minutiPrima": 21,
   "quando": "2026-10-16T17:53:56.422Z"
+ },
+ {
+  "chiave": "2026-10-17|Venezia|Napoli|X2",
+  "giorno": "2026-10-17",
+  "casa": "Venezia",
+  "trasf": "Napoli",
+  "esito": "X2",
+  "nostra": 1.25,
+  "chiusura": 1.2,
+  "clv": 4.2,
+  "minutiPrima": 57,
+  "quando": "2026-10-17T12:03:08.805Z"
+ },
+ {
+  "chiave": "2026-10-17|Union Berlin|Borussia Dortmund|12",
+  "giorno": "2026-10-17",
+  "casa": "Union Berlin",
+  "trasf": "Borussia Dortmund",
+  "esito": "12",
+  "nostra": 1.28,
+  "chiusura": 1.21,
+  "clv": 5.8,
+  "minutiPrima": 87,
+  "quando": "2026-10-17T12:03:09.278Z"
  }
 ]
