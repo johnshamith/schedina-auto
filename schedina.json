@@ -1,11 +1,11 @@
 {
- "quando": "2026-10-19T10:22:06.401Z",
- "chiamateRimaste": "231",
+ "quando": "2026-10-19T13:45:13.924Z",
+ "chiamateRimaste": "220",
  "problemi": [],
  "giorniVisti": [
   {
    "giorno": "2026-10-19",
-   "gambe": 6
+   "gambe": 5
   },
   {
    "giorno": "2026-10-20",
@@ -13,7 +13,7 @@
   },
   {
    "giorno": "2026-10-21",
-   "gambe": 2
+   "gambe": 1
   },
   {
    "giorno": "2026-10-22",
@@ -40,12 +40,16 @@
    "gambe": 3
   },
   {
+   "giorno": "2026-10-30",
+   "gambe": 2
+  },
+  {
    "giorno": "2026-10-31",
-   "gambe": 8
+   "gambe": 12
   },
   {
    "giorno": "2026-11-01",
-   "gambe": 1
+   "gambe": 4
   },
   {
    "giorno": "2026-11-02",
@@ -58,6 +62,21 @@
  ],
  "betfair": [
   {
+   "idEvento": "e1abd2ba6b11aae5d64e41652a8ea256",
+   "sportKey": "soccer_portugal_primeira_liga",
+   "casa": "Braga",
+   "trasf": "Gil Vicente",
+   "campionato": "Portogallo",
+   "giorno": "2026-10-19",
+   "ora": "21:15",
+   "esito": "1",
+   "dice": "Braga",
+   "quota": 1.6,
+   "quotaMercato": 1.63,
+   "prob": 0.631,
+   "valore": 0.01
+  },
+  {
    "idEvento": "9b70765a6abd2b34bae75afa9d3acedb",
    "sportKey": "soccer_netherlands_eredivisie",
    "casa": "PSV Eindhoven",
@@ -69,23 +88,68 @@
    "dice": "PSV Eindhoven",
    "quota": 2.03,
    "quotaMercato": 2.08,
-   "prob": 0.494,
-   "valore": 0.003
+   "prob": 0.489,
+   "valore": -0.007
   },
   {
-   "idEvento": "e1abd2ba6b11aae5d64e41652a8ea256",
-   "sportKey": "soccer_portugal_primeira_liga",
-   "casa": "Braga",
-   "trasf": "Gil Vicente",
-   "campionato": "Portogallo",
-   "giorno": "2026-10-19",
-   "ora": "21:15",
+   "idEvento": "2b042ddad3d3c6c6fe5b7005dc26c775",
+   "sportKey": "basketball_nba",
+   "casa": "New York Knicks",
+   "trasf": "Philadelphia 76ers",
+   "campionato": "NBA",
+   "giorno": "2026-10-21",
+   "ora": "01:00",
    "esito": "1",
-   "dice": "Braga",
-   "quota": 1.57,
-   "quotaMercato": 1.6,
-   "prob": 0.632,
-   "valore": -0.008
+   "dice": "vince New York Knicks",
+   "quota": 1.59,
+   "quotaMercato": 1.62,
+   "prob": 0.625,
+   "valore": -0.007
+  },
+  {
+   "idEvento": "290ba8cd3f3a2e9252effca673bf5549",
+   "sportKey": "soccer_epl",
+   "casa": "Liverpool",
+   "trasf": "Brighton and Hove Albion",
+   "campionato": "Premier League",
+   "giorno": "2026-10-25",
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Liverpool",
+   "quota": 2.18,
+   "quotaMercato": 2.24,
+   "prob": 0.454,
+   "valore": -0.011
+  },
+  {
+   "idEvento": "47cc511bb5ce50f715e3625ce5ef77ee",
+   "sportKey": "basketball_nba",
+   "casa": "Brooklyn Nets",
+   "trasf": "Charlotte Hornets",
+   "campionato": "NBA",
+   "giorno": "2026-10-22",
+   "ora": "01:30",
+   "esito": "2",
+   "dice": "vince Charlotte Hornets",
+   "quota": 1.99,
+   "quotaMercato": 2.04,
+   "prob": 0.497,
+   "valore": -0.011
+  },
+  {
+   "idEvento": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
+   "sportKey": "basketball_nba",
+   "casa": "New Orleans Pelicans",
+   "trasf": "Indiana Pacers",
+   "campionato": "NBA",
+   "giorno": "2026-10-22",
+   "ora": "02:10",
+   "esito": "2",
+   "dice": "vince Indiana Pacers",
+   "quota": 1.66,
+   "quotaMercato": 1.69,
+   "prob": 0.595,
+   "valore": -0.013
   },
   {
    "idEvento": "63aa6e3f679ee4c68de5b4bd8d3361bb",
@@ -99,8 +163,8 @@
    "dice": "Atalanta BC",
    "quota": 1.79,
    "quotaMercato": 1.83,
-   "prob": 0.552,
-   "valore": -0.012
+   "prob": 0.551,
+   "valore": -0.014
   },
   {
    "idEvento": "3ed4d1e775910625c50518a384e9c547",
@@ -118,36 +182,6 @@
    "valore": -0.014
   },
   {
-   "idEvento": "47cc511bb5ce50f715e3625ce5ef77ee",
-   "sportKey": "basketball_nba",
-   "casa": "Brooklyn Nets",
-   "trasf": "Charlotte Hornets",
-   "campionato": "NBA",
-   "giorno": "2026-10-22",
-   "ora": "01:30",
-   "esito": "2",
-   "dice": "vince Charlotte Hornets",
-   "quota": 1.97,
-   "quotaMercato": 2.02,
-   "prob": 0.5,
-   "valore": -0.015
-  },
-  {
-   "idEvento": "fd33c09c84ab4c2fe6955d59f8dc5dd2",
-   "sportKey": "basketball_nba",
-   "casa": "New Orleans Pelicans",
-   "trasf": "Indiana Pacers",
-   "campionato": "NBA",
-   "giorno": "2026-10-22",
-   "ora": "02:10",
-   "esito": "2",
-   "dice": "vince Indiana Pacers",
-   "quota": 1.66,
-   "quotaMercato": 1.69,
-   "prob": 0.594,
-   "valore": -0.015
-  },
-  {
    "idEvento": "08ffd99b2249c81d8a7410598f32b9b0",
    "sportKey": "soccer_italy_serie_a",
    "casa": "Como",
@@ -163,49 +197,19 @@
    "valore": -0.016
   },
   {
-   "idEvento": "2b042ddad3d3c6c6fe5b7005dc26c775",
-   "sportKey": "basketball_nba",
-   "casa": "New York Knicks",
-   "trasf": "Philadelphia 76ers",
-   "campionato": "NBA",
-   "giorno": "2026-10-21",
-   "ora": "01:00",
+   "idEvento": "72089d103a5fe6a922c35e17efba6ffc",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Barcelona",
+   "trasf": "Real Madrid",
+   "campionato": "Liga",
+   "giorno": "2026-10-25",
+   "ora": "22:00",
    "esito": "1",
-   "dice": "vince New York Knicks",
-   "quota": 1.57,
-   "quotaMercato": 1.6,
-   "prob": 0.627,
-   "valore": -0.016
-  },
-  {
-   "idEvento": "9baaf4e48b041cfef04e70e42532502e",
-   "sportKey": "soccer_epl",
-   "casa": "Tottenham Hotspur",
-   "trasf": "Coventry City",
-   "campionato": "Premier League",
-   "giorno": "2026-10-19",
-   "ora": "21:00",
-   "esito": "1",
-   "dice": "Tottenham Hotspur",
-   "quota": 1.55,
-   "quotaMercato": 1.58,
-   "prob": 0.634,
+   "dice": "Barcelona",
+   "quota": 1.58,
+   "quotaMercato": 1.62,
+   "prob": 0.622,
    "valore": -0.017
-  },
-  {
-   "idEvento": "164cc0396837d5ff433215ffd3279283",
-   "sportKey": "basketball_nba",
-   "casa": "Washington Wizards",
-   "trasf": "Milwaukee Bucks",
-   "campionato": "NBA",
-   "giorno": "2026-10-22",
-   "ora": "01:00",
-   "esito": "1",
-   "dice": "vince Washington Wizards",
-   "quota": 1.52,
-   "quotaMercato": 1.55,
-   "prob": 0.646,
-   "valore": -0.018
   },
   {
    "idEvento": "aca5dd297dbee71f576f7641569fe578",
@@ -219,36 +223,36 @@
    "dice": "Manchester City",
    "quota": 1.73,
    "quotaMercato": 1.77,
-   "prob": 0.567,
-   "valore": -0.019
+   "prob": 0.568,
+   "valore": -0.018
   },
   {
-   "idEvento": "26b036ff107f3c658258eaf4a6f26228",
-   "sportKey": "basketball_nba",
-   "casa": "Detroit Pistons",
-   "trasf": "Boston Celtics",
-   "campionato": "NBA",
-   "giorno": "2026-10-20",
-   "ora": "21:00",
+   "idEvento": "9c4254cba9944a839b421db27260504d",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Athletic Bilbao",
+   "trasf": "Getafe",
+   "campionato": "Liga",
+   "giorno": "2026-10-25",
+   "ora": "15:00",
    "esito": "1",
-   "dice": "vince Detroit Pistons",
-   "quota": 1.97,
-   "quotaMercato": 2.02,
-   "prob": 0.497,
-   "valore": -0.02
+   "dice": "Athletic Bilbao",
+   "quota": 1.67,
+   "quotaMercato": 1.7,
+   "prob": 0.588,
+   "valore": -0.018
   }
  ],
  "gioca": true,
  "giorno": "2026-10-19",
- "tipo": "TRIPLA",
- "quota": 2.23,
- "probabilita": 0.444,
- "costo": 0.009,
+ "tipo": "DOPPIA",
+ "quota": 1.66,
+ "probabilita": 0.612,
+ "costo": -0.016,
  "puntata": 5,
- "vincita": 11.15,
- "minimo888": 2.07,
- "puntaEntro": "13:00",
- "primaPartita": "13:30",
+ "vincita": 8.3,
+ "minimo888": 1.54,
+ "puntaEntro": "20:30",
+ "primaPartita": "21:00",
  "gambe": [
   {
    "idEvento": "9baaf4e48b041cfef04e70e42532502e",
@@ -262,7 +266,7 @@
    "dice": "no pareggio",
    "quota": 1.26,
    "quotaBF": null,
-   "prob": 0.792,
+   "prob": 0.793,
    "nSiti": 24
   },
   {
@@ -275,24 +279,9 @@
    "ora": "21:15",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.31,
+   "quota": 1.32,
    "quotaBF": null,
-   "prob": 0.767,
-   "nSiti": 20
-  },
-  {
-   "idEvento": "0f805964444e0fb6b3352edfabf4a7f1",
-   "sportKey": "tennis_wta_ningbo_open",
-   "link": "https://sport.888casino.it/#/home",
-   "casa": "Alexandra Eala",
-   "trasf": "Diane Parry",
-   "campionato": "WTA Ningbo Open",
-   "ora": "13:30",
-   "esito": "1",
-   "dice": "vince Alexandra Eala",
-   "quota": 1.35,
-   "quotaBF": 1.33,
-   "prob": 0.732,
+   "prob": 0.772,
    "nSiti": 20
   }
  ],
@@ -303,11 +292,11 @@
    "trasf": "Cagliari",
    "campionato": "Serie A",
    "ora": "18:30",
-   "esito": "1X",
-   "dice": "Monza o pareggio",
+   "esito": "12",
+   "dice": "no pareggio",
    "quota": 1.42,
    "quotaBF": null,
-   "prob": 0.704,
+   "prob": 0.708,
    "nSiti": 23
   },
   {
@@ -320,7 +309,7 @@
    "dice": "Torino o pareggio",
    "quota": 1.42,
    "quotaBF": null,
-   "prob": 0.702,
+   "prob": 0.705,
    "nSiti": 23
   },
   {
