@@ -418,5 +418,29 @@
   "clv": 9.3,
   "minutiPrima": 28,
   "quando": "2026-10-18T12:31:35.972Z"
+ },
+ {
+  "chiave": "2026-10-22|Toronto Raptors|Chicago Bulls|1",
+  "giorno": "2026-10-22",
+  "casa": "Toronto Raptors",
+  "trasf": "Chicago Bulls",
+  "esito": "1",
+  "nostra": 1.27,
+  "chiusura": 1.21,
+  "clv": 5,
+  "minutiPrima": 33,
+  "quando": "2026-10-21T23:07:00.374Z"
+ },
+ {
+  "chiave": "2026-10-22|Houston Rockets|Dallas Mavericks|1",
+  "giorno": "2026-10-22",
+  "casa": "Houston Rockets",
+  "trasf": "Dallas Mavericks",
+  "esito": "1",
+  "nostra": 1.31,
+  "chiusura": 1.23,
+  "clv": 6.5,
+  "minutiPrima": 93,
+  "quando": "2026-10-21T23:07:00.844Z"
  }
 ]
