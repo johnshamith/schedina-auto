@@ -442,5 +442,29 @@
   "clv": 6.5,
   "minutiPrima": 93,
   "quando": "2026-10-21T23:07:00.844Z"
+ },
+ {
+  "chiave": "2026-10-23|Vitória SC|CS Maritimo|12",
+  "giorno": "2026-10-23",
+  "casa": "Vitória SC",
+  "trasf": "CS Maritimo",
+  "esito": "12",
+  "nostra": 1.3,
+  "chiusura": 1.2,
+  "clv": 8.3,
+  "minutiPrima": 93,
+  "quando": "2026-10-23T18:11:40.298Z"
+ },
+ {
+  "chiave": "2026-10-23|Alavés|Málaga|12",
+  "giorno": "2026-10-23",
+  "casa": "Alavés",
+  "trasf": "Málaga",
+  "esito": "12",
+  "nostra": 1.35,
+  "chiusura": 1.26,
+  "clv": 7.1,
+  "minutiPrima": 48,
+  "quando": "2026-10-23T18:11:40.893Z"
  }
 ]
