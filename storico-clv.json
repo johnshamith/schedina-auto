@@ -466,5 +466,29 @@
   "clv": 7.1,
   "minutiPrima": 48,
   "quando": "2026-10-23T18:11:40.893Z"
+ },
+ {
+  "chiave": "2026-10-24|Como|Sassuolo|12",
+  "giorno": "2026-10-24",
+  "casa": "Como",
+  "trasf": "Sassuolo",
+  "esito": "12",
+  "nostra": 1.25,
+  "chiusura": 1.19,
+  "clv": 5,
+  "minutiPrima": 28,
+  "quando": "2026-10-24T12:31:37.903Z"
+ },
+ {
+  "chiave": "2026-10-24|Arsenal|Everton|12",
+  "giorno": "2026-10-24",
+  "casa": "Arsenal",
+  "trasf": "Everton",
+  "esito": "12",
+  "nostra": 1.26,
+  "chiusura": 1.21,
+  "clv": 4.1,
+  "minutiPrima": 88,
+  "quando": "2026-10-24T12:31:38.420Z"
  }
 ]
