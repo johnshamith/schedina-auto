@@ -502,5 +502,17 @@
   "clv": 3.2,
   "minutiPrima": 86,
   "quando": "2026-10-29T15:04:00.684Z"
+ },
+ {
+  "chiave": "2026-10-31|Manchester City|Brighton and Hove Albion|1X",
+  "giorno": "2026-10-31",
+  "casa": "Manchester City",
+  "trasf": "Brighton and Hove Albion",
+  "esito": "1X",
+  "nostra": 1.26,
+  "chiusura": 1.22,
+  "clv": 3.3,
+  "minutiPrima": 35,
+  "quando": "2026-10-31T14:25:13.997Z"
  }
 ]
