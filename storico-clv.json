@@ -514,5 +514,29 @@
   "clv": 3.3,
   "minutiPrima": 35,
   "quando": "2026-10-31T14:25:13.997Z"
+ },
+ {
+  "chiave": "2026-11-01|Lyon|Angers|12",
+  "giorno": "2026-11-01",
+  "casa": "Lyon",
+  "trasf": "Angers",
+  "esito": "12",
+  "nostra": 1.25,
+  "chiusura": 1.18,
+  "clv": 5.9,
+  "minutiPrima": 83,
+  "quando": "2026-11-01T14:52:03.390Z"
+ },
+ {
+  "chiave": "2026-11-01|Real Racing Club de Santander|Real Madrid|2",
+  "giorno": "2026-11-01",
+  "casa": "Real Racing Club de Santander",
+  "trasf": "Real Madrid",
+  "esito": "2",
+  "nostra": 1.26,
+  "chiusura": 1.19,
+  "clv": 5.9,
+  "minutiPrima": 23,
+  "quando": "2026-11-01T14:52:04.057Z"
  }
 ]
