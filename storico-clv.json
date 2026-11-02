@@ -538,5 +538,29 @@
   "clv": 5.9,
   "minutiPrima": 23,
   "quando": "2026-11-01T14:52:04.057Z"
+ },
+ {
+  "chiave": "2026-11-02|Atalanta BC|Parma|12",
+  "giorno": "2026-11-02",
+  "casa": "Atalanta BC",
+  "trasf": "Parma",
+  "esito": "12",
+  "nostra": 1.25,
+  "chiusura": 1.18,
+  "clv": 5.9,
+  "minutiPrima": 103,
+  "quando": "2026-11-02T18:02:29.162Z"
+ },
+ {
+  "chiave": "2026-11-02|Deportivo La Coruña|CA Osasuna|1X",
+  "giorno": "2026-11-02",
+  "casa": "Deportivo La Coruña",
+  "trasf": "CA Osasuna",
+  "esito": "1X",
+  "nostra": 1.34,
+  "chiusura": 1.28,
+  "clv": 4.7,
+  "minutiPrima": 118,
+  "quando": "2026-11-02T18:02:29.629Z"
  }
 ]
