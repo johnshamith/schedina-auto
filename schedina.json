@@ -1,6 +1,6 @@
 {
- "quando": "2026-11-02T12:55:44.127Z",
- "chiamateRimaste": "476",
+ "quando": "2026-11-02T16:23:05.616Z",
+ "chiamateRimaste": "466",
  "problemi": [],
  "giorniVisti": [
   {
@@ -12,6 +12,14 @@
    "gambe": 12
   },
   {
+   "giorno": "2026-11-04",
+   "gambe": 1
+  },
+  {
+   "giorno": "2026-11-05",
+   "gambe": 2
+  },
+  {
    "giorno": "2026-11-06",
    "gambe": 7
   },
@@ -21,7 +29,7 @@
   },
   {
    "giorno": "2026-11-08",
-   "gambe": 32
+   "gambe": 33
   }
  ],
  "betfair": [
@@ -35,55 +43,10 @@
    "ora": "12:00",
    "esito": "2",
    "dice": "vince Francisco Cerundolo",
-   "quota": 1.53,
-   "quotaMercato": 1.56,
+   "quota": 1.5,
+   "quotaMercato": 1.53,
    "prob": 0.663,
-   "valore": 0.014
-  },
-  {
-   "idEvento": "1ead1ee3704640aea824a5759ad1cc28",
-   "sportKey": "tennis_atp_paris_masters",
-   "casa": "Novak Djokovic",
-   "trasf": "Valentin Vacherot",
-   "campionato": "ATP Paris Masters",
-   "giorno": "2026-11-03",
-   "ora": "11:00",
-   "esito": "1",
-   "dice": "vince Novak Djokovic",
-   "quota": 1.48,
-   "quotaMercato": 1.5,
-   "prob": 0.678,
-   "valore": 0.003
-  },
-  {
-   "idEvento": "6579d9162df09172d12f48eecc5220fb",
-   "sportKey": "basketball_nba",
-   "casa": "Memphis Grizzlies",
-   "trasf": "New Orleans Pelicans",
-   "campionato": "NBA",
-   "giorno": "2026-11-03",
-   "ora": "03:10",
-   "esito": "1",
-   "dice": "vince Memphis Grizzlies",
-   "quota": 1.47,
-   "quotaMercato": 1.49,
-   "prob": 0.678,
-   "valore": -0.003
-  },
-  {
-   "idEvento": "85efb20e93a6ca08964f6239e9956dae",
-   "sportKey": "tennis_atp_paris_masters",
-   "casa": "Ugo Humbert",
-   "trasf": "Botic van de Zandschulp",
-   "campionato": "ATP Paris Masters",
-   "giorno": "2026-11-02",
-   "ora": "21:30",
-   "esito": "1",
-   "dice": "vince Ugo Humbert",
-   "quota": 1.61,
-   "quotaMercato": 1.64,
-   "prob": 0.616,
-   "valore": -0.008
+   "valore": -0.005
   },
   {
    "idEvento": "23bf8ea47358ef82f65aa7398a2b3921",
@@ -95,55 +58,85 @@
    "ora": "13:30",
    "esito": "1",
    "dice": "Napoli",
-   "quota": 2.16,
-   "quotaMercato": 2.22,
-   "prob": 0.457,
-   "valore": -0.013
+   "quota": 2.18,
+   "quotaMercato": 2.24,
+   "prob": 0.455,
+   "valore": -0.007
   },
   {
-   "idEvento": "27c333f22603d4eda3b9b6a3888476dc",
+   "idEvento": "339a6465fa5153fd8f31e487cf557cf0",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "Real Sociedad",
+   "trasf": "Rayo Vallecano",
+   "campionato": "Liga",
+   "giorno": "2026-11-08",
+   "ora": "17:15",
+   "esito": "1",
+   "dice": "Real Sociedad",
+   "quota": 1.73,
+   "quotaMercato": 1.77,
+   "prob": 0.573,
+   "valore": -0.009
+  },
+  {
+   "idEvento": "f4e4165c2b9e53531629f6d0ab982b13",
    "sportKey": "basketball_nba",
-   "casa": "Golden State Warriors",
-   "trasf": "Phoenix Suns",
+   "casa": "Los Angeles Lakers",
+   "trasf": "Miami Heat",
    "campionato": "NBA",
    "giorno": "2026-11-03",
    "ora": "05:10",
-   "esito": "1",
-   "dice": "vince Golden State Warriors",
-   "quota": 1.62,
-   "quotaMercato": 1.65,
-   "prob": 0.609,
-   "valore": -0.013
+   "esito": "2",
+   "dice": "vince Miami Heat",
+   "quota": 2.12,
+   "quotaMercato": 2.18,
+   "prob": 0.467,
+   "valore": -0.009
   },
   {
-   "idEvento": "c70f9f21f48464daa93973147502e183",
+   "idEvento": "1ead1ee3704640aea824a5759ad1cc28",
+   "sportKey": "tennis_atp_paris_masters",
+   "casa": "Novak Djokovic",
+   "trasf": "Valentin Vacherot",
+   "campionato": "ATP Paris Masters",
+   "giorno": "2026-11-03",
+   "ora": "11:00",
+   "esito": "1",
+   "dice": "vince Novak Djokovic",
+   "quota": 1.47,
+   "quotaMercato": 1.5,
+   "prob": 0.673,
+   "valore": -0.011
+  },
+  {
+   "idEvento": "2fe52476d7d37d8230ca007cdf25c34c",
+   "sportKey": "tennis_atp_paris_masters",
+   "casa": "Tommy Paul",
+   "trasf": "Holger Rune",
+   "campionato": "ATP Paris Masters",
+   "giorno": "2026-11-03",
+   "ora": "14:20",
+   "esito": "1",
+   "dice": "vince Tommy Paul",
+   "quota": 1.49,
+   "quotaMercato": 1.52,
+   "prob": 0.663,
+   "valore": -0.012
+  },
+  {
+   "idEvento": "c1b9696d88719cb8832d794b986cdd68",
    "sportKey": "soccer_germany_bundesliga",
-   "casa": "1. FC Köln",
-   "trasf": "Bayer Leverkusen",
+   "casa": "SC Freiburg",
+   "trasf": "Union Berlin",
    "campionato": "Bundesliga",
    "giorno": "2026-11-08",
-   "ora": "16:30",
-   "esito": "2",
-   "dice": "Bayer Leverkusen",
-   "quota": 1.77,
-   "quotaMercato": 1.81,
-   "prob": 0.557,
-   "valore": -0.015
-  },
-  {
-   "idEvento": "0a12a55607db0bd7eeafee050c45988e",
-   "sportKey": "basketball_nba",
-   "casa": "Cleveland Cavaliers",
-   "trasf": "Oklahoma City Thunder",
-   "campionato": "NBA",
-   "giorno": "2026-11-03",
-   "ora": "02:10",
+   "ora": "18:30",
    "esito": "1",
-   "dice": "vince Cleveland Cavaliers",
-   "quota": 1.59,
-   "quotaMercato": 1.62,
-   "prob": 0.619,
-   "valore": -0.016
+   "dice": "SC Freiburg",
+   "quota": 1.54,
+   "quotaMercato": 1.57,
+   "prob": 0.64,
+   "valore": -0.015
   },
   {
    "idEvento": "cdb5f9dd39e79db69659c76cd96d0bbe",
@@ -173,48 +166,63 @@
    "quota": 1.55,
    "quotaMercato": 1.58,
    "prob": 0.634,
-   "valore": -0.017
-  },
-  {
-   "idEvento": "339a6465fa5153fd8f31e487cf557cf0",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Real Sociedad",
-   "trasf": "Rayo Vallecano",
-   "campionato": "Liga",
-   "giorno": "2026-11-08",
-   "ora": "17:15",
-   "esito": "1",
-   "dice": "Real Sociedad",
-   "quota": 1.71,
-   "quotaMercato": 1.77,
-   "prob": 0.574,
    "valore": -0.018
   },
   {
-   "idEvento": "2fe52476d7d37d8230ca007cdf25c34c",
+   "idEvento": "232e9e6ce004ffcdda5130a7f432eb15",
    "sportKey": "tennis_atp_paris_masters",
-   "casa": "Tommy Paul",
-   "trasf": "Holger Rune",
+   "casa": "Jan-Lennard Struff",
+   "trasf": "Arthur Gea",
    "campionato": "ATP Paris Masters",
    "giorno": "2026-11-03",
-   "ora": "12:00",
-   "esito": "1",
-   "dice": "vince Tommy Paul",
-   "quota": 1.48,
-   "quotaMercato": 1.5,
-   "prob": 0.664,
+   "ora": "17:40",
+   "esito": "2",
+   "dice": "vince Arthur Gea",
+   "quota": 1.86,
+   "quotaMercato": 1.92,
+   "prob": 0.528,
    "valore": -0.018
+  },
+  {
+   "idEvento": "2e488800d615a94e5377c195810303c0",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Atalanta BC",
+   "trasf": "Parma",
+   "campionato": "Serie A",
+   "giorno": "2026-11-02",
+   "ora": "21:45",
+   "esito": "1",
+   "dice": "Atalanta BC",
+   "quota": 1.48,
+   "quotaMercato": 1.51,
+   "prob": 0.663,
+   "valore": -0.019
+  },
+  {
+   "idEvento": "3a4608abdf257d2a0024b944757d9dc9",
+   "sportKey": "soccer_epl",
+   "casa": "Sunderland",
+   "trasf": "Chelsea",
+   "campionato": "Premier League",
+   "giorno": "2026-11-08",
+   "ora": "16:00",
+   "esito": "2",
+   "dice": "Chelsea",
+   "quota": 2.05,
+   "quotaMercato": 2.1,
+   "prob": 0.478,
+   "valore": -0.02
   }
  ],
  "gioca": true,
  "giorno": "2026-11-02",
  "tipo": "TRIPLA",
- "quota": 2.31,
- "probabilita": 0.438,
- "costo": -0.011,
+ "quota": 2.28,
+ "probabilita": 0.447,
+ "costo": -0.02,
  "puntata": 5,
- "vincita": 11.55,
- "minimo888": 2.15,
+ "vincita": 11.4,
+ "minimo888": 2.12,
  "puntaEntro": "19:00",
  "primaPartita": "19:30",
  "gambe": [
@@ -228,9 +236,9 @@
    "ora": "21:45",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.26,
+   "quota": 1.25,
    "quotaBF": null,
-   "prob": 0.796,
+   "prob": 0.808,
    "nSiti": 23
   },
   {
@@ -243,10 +251,10 @@
    "ora": "22:00",
    "esito": "1X",
    "dice": "Deportivo La Coruña o pareggio",
-   "quota": 1.35,
+   "quota": 1.34,
    "quotaBF": null,
-   "prob": 0.743,
-   "nSiti": 21
+   "prob": 0.749,
+   "nSiti": 20
   },
   {
    "idEvento": "66608b64d462d1d3deabe573c8456d86",
@@ -273,7 +281,7 @@
    "ora": "22:00",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.36,
+   "quota": 1.38,
    "quotaBF": null,
    "prob": 0.736,
    "nSiti": 24
@@ -286,9 +294,9 @@
    "ora": "21:45",
    "esito": "12",
    "dice": "no pareggio",
-   "quota": 1.42,
+   "quota": 1.44,
    "quotaBF": null,
-   "prob": 0.707,
+   "prob": 0.702,
    "nSiti": 21
   },
   {
@@ -301,21 +309,21 @@
    "dice": "no pareggio",
    "quota": 1.42,
    "quotaBF": null,
-   "prob": 0.702,
+   "prob": 0.7,
    "nSiti": 20
   },
   {
    "link": "https://sport.888casino.it/#/home",
-   "casa": "Kyrian Jacquet",
-   "trasf": "Tomas Machac",
+   "casa": "Ugo Humbert",
+   "trasf": "Botic van de Zandschulp",
    "campionato": "ATP Paris Masters",
-   "ora": "16:30",
-   "esito": "2",
-   "dice": "vince Tomas Machac",
-   "quota": 1.54,
-   "quotaBF": 1.5,
-   "prob": 0.641,
-   "nSiti": 22
+   "ora": "21:30",
+   "esito": "1",
+   "dice": "vince Ugo Humbert",
+   "quota": 1.6,
+   "quotaBF": 1.55,
+   "prob": 0.625,
+   "nSiti": 21
   }
  ]
 }
