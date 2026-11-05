@@ -562,5 +562,17 @@
   "clv": 4.7,
   "minutiPrima": 118,
   "quando": "2026-11-02T18:02:29.629Z"
+ },
+ {
+  "chiave": "2026-11-05|Anadolu Efes|Paris Basketball|1",
+  "giorno": "2026-11-05",
+  "casa": "Anadolu Efes",
+  "trasf": "Paris Basketball",
+  "esito": "1",
+  "nostra": 1.41,
+  "chiusura": 1.35,
+  "clv": 4.4,
+  "minutiPrima": 56,
+  "quando": "2026-11-05T16:18:39.283Z"
  }
 ]
