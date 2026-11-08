@@ -586,5 +586,17 @@
   "clv": 5.9,
   "minutiPrima": 96,
   "quando": "2026-11-08T14:54:09.087Z"
+ },
+ {
+  "chiave": "2026-11-08|CF Estrela|Benfica|2",
+  "giorno": "2026-11-08",
+  "casa": "CF Estrela",
+  "trasf": "Benfica",
+  "esito": "2",
+  "nostra": 1.25,
+  "chiusura": 1.17,
+  "clv": 6.8,
+  "minutiPrima": 12,
+  "quando": "2026-11-08T20:18:16.626Z"
  }
 ]
