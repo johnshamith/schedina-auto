@@ -574,5 +574,17 @@
   "clv": 4.4,
   "minutiPrima": 56,
   "quando": "2026-11-05T16:18:39.283Z"
+ },
+ {
+  "chiave": "2026-11-08|SC Freiburg|Union Berlin|12",
+  "giorno": "2026-11-08",
+  "casa": "SC Freiburg",
+  "trasf": "Union Berlin",
+  "esito": "12",
+  "nostra": 1.26,
+  "chiusura": 1.19,
+  "clv": 5.9,
+  "minutiPrima": 96,
+  "quando": "2026-11-08T14:54:09.087Z"
  }
 ]
