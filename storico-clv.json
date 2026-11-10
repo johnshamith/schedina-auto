@@ -598,5 +598,17 @@
   "clv": 6.8,
   "minutiPrima": 12,
   "quando": "2026-11-08T20:18:16.626Z"
+ },
+ {
+  "chiave": "2026-11-10|Golden State Warriors|New Orleans Pelicans|1",
+  "giorno": "2026-11-10",
+  "casa": "Golden State Warriors",
+  "trasf": "New Orleans Pelicans",
+  "esito": "1",
+  "nostra": 1.27,
+  "chiusura": 1.18,
+  "clv": 7.6,
+  "minutiPrima": 33,
+  "quando": "2026-11-10T02:37:01.917Z"
  }
 ]
