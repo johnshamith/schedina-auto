@@ -1,19 +1,15 @@
 {
- "quando": "2026-11-11T12:15:26.309Z",
- "chiamateRimaste": "363",
+ "quando": "2026-11-12T13:23:03.637Z",
+ "chiamateRimaste": "353",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-11-11",
-   "gambe": 2
-  },
-  {
    "giorno": "2026-11-12",
-   "gambe": 9
+   "gambe": 5
   },
   {
    "giorno": "2026-11-13",
-   "gambe": 1
+   "gambe": 6
   },
   {
    "giorno": "2026-11-20",
@@ -45,8 +41,23 @@
    "dice": "Brentford",
    "quota": 2.14,
    "quotaMercato": 2.2,
-   "prob": 0.474,
-   "valore": 0.015
+   "prob": 0.473,
+   "valore": 0.013
+  },
+  {
+   "idEvento": "f3f429e773bfb2340ba2bb90f2b9dd1e",
+   "sportKey": "basketball_nba",
+   "casa": "Phoenix Suns",
+   "trasf": "Charlotte Hornets",
+   "campionato": "NBA",
+   "giorno": "2026-11-13",
+   "ora": "04:10",
+   "esito": "1",
+   "dice": "vince Phoenix Suns",
+   "quota": 1.46,
+   "quotaMercato": 1.48,
+   "prob": 0.689,
+   "valore": 0.006
   },
   {
    "idEvento": "ac6cf70520a83c0949b4003bde53c709",
@@ -58,10 +69,10 @@
    "ora": "17:00",
    "esito": "1",
    "dice": "Chelsea",
-   "quota": 1.92,
-   "quotaMercato": 1.97,
-   "prob": 0.52,
-   "valore": -0.002
+   "quota": 1.91,
+   "quotaMercato": 1.96,
+   "prob": 0.517,
+   "valore": -0.012
   },
   {
    "idEvento": "4c08b213ed416e8f41e038f42a42b962",
@@ -73,10 +84,10 @@
    "ora": "18:30",
    "esito": "1",
    "dice": "Liverpool",
-   "quota": 1.75,
-   "quotaMercato": 1.79,
-   "prob": 0.568,
-   "valore": -0.006
+   "quota": 1.76,
+   "quotaMercato": 1.8,
+   "prob": 0.561,
+   "valore": -0.013
   },
   {
    "idEvento": "5dcc9d2b0da87770a4f49e924275be39",
@@ -94,34 +105,19 @@
    "valore": -0.013
   },
   {
-   "idEvento": "f41d186dc7a7dcf01adab32579a82ca3",
+   "idEvento": "3c93e4724d36d796aed71c0ca4055b1b",
    "sportKey": "basketball_nba",
-   "casa": "Houston Rockets",
-   "trasf": "Golden State Warriors",
+   "casa": "Minnesota Timberwolves",
+   "trasf": "Dallas Mavericks",
    "campionato": "NBA",
-   "giorno": "2026-11-12",
-   "ora": "04:40",
+   "giorno": "2026-11-13",
+   "ora": "03:10",
    "esito": "1",
-   "dice": "vince Houston Rockets",
-   "quota": 1.45,
-   "quotaMercato": 1.47,
-   "prob": 0.68,
-   "valore": -0.014
-  },
-  {
-   "idEvento": "6ef39b0fd8839f6e93a3de32523e9807",
-   "sportKey": "soccer_epl",
-   "casa": "Manchester City",
-   "trasf": "Fulham",
-   "campionato": "Premier League",
-   "giorno": "2026-11-21",
-   "ora": "14:30",
-   "esito": "1",
-   "dice": "Manchester City",
-   "quota": 1.45,
+   "dice": "vince Minnesota Timberwolves",
+   "quota": 1.48,
    "quotaMercato": 1.5,
-   "prob": 0.679,
-   "valore": -0.015
+   "prob": 0.666,
+   "valore": -0.014
   },
   {
    "idEvento": "e67ee3a6f93bb90b8aefcf3dd204477c",
@@ -135,94 +131,94 @@
    "dice": "Tottenham Hotspur",
    "quota": 1.57,
    "quotaMercato": 1.6,
-   "prob": 0.628,
-   "valore": -0.015
+   "prob": 0.626,
+   "valore": -0.017
   },
   {
-   "idEvento": "cdb94795ccba8c623638c808bc86f65e",
-   "sportKey": "basketball_euroleague",
-   "casa": "Olympiacos",
-   "trasf": "Dubai Basketball",
-   "campionato": "Basketball Euroleague",
-   "giorno": "2026-11-12",
-   "ora": "21:15",
-   "esito": "1",
-   "dice": "vince Olympiacos",
-   "quota": 1.48,
-   "quotaMercato": 1.51,
-   "prob": 0.665,
-   "valore": -0.015
-  },
-  {
-   "idEvento": "423255883d0e6c5d1a94a533b90e935b",
-   "sportKey": "basketball_nba",
-   "casa": "Utah Jazz",
-   "trasf": "Orlando Magic",
-   "campionato": "NBA",
-   "giorno": "2026-11-12",
-   "ora": "04:10",
+   "idEvento": "67846fc0359aeff2d0b6f3f8a2a674f4",
+   "sportKey": "soccer_germany_bundesliga",
+   "casa": "FC Schalke 04",
+   "trasf": "VfB Stuttgart",
+   "campionato": "Bundesliga",
+   "giorno": "2026-11-21",
+   "ora": "19:30",
    "esito": "2",
-   "dice": "vince Orlando Magic",
-   "quota": 1.58,
-   "quotaMercato": 1.61,
-   "prob": 0.623,
-   "valore": -0.016
+   "dice": "VfB Stuttgart",
+   "quota": 1.83,
+   "quotaMercato": 1.87,
+   "prob": 0.534,
+   "valore": -0.022
   },
   {
-   "idEvento": "e9545a3084389f5f3429e19fea891124",
-   "sportKey": "basketball_nba",
-   "casa": "Indiana Pacers",
-   "trasf": "Washington Wizards",
-   "campionato": "NBA",
-   "giorno": "2026-11-12",
-   "ora": "02:10",
+   "idEvento": "893268e5503c4e58fbf137e4b5db7e93",
+   "sportKey": "soccer_spain_la_liga",
+   "casa": "CA Osasuna",
+   "trasf": "Málaga",
+   "campionato": "Liga",
+   "giorno": "2026-11-22",
+   "ora": "19:30",
    "esito": "1",
-   "dice": "vince Indiana Pacers",
-   "quota": 1.68,
-   "quotaMercato": 1.72,
-   "prob": 0.583,
-   "valore": -0.021
+   "dice": "CA Osasuna",
+   "quota": 1.78,
+   "quotaMercato": 1.83,
+   "prob": 0.549,
+   "valore": -0.023
   },
   {
-   "idEvento": "e6a37eea1dddcbd0384c81237e81f47f",
-   "sportKey": "basketball_nba",
-   "casa": "New Orleans Pelicans",
-   "trasf": "Brooklyn Nets",
-   "campionato": "NBA",
-   "giorno": "2026-11-12",
-   "ora": "03:10",
+   "idEvento": "29a6e4e35a3b385e9666473ad68f2084",
+   "sportKey": "tennis_wta_finals",
+   "casa": "Aryna Sabalenka",
+   "trasf": "Elina Svitolina",
+   "campionato": "WTA Finals",
+   "giorno": "2026-11-13",
+   "ora": "23:30",
    "esito": "1",
-   "dice": "vince New Orleans Pelicans",
+   "dice": "vince Aryna Sabalenka",
    "quota": 1.55,
    "quotaMercato": 1.58,
-   "prob": 0.631,
-   "valore": -0.022
+   "prob": 0.629,
+   "valore": -0.025
   },
   {
-   "idEvento": "21792501482fecfaacd3a4a24776c9e6",
-   "sportKey": "basketball_nba",
-   "casa": "Memphis Grizzlies",
-   "trasf": "Denver Nuggets",
-   "campionato": "NBA",
+   "idEvento": "e59809eb38340e3bca323cef070dfd34",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Napoli",
+   "trasf": "Torino",
+   "campionato": "Serie A",
+   "giorno": "2026-11-21",
+   "ora": "21:45",
+   "esito": "1",
+   "dice": "Napoli",
+   "quota": 1.47,
+   "quotaMercato": 1.53,
+   "prob": 0.662,
+   "valore": -0.026
+  },
+  {
+   "idEvento": "7d0fa680caf6f5718ca51b421754252d",
+   "sportKey": "tennis_wta_finals",
+   "casa": "Jessica Pegula",
+   "trasf": "Linda Noskova",
+   "campionato": "WTA Finals",
    "giorno": "2026-11-12",
-   "ora": "03:10",
-   "esito": "2",
-   "dice": "vince Denver Nuggets",
-   "quota": 1.6,
-   "quotaMercato": 1.63,
-   "prob": 0.611,
-   "valore": -0.022
+   "ora": "23:30",
+   "esito": "1",
+   "dice": "vince Jessica Pegula",
+   "quota": 2.06,
+   "quotaMercato": 2.12,
+   "prob": 0.472,
+   "valore": -0.027
   }
  ],
  "gioca": true,
  "giorno": "2026-11-12",
- "tipo": "TRIPLA",
- "quota": 2.38,
- "probabilita": 0.426,
- "costo": -0.015,
+ "tipo": "DOPPIA",
+ "quota": 1.81,
+ "probabilita": 0.555,
+ "costo": -0.004,
  "puntata": 5,
- "vincita": 11.9,
- "minimo888": 2.21,
+ "vincita": 9.05,
+ "minimo888": 1.68,
  "puntaEntro": "21:00",
  "primaPartita": "21:30",
  "gambe": [
@@ -236,10 +232,10 @@
    "ora": "21:30",
    "esito": "1",
    "dice": "vince Valencia Basket",
-   "quota": 1.28,
-   "quotaBF": 1.15,
-   "prob": 0.778,
-   "nSiti": 16
+   "quota": 1.32,
+   "quotaBF": 1.3,
+   "prob": 0.764,
+   "nSiti": 20
   },
   {
    "idEvento": "b8a1b5d0077794775db0a2ca6b15baf7",
@@ -252,13 +248,13 @@
    "esito": "2",
    "dice": "vince Coco Gauff",
    "quota": 1.37,
-   "quotaBF": 1.18,
-   "prob": 0.742,
-   "nSiti": 17
-  },
+   "quotaBF": 1.35,
+   "prob": 0.727,
+   "nSiti": 19
+  }
+ ],
+ "altre": [
   {
-   "idEvento": "4fc10c732f775c93a5b233a9985e4e35",
-   "sportKey": "basketball_euroleague",
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "Real Madrid",
    "trasf": "KK Crvena zvezda",
@@ -266,25 +262,10 @@
    "ora": "22:00",
    "esito": "1",
    "dice": "vince Real Madrid",
-   "quota": 1.36,
-   "quotaBF": 1.01,
-   "prob": 0.738,
-   "nSiti": 17
-  }
- ],
- "altre": [
-  {
-   "link": "https://sport.888casino.it/#/filter/basketball/usa/nba",
-   "casa": "Toronto Raptors",
-   "trasf": "Boston Celtics",
-   "campionato": "NBA",
-   "ora": "02:10",
-   "esito": "2",
-   "dice": "vince Boston Celtics",
-   "quota": 1.39,
-   "quotaBF": 1.37,
-   "prob": 0.722,
-   "nSiti": 25
+   "quota": 1.46,
+   "quotaBF": 1.44,
+   "prob": 0.688,
+   "nSiti": 21
   },
   {
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
@@ -294,23 +275,10 @@
    "ora": "21:05",
    "esito": "2",
    "dice": "vince Hapoel Tel Aviv",
-   "quota": 1.44,
-   "quotaBF": 1.01,
-   "prob": 0.69,
-   "nSiti": 17
-  },
-  {
-   "link": "https://sport.888casino.it/#/filter/basketball/usa/nba",
-   "casa": "Houston Rockets",
-   "trasf": "Golden State Warriors",
-   "campionato": "NBA",
-   "ora": "04:40",
-   "esito": "1",
-   "dice": "vince Houston Rockets",
-   "quota": 1.47,
-   "quotaBF": 1.45,
-   "prob": 0.68,
-   "nSiti": 25
+   "quota": 1.52,
+   "quotaBF": 1.47,
+   "prob": 0.651,
+   "nSiti": 21
   },
   {
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
@@ -320,23 +288,10 @@
    "ora": "21:15",
    "esito": "1",
    "dice": "vince Olympiacos",
-   "quota": 1.51,
-   "quotaBF": 1.48,
-   "prob": 0.665,
-   "nSiti": 17
-  },
-  {
-   "link": "https://sport.888casino.it/#/filter/basketball/usa/nba",
-   "casa": "New Orleans Pelicans",
-   "trasf": "Brooklyn Nets",
-   "campionato": "NBA",
-   "ora": "03:10",
-   "esito": "1",
-   "dice": "vince New Orleans Pelicans",
-   "quota": 1.58,
-   "quotaBF": 1.55,
-   "prob": 0.631,
-   "nSiti": 25
+   "quota": 1.52,
+   "quotaBF": 1.49,
+   "prob": 0.651,
+   "nSiti": 21
   }
  ]
 }
