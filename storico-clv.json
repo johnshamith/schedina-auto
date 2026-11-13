@@ -610,5 +610,17 @@
   "clv": 7.6,
   "minutiPrima": 33,
   "quando": "2026-11-10T02:37:01.917Z"
+ },
+ {
+  "chiave": "2026-11-13|Anadolu Efes|Virtus Segafredo Bologna|1",
+  "giorno": "2026-11-13",
+  "casa": "Anadolu Efes",
+  "trasf": "Virtus Segafredo Bologna",
+  "esito": "1",
+  "nostra": 1.53,
+  "chiusura": 1.38,
+  "clv": 10.9,
+  "minutiPrima": 90,
+  "quando": "2026-11-13T16:00:02.429Z"
  }
 ]
