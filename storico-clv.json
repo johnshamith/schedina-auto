@@ -646,5 +646,17 @@
   "clv": 3,
   "minutiPrima": 108,
   "quando": "2026-11-19T17:12:08.186Z"
+ },
+ {
+  "chiave": "2026-11-20|Anadolu Efes|ASVEL Lyon Villeurbanne|1",
+  "giorno": "2026-11-20",
+  "casa": "Anadolu Efes",
+  "trasf": "ASVEL Lyon Villeurbanne",
+  "esito": "1",
+  "nostra": 1.35,
+  "chiusura": 1.28,
+  "clv": 5.5,
+  "minutiPrima": 39,
+  "quando": "2026-11-20T16:50:58.900Z"
  }
 ]
