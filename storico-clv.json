@@ -658,5 +658,29 @@
   "clv": 5.5,
   "minutiPrima": 39,
   "quando": "2026-11-20T16:50:58.900Z"
+ },
+ {
+  "chiave": "2026-11-22|CA Osasuna|Málaga|1X",
+  "giorno": "2026-11-22",
+  "casa": "CA Osasuna",
+  "trasf": "Málaga",
+  "esito": "1X",
+  "nostra": 1.26,
+  "chiusura": 1.2,
+  "clv": 5,
+  "minutiPrima": 85,
+  "quando": "2026-11-22T16:05:06.462Z"
+ },
+ {
+  "chiave": "2026-11-22|AC Milan|Frosinone|12",
+  "giorno": "2026-11-22",
+  "casa": "AC Milan",
+  "trasf": "Frosinone",
+  "esito": "12",
+  "nostra": 1.27,
+  "chiusura": 1.2,
+  "clv": 5.8,
+  "minutiPrima": 55,
+  "quando": "2026-11-22T16:05:06.944Z"
  }
 ]
