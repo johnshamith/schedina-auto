@@ -1,19 +1,15 @@
 {
- "quando": "2026-11-24T15:22:57.733Z",
- "chiamateRimaste": "189",
+ "quando": "2026-11-25T15:04:10.525Z",
+ "chiamateRimaste": "180",
  "problemi": [],
  "giorniVisti": [
   {
-   "giorno": "2026-11-24",
-   "gambe": 1
-  },
-  {
    "giorno": "2026-11-25",
-   "gambe": 5
+   "gambe": 3
   },
   {
    "giorno": "2026-11-26",
-   "gambe": 2
+   "gambe": 3
   },
   {
    "giorno": "2026-11-27",
@@ -49,7 +45,7 @@
   },
   {
    "giorno": "2026-12-05",
-   "gambe": 11
+   "gambe": 16
   },
   {
    "giorno": "2026-12-06",
@@ -62,21 +58,6 @@
  ],
  "betfair": [
   {
-   "idEvento": "6bcef0e5f7b2a021b7e07514cdfa6493",
-   "sportKey": "basketball_euroleague",
-   "casa": "FC Bayern München",
-   "trasf": "Maccabi Tel Aviv",
-   "campionato": "Basketball Euroleague",
-   "giorno": "2026-11-24",
-   "ora": "21:00",
-   "esito": "1",
-   "dice": "vince FC Bayern München",
-   "quota": 1.66,
-   "quotaMercato": 1.69,
-   "prob": 0.605,
-   "valore": 0.005
-  },
-  {
    "idEvento": "c81520b9a9794749cfdab57f89bdeb16",
    "sportKey": "soccer_spain_la_liga",
    "casa": "Real Betis",
@@ -86,55 +67,10 @@
    "ora": "15:00",
    "esito": "1",
    "dice": "Real Betis",
-   "quota": 1.62,
-   "quotaMercato": 1.65,
-   "prob": 0.618,
-   "valore": 0.001
-  },
-  {
-   "idEvento": "3e065ed32915a4afefae3a851f6df12a",
-   "sportKey": "basketball_euroleague",
-   "casa": "Beşiktaş J.K.",
-   "trasf": "Paris Basketball",
-   "campionato": "Basketball Euroleague",
-   "giorno": "2026-11-24",
-   "ora": "19:00",
-   "esito": "2",
-   "dice": "vince Paris Basketball",
-   "quota": 2.03,
-   "quotaMercato": 2.08,
-   "prob": 0.493,
-   "valore": 0.001
-  },
-  {
-   "idEvento": "ab87184803a63f7b679f1d12b01c3271",
-   "sportKey": "soccer_epl",
-   "casa": "Manchester United",
-   "trasf": "Brentford",
-   "campionato": "Premier League",
-   "giorno": "2026-11-28",
-   "ora": "17:00",
-   "esito": "1",
-   "dice": "Manchester United",
-   "quota": 2.14,
-   "quotaMercato": 2.2,
-   "prob": 0.464,
-   "valore": -0.007
-  },
-  {
-   "idEvento": "d20ede55e54ed7b55fdc36ca373727c0",
-   "sportKey": "soccer_epl",
-   "casa": "Arsenal",
-   "trasf": "Manchester City",
-   "campionato": "Premier League",
-   "giorno": "2026-11-29",
-   "ora": "18:30",
-   "esito": "1",
-   "dice": "Arsenal",
-   "quota": 2.03,
-   "quotaMercato": 2.08,
-   "prob": 0.489,
-   "valore": -0.008
+   "quota": 1.64,
+   "quotaMercato": 1.67,
+   "prob": 0.613,
+   "valore": 0.005
   },
   {
    "idEvento": "5d838190a8f5932d7fcfbcc26bacdd9c",
@@ -146,10 +82,10 @@
    "ora": "19:30",
    "esito": "1",
    "dice": "VfB Stuttgart",
-   "quota": 1.76,
-   "quotaMercato": 1.8,
-   "prob": 0.562,
-   "valore": -0.011
+   "quota": 1.8,
+   "quotaMercato": 1.84,
+   "prob": 0.557,
+   "valore": 0.003
   },
   {
    "idEvento": "aaa86a483888836242da663a46957894",
@@ -161,54 +97,69 @@
    "ora": "21:45",
    "esito": "2",
    "dice": "Lille",
-   "quota": 2.06,
-   "quotaMercato": 2.12,
-   "prob": 0.48,
-   "valore": -0.012
+   "quota": 2.08,
+   "quotaMercato": 2.14,
+   "prob": 0.476,
+   "valore": -0.01
   },
   {
-   "idEvento": "98dc79e39433bb4c59bf9753e35a5cdf",
-   "sportKey": "soccer_germany_bundesliga",
-   "casa": "TSG Hoffenheim",
-   "trasf": "Augsburg",
-   "campionato": "Bundesliga",
-   "giorno": "2026-11-29",
-   "ora": "18:30",
+   "idEvento": "e9a1243fbfbc6f58d0e0522eb07ea9a1",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Nice",
+   "trasf": "Troyes",
+   "campionato": "Ligue 1",
+   "giorno": "2026-11-28",
+   "ora": "21:45",
    "esito": "1",
-   "dice": "TSG Hoffenheim",
-   "quota": 1.73,
-   "quotaMercato": 1.77,
-   "prob": 0.571,
-   "valore": -0.012
+   "dice": "Nice",
+   "quota": 1.7,
+   "quotaMercato": 1.74,
+   "prob": 0.58,
+   "valore": -0.013
   },
   {
-   "idEvento": "e9c2b74ecaafd494e3b2d8521b52216a",
-   "sportKey": "soccer_epl",
-   "casa": "Brighton and Hove Albion",
-   "trasf": "Newcastle United",
-   "campionato": "Premier League",
-   "giorno": "2026-11-29",
-   "ora": "16:05",
+   "idEvento": "f08629281f1510f47d91cc408f86a2a8",
+   "sportKey": "basketball_nba",
+   "casa": "New York Knicks",
+   "trasf": "Cleveland Cavaliers",
+   "campionato": "NBA",
+   "giorno": "2026-11-26",
+   "ora": "02:40",
    "esito": "1",
-   "dice": "Brighton and Hove Albion",
-   "quota": 1.58,
-   "quotaMercato": 1.61,
-   "prob": 0.624,
+   "dice": "vince New York Knicks",
+   "quota": 1.67,
+   "quotaMercato": 1.71,
+   "prob": 0.591,
+   "valore": -0.013
+  },
+  {
+   "idEvento": "07421d1675d6bc51bb5fa91f84a09eb3",
+   "sportKey": "basketball_nba",
+   "casa": "Oklahoma City Thunder",
+   "trasf": "Minnesota Timberwolves",
+   "campionato": "NBA",
+   "giorno": "2026-11-26",
+   "ora": "02:40",
+   "esito": "2",
+   "dice": "vince Minnesota Timberwolves",
+   "quota": 2.1,
+   "quotaMercato": 2.16,
+   "prob": 0.47,
    "valore": -0.014
   },
   {
-   "idEvento": "9d23f6ad21946dd258869ebc22236cf0",
-   "sportKey": "soccer_epl",
-   "casa": "Ipswich Town",
-   "trasf": "Aston Villa",
-   "campionato": "Premier League",
+   "idEvento": "af3432ca724da03d38f0ff4e62045e4c",
+   "sportKey": "soccer_italy_serie_a",
+   "casa": "Frosinone",
+   "trasf": "Parma",
+   "campionato": "Serie A",
    "giorno": "2026-11-28",
-   "ora": "19:30",
-   "esito": "2",
-   "dice": "Aston Villa",
-   "quota": 1.97,
-   "quotaMercato": 2.02,
-   "prob": 0.499,
+   "ora": "16:00",
+   "esito": "1",
+   "dice": "Frosinone",
+   "quota": 1.49,
+   "quotaMercato": 1.53,
+   "prob": 0.66,
    "valore": -0.017
   },
   {
@@ -227,66 +178,81 @@
    "valore": -0.017
   },
   {
-   "idEvento": "dc10f5ff4125d724e0fbfe7efe6d86aa",
-   "sportKey": "soccer_spain_la_liga",
-   "casa": "Real Sociedad",
-   "trasf": "Real Madrid",
-   "campionato": "Liga",
-   "giorno": "2026-12-02",
-   "ora": "20:00",
+   "idEvento": "162927041eba2297840966c6f7955053",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "RC Lens",
+   "trasf": "Le Havre",
+   "campionato": "Ligue 1",
+   "giorno": "2026-12-05",
+   "ora": "21:45",
+   "esito": "1",
+   "dice": "RC Lens",
+   "quota": 1.46,
+   "quotaMercato": 1.48,
+   "prob": 0.673,
+   "valore": -0.018
+  },
+  {
+   "idEvento": "a370db12aaff183a94f8e9a6acb6d4c9",
+   "sportKey": "soccer_france_ligue_one",
+   "casa": "Auxerre",
+   "trasf": "Marseille",
+   "campionato": "Ligue 1",
+   "giorno": "2026-11-29",
+   "ora": "16:00",
    "esito": "2",
-   "dice": "Real Madrid",
-   "quota": 1.45,
-   "quotaMercato": 1.5,
-   "prob": 0.678,
-   "valore": -0.017
+   "dice": "Marseille",
+   "quota": 1.89,
+   "quotaMercato": 1.94,
+   "prob": 0.519,
+   "valore": -0.019
+  },
+  {
+   "idEvento": "9d23f6ad21946dd258869ebc22236cf0",
+   "sportKey": "soccer_epl",
+   "casa": "Ipswich Town",
+   "trasf": "Aston Villa",
+   "campionato": "Premier League",
+   "giorno": "2026-11-28",
+   "ora": "19:30",
+   "esito": "2",
+   "dice": "Aston Villa",
+   "quota": 1.97,
+   "quotaMercato": 2.02,
+   "prob": 0.497,
+   "valore": -0.02
+  },
+  {
+   "idEvento": "e9c2b74ecaafd494e3b2d8521b52216a",
+   "sportKey": "soccer_epl",
+   "casa": "Brighton and Hove Albion",
+   "trasf": "Newcastle United",
+   "campionato": "Premier League",
+   "giorno": "2026-11-29",
+   "ora": "16:05",
+   "esito": "1",
+   "dice": "Brighton and Hove Albion",
+   "quota": 1.57,
+   "quotaMercato": 1.6,
+   "prob": 0.624,
+   "valore": -0.021
   }
  ],
  "gioca": true,
  "giorno": "2026-11-25",
  "tipo": "DOPPIA",
- "quota": 1.71,
- "probabilita": 0.598,
- "costo": -0.022,
+ "quota": 1.85,
+ "probabilita": 0.54,
+ "costo": 0.002,
  "puntata": 5,
- "vincita": 8.55,
- "minimo888": 1.59,
- "puntaEntro": "02:40",
- "primaPartita": "03:10",
+ "vincita": 9.25,
+ "minimo888": 1.72,
+ "puntaEntro": "17:30",
+ "primaPartita": "18:00",
  "gambe": [
   {
-   "idEvento": "3167a4072c65c9314c71d0fe49be8e28",
-   "sportKey": "basketball_nba",
-   "link": "https://sport.888casino.it/#/filter/basketball/usa/nba",
-   "casa": "Washington Wizards",
-   "trasf": "Boston Celtics",
-   "campionato": "NBA",
-   "ora": "03:10",
-   "esito": "2",
-   "dice": "vince Boston Celtics",
-   "quota": 1.25,
-   "quotaBF": 1.24,
-   "prob": 0.806,
-   "nSiti": 23
-  },
-  {
-   "idEvento": "6bfadbd22ed8a054cf82ec1b12b78243",
-   "sportKey": "basketball_nba",
-   "link": "https://sport.888casino.it/#/filter/basketball/usa/nba",
-   "casa": "Denver Nuggets",
-   "trasf": "Dallas Mavericks",
-   "campionato": "NBA",
-   "ora": "05:10",
-   "esito": "1",
-   "dice": "vince Denver Nuggets",
-   "quota": 1.37,
-   "quotaBF": 1.35,
-   "prob": 0.742,
-   "nSiti": 23
-  }
- ],
- "altre": [
-  {
+   "idEvento": "a1ee21718811e522957cf904fb3ec31f",
+   "sportKey": "basketball_euroleague",
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "Olympiacos",
    "trasf": "Hapoel Tel Aviv",
@@ -294,12 +260,14 @@
    "ora": "21:15",
    "esito": "1",
    "dice": "vince Olympiacos",
-   "quota": 1.36,
-   "quotaBF": 1.34,
-   "prob": 0.731,
-   "nSiti": 18
+   "quota": 1.37,
+   "quotaBF": 1.35,
+   "prob": 0.738,
+   "nSiti": 21
   },
   {
+   "idEvento": "40589eed5e6894d5b8598ee721b9d57b",
+   "sportKey": "basketball_euroleague",
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "Dubai Basketball",
    "trasf": "KK Partizan NIS",
@@ -307,11 +275,13 @@
    "ora": "18:00",
    "esito": "1",
    "dice": "vince Dubai Basketball",
-   "quota": 1.44,
-   "quotaBF": 1.42,
-   "prob": 0.711,
-   "nSiti": 18
-  },
+   "quota": 1.35,
+   "quotaBF": 1.33,
+   "prob": 0.732,
+   "nSiti": 21
+  }
+ ],
+ "altre": [
   {
    "link": "https://sport.888casino.it/#/filter/basketball/europe/euroleague",
    "casa": "Real Madrid",
@@ -320,10 +290,10 @@
    "ora": "21:45",
    "esito": "1",
    "dice": "vince Real Madrid",
-   "quota": 1.4,
-   "quotaBF": 1.37,
-   "prob": 0.705,
-   "nSiti": 17
+   "quota": 1.37,
+   "quotaBF": 1.35,
+   "prob": 0.727,
+   "nSiti": 21
   }
  ]
 }
