@@ -682,5 +682,17 @@
   "clv": 5.8,
   "minutiPrima": 55,
   "quando": "2026-11-22T16:05:06.944Z"
+ },
+ {
+  "chiave": "2026-11-25|Olympiacos|Hapoel Tel Aviv|1",
+  "giorno": "2026-11-25",
+  "casa": "Olympiacos",
+  "trasf": "Hapoel Tel Aviv",
+  "esito": "1",
+  "nostra": 1.37,
+  "chiusura": 1.38,
+  "clv": -0.7,
+  "minutiPrima": 42,
+  "quando": "2026-11-25T18:32:35.864Z"
  }
 ]
